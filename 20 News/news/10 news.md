@@ -22,11 +22,13 @@ Note that the location of the text file is provided by the first command line ar
 
 ### Downloads
 
-First, download the model files:
+- First download the data that you need for this exercise: [news topic data](../downloads/news-topic-data.zip)
 
-[data](../downloads/news-topic-data.zip)
+- Safe the file in your project directory for this module (e.g., `module 6`).
 
-## TODO
+- Unzip the file.
+
+The directory now contains two new folders: `data` and `articles`. The contents of these folders is explained below.
 
 ### data/unigrams
 
