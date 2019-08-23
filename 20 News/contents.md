@@ -4,7 +4,7 @@
 
 #### Part 1: Functional Programming
 
-1. Learn about functional programming: [functional programming](/news/functional programming)
+1. Learn about functional programming: [functional programming](/news/functional%20programming)
 
 2. <span class="badge badge-primary">Assignment</span> Implement the functions `map`, `filter`, and `reduce`: [functional](/news/functional)
 
