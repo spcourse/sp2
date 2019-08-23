@@ -2,9 +2,6 @@
 
 ...
 
-    Defining efficiency: /complexity/efficiency
-    Applying complexity in your code: /algorithms/applying-complexity
-
 #### Part 1: Learn about computational complexity
 
 1. Defining efficiency: [efficiency](/complexity/efficiency)
