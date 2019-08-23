@@ -1,6 +1,8 @@
-# Complexity
+# News
 
 ...
+
+[news/downloads/news-topic-data.zip]
 
 #### Part 1: Functional Programming
 
