@@ -24,6 +24,8 @@ Note that the location of the text file is provided by the first command line ar
 
 First, download the model files:
 
+[data](news/downloads/news-topic-data.zip)
+
 ## TODO
 
 ### data/unigrams
