@@ -2,7 +2,7 @@
 
 ...
 
-[news/downloads/news-topic-data.zip]
+[data](news/downloads/news-topic-data.zip)
 
 #### Part 1: Functional Programming
 
