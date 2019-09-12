@@ -30,9 +30,7 @@ Implement a program called `list_words.py` that generates a list of all the word
 * The method `s.split(',')` will split s on every ','.
 * The variable `sys.argv` is a list containing the command line arguments. Lets, for example, say that the file `test.py` contains the following code:
 
-  ```
-  import sys
-  print(sys.argv[1])
-  ```
+        import sys
+        print(sys.argv[1])
 
   Then running `python test.py "Hello, world!"` should produce the output `Hello, world!`.

@@ -1,3 +1,5 @@
+# Unigrams
+
 ## Goal
 
 Write a program called `classify_unigram.py` that can determine relevant categories for a newspaper article.
@@ -6,12 +8,12 @@ Write a program called `classify_unigram.py` that can determine relevant categor
 
 The directory `articles` contains an article called `cooking veggies` from HuffPost on the question: is better to cook vegetables or eat them raw? The tool you're going to write should be able to determine the topics of this article:
 
-  # python classify_unigram.py "articles\cooking veggies.txt"
-  FOOD & DRINK             2323
-  TASTE                    2157
-  WELLNESS                 1449
-  HEALTHY LIVING           1172
-  SCIENCE                  1041
+    # python classify_unigram.py "articles\cooking veggies.txt"
+    FOOD & DRINK             2323
+    TASTE                    2157
+    WELLNESS                 1449
+    HEALTHY LIVING           1172
+    SCIENCE                  1041
 
 As you can see, the location of the text file is provided by the first command line argument. The output are the top five categories related to the article. The scores reflect how related the categories are (higher = better).
 
@@ -26,23 +28,23 @@ For this exercise we have to take a look at the `data` directory. It contains tw
 
 The directory `unigrams` contains 41 files ( `ARTS.csv`, `BUSINESS.csv`, `TASTE.csv`, etc.), all these files contains lists of single words (surprisingly called unigrams) and scores pertaining to the category. For example the file `TRAVEL.csv` contains the lines:
 
-  overtourism,17
-  airfares,17
-  lagoons,17
-  lençóis,17
-  ...
-  saltwater,10
-  floridian,10
-  croatian,10
-  ...
+    overtourism,17
+    airfares,17
+    lagoons,17
+    lençóis,17
+    ...
+    saltwater,10
+    floridian,10
+    croatian,10
+    ...
 
 These are just a couple of examples lines, the entire file contains many, many more. Every line contains a keyword, related to the topic and a score reflecting how strongly related it is (separated by a comma). So, the word 'overtourism' (with a score of 17) is more strongly related to 'TRAVEL' than 'croatian' (with a score of 10).
 
-This list is compiled by analyzing many tens of thousands of articles from HuffPost ([News Category Dataset | Kaggle](https://www.kaggle.com/rmisra/news-category-dataset)). It is not relevant exactly how this is done, at this point.
+This list is compiled by analyzing many tens of thousands of articles from HuffPost ([News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)). It is not relevant exactly how this is done, at this point.
 
 ## Scores
 
-Using the scores in the word list above you can compute the total score for a category for a given article. For example, if we would have the text: "Overtourism in Croatian saltwater", we could compute the **total category score** for the `travel` category by adding up the scores for each word: $17 + 0 + 10 + 10 = 37$ (assuming the word 'in' is not in the `travel` unigram list).
+Using the scores in the word list above you can compute the total score for a category for a given article. For example, if we would have the text: "Overtourism in Croatian saltwater", we could compute the **total category score** for the `travel` category by adding up the scores for each word: 17 + 0 + 10 + 10 = 37 (assuming the word 'in' is not in the `travel` unigram list).
 
 In general, the total category score for an article given a category is computed by looking up all the words of the article in the category unigram list and adding up all the scores. If a word is not in the unigram list, the score is assumed to be 0.
 
