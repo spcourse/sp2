@@ -4,9 +4,10 @@ When manipulating lists, we often find ourselves writing more or less the same c
 
 > Note that in the examples below the functions `my_map`, `my_filter` and `my_reduce` do not exist. Those are purely hypothetical examples.
 
-### Map
+## Map
 
 Often we want to traverse a list, apply some function to each of the elements and collect the output. For example this program to square all elements:
+
 
 ```
 >>> def square(x):
@@ -64,7 +65,7 @@ The second example:
 
 You can see that only the function that is provided to `my_map` differs in both examples.
 
-### Filter
+## Filter
 
 Another common design pattern is a *filter*. A filter selects elements from a list that meet a specific condition. Typically a filter uses a function that returns `True` or `False` for each element from the list. The filter generates a new list with only those elements for which `True` is returned. For example:
 
@@ -96,7 +97,7 @@ This function simply applies the provide function to all elements in the list an
 [-5, -4, -3, -2, -1]
 ```
 
-### Reduce
+## Reduce
 
 Often you want to *reduce* a list to one single aggregate element. For example the sum of all the elements in the list:
 
