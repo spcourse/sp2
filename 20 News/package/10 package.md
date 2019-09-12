@@ -55,8 +55,8 @@ Make sure that you document the package in such a way that pydoc can automatical
 
 	# pydoc functional
 
-Help on package functional:
-
+	Help on package functional:
+	
 	NAME
 	    functional
 
