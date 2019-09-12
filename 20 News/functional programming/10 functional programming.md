@@ -8,7 +8,7 @@ When manipulating lists, we often find ourselves writing more or less the same c
 
 Often we want to traverse a list, apply some function to each of the elements and collect the output. For example this program to square all elements:
 
-```
+```python
 >>> def square(x):
 >>> 	return x * x
 
