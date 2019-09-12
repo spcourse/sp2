@@ -1,4 +1,4 @@
-# Create a package
+# Packages
 
 A big part of the challenge of becoming a good programmer is create code that not only works that one time all the stars were aligned just right, but that works reliably, that is easy to read, to extend and to improve. Especially with bigger projects it can be vital to organize your code into separate modules/packages and to document them correctly. Here you will learn how to do this in a couple of steps:
 
@@ -6,7 +6,7 @@ A big part of the challenge of becoming a good programmer is create code that no
 2. Adding documentation to the package
 3. Add readme and license to the project
 
-## 1 Create a new package
+## Create a new package
 
 Managing big projects can quickly become quite a challenge. A good way to keep bigger projects manageable is by making it more modular: split your program up in distinct modules that can be tested individually. Lets have a look at how we can do this.
 
@@ -51,7 +51,7 @@ When we run `python my_program.py` we get the following output:
 
 The code works, but lets try to organize it a bit better.
 
-### Step 1: Move functions to module
+### Move functions to module
 
 When you look at the code you can see that there are three functions concerning strings. They seem to conceptually belong together. A first step is to move those into a separate file called `my_string_module.py`.
 
@@ -93,7 +93,7 @@ my_number_list = convert_to_ints(my_string3)
 print(my_number_list)
 ```
 
-### Step 2: Bundle modules into package
+### Bundle modules into package
 
 When modules contain a lot of functions it might want to go one step further in our organizational efforts: we could create a package folder.
 
@@ -146,7 +146,7 @@ print(my_number_list)
 
 The label `my_string_package.manipulations`in the import statement tells python to look in the folder `my_string_package` at the file `manipulations.py`.
 
-### Step 3: Add init
+### Add init
 
 Even though it can be nice to have functions in separate files in a package, it can be annoying to have to specify this in your program with the lines:
 
@@ -209,11 +209,11 @@ def double_string(s):
 	return s*2
 ```
 
-# 2 Add documentation
+## Add documentation
 
-Once created a package you need to document it. So that the next guy using the package (most likely your future self), can find out how to use it without having to read all the code. The tool `pydoc `can automatically extract information from python packages.
+Once created a package you need to document it. So that the next guy using the package (most likely your future self), can find out how to use it without having to read all the code. The tool `pydoc` can automatically extract information from python packages.
 
-Run `$ pydoc my_string_package`(from the `my project`directory):
+Run `$ pydoc my_string_package` (from the `my project` directory):
 
 ```
 Help on package my_string_package:
@@ -229,7 +229,7 @@ FILE
     [some path]\my_string_package\__init__.py
 ```
 
-As you can see it `pydoc` automatically generated some information about our package.  We get the name of the package, the sub-modules ( `conversions` and  `manipulations`), and the location of the package.
+As you can see it `pydoc` automatically generated some information about our package. We get the name of the package, the sub-modules ( `conversions` and `manipulations`), and the location of the package.
 
 We can even inspect the sub-modules themselves.
 
@@ -250,9 +250,9 @@ FILE
     [some path]\my_string_package\manipulations.py
 ```
 
-This also shows the names of the functions contained in the `manipulations`package.
+This also shows the names of the functions contained in the `manipulations` package.
 
-### Step 2: Add docstrings
+### Add docstrings
 
 We can use *docstrings* to provide `pydoc` with more information about the package. Docstrings are simply strings using triple quotes ("""") that, when placed correctly, will be automatically extracted for documentation.
 
@@ -283,7 +283,7 @@ PACKAGE CONTENTS
 
 You see `pydoc` added the short description to the name and added the rest to the new field `DESCRIPTION`.
 
-### Step 3: Add more docstrings
+### Add more docstrings
 
 Similarly we can add docstrings to the top of the sub-packages.
 
@@ -317,7 +317,7 @@ FUNCTIONS
     reverse_string(s)
 ```
 
-### Step 4: Still more docstrings
+### Yet more docstrings
 
 To let `pydoc` generate a description of each function within the module, we can simply add a docstring to the beginning of each function.
 
@@ -359,7 +359,7 @@ FUNCTIONS
 
 We should still add documentation to `conversions.py` and, of course, normally you would try to make the documentation a bit more helpful than in this example, but I suppose you get the point by now.
 
-# 3. Readme and license
+## Readme and license
 
 We only documented the `my_string_package` package above. It is good practice to always document every function you write and every python file you create, even if it is not part of a package.
 

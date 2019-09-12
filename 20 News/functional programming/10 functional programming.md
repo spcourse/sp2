@@ -4,7 +4,7 @@ When manipulating lists, we often find ourselves writing more or less the same c
 
 > Note that in the examples below the functions `my_map`, `my_filter` and `my_reduce` do not exist. Those are purely hypothetical examples.
 
-### 2.1 Map
+### Map
 
 Often we want to traverse a list, apply some function to each of the elements and collect the output. For example this program to square all elements:
 
@@ -64,7 +64,7 @@ The second example:
 
 You can see that only the function that is provided to `my_map` differs in both examples.
 
-### 2.2 Filter
+### Filter
 
 Another common design pattern is a *filter*. A filter selects elements from a list that meet a specific condition. Typically a filter uses a function that returns `True` or `False` for each element from the list. The filter generates a new list with only those elements for which `True` is returned. For example:
 
@@ -96,7 +96,7 @@ This function simply applies the provide function to all elements in the list an
 [-5, -4, -3, -2, -1]
 ```
 
-### 2.3 Reduce
+### Reduce
 
 Often you want to *reduce* a list to one single aggregate element. For example the sum of all the elements in the list:
 
@@ -144,7 +144,7 @@ Example usage:
 
 The implementation of this function is a bit trickier then `my_map` and `my_filter`. For one, what is the initial value of the accumulator? If it is `0` it would not work for multiplication, but `1` does not work for addition. The best solution is to initialize the accumulator with the first element of the list and then start applying the function starting with the second element of the list.
 
-## 2.4 Lambda expressions
+## Lambda expressions
 
 When using map, filter and reduce you often need to provide a very simple function like `square`in the example below:
 
