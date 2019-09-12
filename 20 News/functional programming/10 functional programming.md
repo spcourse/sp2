@@ -1,16 +1,12 @@
 # Functional programming
 
-Many modern programming languages like python have the functions map, filter and reduce. These are three functions that facilitate a functional approach to programming. We will discuss them one by one and understand their use cases.
+When manipulating lists, we often find ourselves writing more or less the same code in different applications. In fact most list operations can be categorized in three main patterns: *map*, *filter* and *reduce*. Here, we will discuss those patterns one by one and understand their use cases.
+
+> Note that in the examples below the functions `my_map`, `my_filter` and `my_reduce` do not exist. Those are purely hypothetical examples.
 
 ### 2.1 Map
 
-`Map` applies a function to all the items in an input_list. Here is the blueprint:
-
-```
-map(function_to_apply, list_of_inputs)
-```
-
-Most of the times we want to pass all the list elements to a function one-by-one and then collect the output. For instance:
+Often we want to traverse a list, apply some function to each of the elements and collect the output. For example this program to square all elements:
 
 ```
 >>> def square(x):
@@ -24,63 +20,133 @@ Most of the times we want to pass all the list elements to a function one-by-one
 [1, 4, 9, 16, 25]
 ```
 
-`Map` allows us to implement this in a much simpler and nicer way. Here you go:
+Or, this very similar program that doubles all elements:
+
+```
+>>> def double(x):
+>>> 	return x * 2
+
+>>> items = [1, 2, 3, 4, 5]
+>>> squared = []
+>>> for e in items:
+>>>     squared.append(double(e))
+>>> print(squared)
+[2, 4, 6, 8, 10]
+```
+
+The two examples are almost identical. In fact, only the function that is applied to each element differs. We could say that both examples follow the same *design pattern*. In fact this is such a common pattern there is a special name for it: a *map*. Since this is such a common pattern, it can be convenient to generalize it.
+
+The idea is to have a function `my_map` that applies a function to all the items in an input list, using the following blueprint:
+
+```
+my_map(function_to_apply, list_of_inputs)
+```
+
+A function like `my_map` would allow us to implement the examples in a much cleaner way.
+
+The first example:
 
 ```
 >>> items = [1, 2, 3, 4, 5]
->>> squared = list(map(square, items))
+>>> squared = list(my_map(square, items))
 >>> print(squared)
 [1, 4, 9, 16, 25]
 ```
 
+The second example:
+
+```
+>>> items = [1, 2, 3, 4, 5]
+>>> squared = list(my_map(double, items))
+>>> print(squared)
+[2, 4, 6, 8, 10]
+```
+
+You can see that only the function that is provided to `my_map` differs in both examples.
+
 ### 2.2 Filter
 
-As the name suggests, `filter` creates a list of elements for which a function returns true. Here is a short and concise example:
+Another common design pattern is a *filter*. A filter selects elements from a list that meet a specific condition. Typically a filter uses a function that returns `True` or `False` for each element from the list. The filter generates a new list with only those elements for which `True` is returned. For example:
 
 ```
 >>> def negative(x):
 >>> 	return x < 0
 >>>     
 >>> number_list = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
->>> less_than_zero = list(filter(negative, number_list))
+>>> less_than_zero = []
+>>> for e in number_list:
+>>> 	if negative(e):
+>>> 		less_than_zero.append(e)
 >>> print(less_than_zero)
 [-5, -4, -3, -2, -1]
 ```
 
-The filter resembles a for loop but it is a builtin function and faster.
+Also here, the idea is to generalize this pattern using a function with the following blueprint:
+
+```
+my_filter(function_to_apply, list_of_inputs)
+```
+
+This function simply applies the provide function to all elements in the list and returns a new list with only those elements for which `True` is returned. Like so:
+
+```
+>>> number_list = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+>>> less_than_zero = list(my_filter(negative, number_list))
+>>> print(less_than_zero)
+[-5, -4, -3, -2, -1]
+```
 
 ### 2.3 Reduce
 
-`Reduce` is a really useful function for performing some computation on a list and returning the result. It applies a rolling computation to sequential pairs of values in a list. For example, if you wanted to compute the product of a list of integers.
+Often you want to *reduce* a list to one single aggregate element. For example the sum of all the elements in the list:
 
-So the normal way you might go about doing this task in python is using a basic for loop:
+```
+>>> def add(x, y):
+>>>		return x + y
+>>>     
+>>> list = [1, 2, 3, 4]
+>>> sum = 0
+>>> for num in list:
+>>>     sum = add(product, num)
+>>> print(sum)
+10
+```
+
+Or the product of all elements:  
 
 ```
 >>> def mul(x, y):
 >>>		return x * y
->>>     
->>> product = 1
+>>>
 >>> list = [1, 2, 3, 4]
+>>> product = 1
 >>> for num in list:
->>>     product = product * num
+>>>     product = mul(product, num)
 >>> print(product)
 24
 ```
 
-Now let’s try it with reduce:
+The above example reduces the list to the product of its elements. These examples maintain an accumulator (`sum` and `product` respectively) and iteratively apply a binary function to the accumulator and the next element of the list.
+
+This pattern could also be generalized into a function. Blueprint:
 
 ```
->>> from functools import reduce
->>> product = reduce(mul, [1, 2, 3, 4])
+my_reduce(function_to_apply, list_of_inputs)
+```
+
+Example usage:
+
+```
+>>> product = my_reduce(mul, [1, 2, 3, 4])
 >>> print(product)
 24
 ```
 
-(adapted from pythontips.org)
+The implementation of this function is a bit trickier then `my_map` and `my_filter`. For one, what is the initial value of the accumulator? If it is `0` it would not work for multiplication, but `1` does not work for addition. The best solution is to initialize the accumulator with the first element of the list and then start applying the function starting with the second element of the list.
 
 ## 2.4 Lambda expressions
 
-When using map, filter and reduce you often need to provide a very simple function like `squared`in the example below:
+When using map, filter and reduce you often need to provide a very simple function like `square`in the example below:
 
 ```
 def square(x):
@@ -90,8 +156,8 @@ def square(x):
 For creating very simple functions you can us the lambda lambda notation like below:
 
 ```
->>> squared = lambda x : x * x
->>> print(squared(5))
+>>> square = lambda x : x * x
+>>> print(square(5))
 25
 ```
 
@@ -99,7 +165,7 @@ One of the advantages of  having lambda's is that they don't need to be explicit
 
 ```
 >>> items = [1, 2, 3, 4, 5]
->>> squared = list(map(lambda x : x * x, items))
+>>> squared = list(my_map(lambda x : x * x, items))
 >>> print(squared)
 [1, 4, 9, 16, 25]
 ```
@@ -107,15 +173,14 @@ One of the advantages of  having lambda's is that they don't need to be explicit
 Lambda functions can take any number of arguments. Lambda's that take two arguments are useful to use with reduce.
 
 ```
->>> from functools import reduce
->>> product = reduce(lambda x, y : x * y, [1, 2, 3, 4])
+>>> product = my_reduce(lambda x, y : x * y, [1, 2, 3, 4])
 >>> print(product)
 24
 ```
 
 ## Summary
 
-All in all we introduced many ways we could implement the function `only_upper`.
+All in all, we introduced many ways we could implement the same functionality. For example let's say we want to define a function `only_upper` that selects all strings from a list that are uppercase. We can do this many different ways:
 
 Method 1, classic:
 
@@ -152,4 +217,4 @@ def only_upper(t):
 	return map(lambda s: s.isupper(), t)
 ```
 
-So, which is better? That depends on the goal, personal taste, and context. I tend to prefer functional solutions because the resulting code looks cleaner. But I avoid lambda functions because they don't help the readability of the code. So in this case I would probably opt for method 3. But there are many good arguments to make for the other methods. The most important is to be consistent. Try to choose one style of programming and stick to it throughout the project.
+So, which is better? That depends on the goal, personal taste, and context. I tend to prefer functional solutions because the resulting code looks cleaner. But I tend to avoid lambda functions because they don't help the readability of the code. So in this case I would probably opt for method 3. But there are many good arguments to make for the other methods. The most important is to be consistent. Try to choose one style of programming and stick to it throughout the project.

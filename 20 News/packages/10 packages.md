@@ -1,12 +1,14 @@
 # Create a package
 
-A big part of the challenge of becoming a good programmer is to create code that not only works that one time all the stars were aligned just right, but that works reliably and that is easy to read, to extend and to improve. Dividing your code up in distinct packages is a big step in that direction.
+A big part of the challenge of becoming a good programmer is create code that not only works that one time all the stars were aligned just right, but that works reliably, that is easy to read, to extend and to improve. Especially with bigger projects it can be vital to organize your code into separate modules/packages and to document them correctly. Here you will learn how to do this in a couple of steps:
 
-## 1 Create the package:
+1. Create a new package
+2. Adding documentation to the package
+3. Add readme and license to the project
 
-Managing big projects can quickly become quite a challenge. If you don't pay attention you will find yourself producing [spaghetti](https://www.urbandictionary.com/define.php?term=spaghetti%20code) code.
+## 1 Create a new package
 
-A good way to keep bigger projects manageable is by making it more modular: split your program up in distinct modules that can be tested individually. Lets have a look at how we can do this.
+Managing big projects can quickly become quite a challenge. A good way to keep bigger projects manageable is by making it more modular: split your program up in distinct modules that can be tested individually. Lets have a look at how we can do this.
 
 We start with a project called `my_project` containing one python file called `my_program.py`. So we have the following project structure:
 
@@ -207,7 +209,7 @@ def double_string(s):
 	return s*2
 ```
 
-## 2 Add documentation
+# 2 Add documentation
 
 Once created a package you need to document it. So that the next guy using the package (most likely your future self), can find out how to use it without having to read all the code. The tool `pydoc `can automatically extract information from python packages.
 
@@ -252,7 +254,7 @@ This also shows the names of the functions contained in the `manipulations`packa
 
 ### Step 2: Add docstrings
 
-We can use *docstrings* to provide `pydoc` with more information about the package. Doctstrings are simply strings using triple quotes ("""") that, when placed correctly, will be automatically extracted for documentation.
+We can use *docstrings* to provide `pydoc` with more information about the package. Docstrings are simply strings using triple quotes ("""") that, when placed correctly, will be automatically extracted for documentation.
 
 Start by adding a docstring to top of `__init__.py`:
 
@@ -357,11 +359,11 @@ FUNCTIONS
 
 We should still add documentation to `conversions.py` and, of course, normally you would try to make the documentation a bit more helpful than in this example, but I suppose you get the point by now.
 
-### Step 5: Document the rest of the project
+# 3. Readme and license
 
 We only documented the `my_string_package` package above. It is good practice to always document every function you write and every python file you create, even if it is not part of a package.
 
-When you publish your project you also typically add at least a license and a readme file to the root of your project. The license file is a text file called LICENSE. It is best to stick to existing licence texts (you can find an overview [here](https://choosealicense.com/)). The readme file is typically a markdown file called README.md. Markdown is a simple markup language that is made popular by the code-sharing platform [GitHub](https://github.com). If you're interested in learning Markdown you can find more information [here](https://www.markdownguide.org/).  
+When you publish your project you also typically add at least a license and a readme file to the root of your project. The license file is a text file called LICENSE. It is best to stick to existing license texts (you can find an overview [here](https://choosealicense.com/)). The readme file is typically a markdown file called README.md. Markdown is a simple markup language that is made popular by the code-sharing platform [GitHub](https://github.com). If you're interested in learning Markdown you can find more information [here](https://www.markdownguide.org/).  
 
 Once you added all these documents you should wind up with a minimal project structure that looks something like this:
 
