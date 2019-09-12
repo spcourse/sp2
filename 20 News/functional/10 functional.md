@@ -6,6 +6,7 @@ Implement the functions `my_map`, `my_filter`, and `my_reduce`.
 
 ## Specification
 
+
 1. If you haven't done so already, create a new directory for this module (e.g., `module 6`).
 2. Create a file tools.py in the module directory.
 3. Implement and *test* the function `my_map()`, `my_filter()`, `my_reduce()` as specified in the previous readings. Make sure that it works for the examples below.
