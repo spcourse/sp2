@@ -53,7 +53,8 @@ If everything went right you should get the following output:
 
 Make sure that you document the package in such a way that pydoc can automatically extract the right information. The pydoc documentation should look somethin like this:
 
-# pydoc functional
+	# pydoc functional
+
 Help on package functional:
 
 	NAME
