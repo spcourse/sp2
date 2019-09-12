@@ -21,10 +21,8 @@ Before you start programming have a look at the articles to get a feel for the d
 
 Implement a program called `list_words.py` that generates a list of all the words in a given text file and prints that list. Each word in the output should be unique, written in lowercase, and stripped from punctuation marks and white spaces. For example:
 
-```
-# python list_words.py "articles\short.txt"
-[for, sale, baby, shoes, never, worn]
-```
+  # python list_words.py "articles\short.txt"
+  [for, sale, baby, shoes, never, worn]
 
 ## Tips
 

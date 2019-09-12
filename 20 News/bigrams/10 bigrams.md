@@ -16,20 +16,18 @@ Not all of those bigrams provide useful information (e.g., "in first-ever"), but
 
 The directory `bigrams` in `data` contains list of scored bigrams for every category. For example `TRAVEL.csv`contains the following lines:
 
-```
-lonely,planet,17
-most,tourists,17
-tourists,do,17
-its,pet,17
-to,tripadvisor,17
-...
-flying,in,12
-go,somewhere,12
-world,famous,12
-airline,industry,12
-ireland,is,12
-...
-```
+  lonely,planet,17
+  most,tourists,17
+  tourists,do,17
+  its,pet,17
+  to,tripadvisor,17
+  ...
+  flying,in,12
+  go,somewhere,12
+  world,famous,12
+  airline,industry,12
+  ireland,is,12
+  ...
 
 In this example the bigram 'lonely planet' has a score of 17 for the category `travel`, and the bigram `airline industry` has a score of 10.
 

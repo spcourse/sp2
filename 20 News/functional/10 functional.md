@@ -17,132 +17,104 @@ Implement the functions `my_map`, `my_filter`, and `my_reduce`.
 
 ### Example 1 (my_map)
 
-```
-numbers = [1, 2, 3, 4]
+	numbers = [1, 2, 3, 4]
 
-def square(x):
-	return x * x
+	def square(x):
+		return x * x
 
-def repeat(x):
-	return x + 10*x
+	def repeat(x):
+		return x + 10*x
 
-squared_numbers = my_map(square, numbers)
-repeated_numbers = my_map(repeat, numbers)
+	squared_numbers = my_map(square, numbers)
+	repeated_numbers = my_map(repeat, numbers)
 
-print(squared_numbers)
-print(repeated_numbers)
-```
+	print(squared_numbers)
+	print(repeated_numbers)
 
 expected output:
 
-```
-[1, 4, 9, 16]
-[11, 22, 33, 44]
-```
+	[1, 4, 9, 16]
+	[11, 22, 33, 44]
 
 ### Example 2 (my_map):
 
-```
-tokens = ['For', 'sail:', 'baby', 'schooner,', 'never', 'seen', 'before!']
+	tokens = ['For', 'sail:', 'baby', 'schooner,', 'never', 'seen', 'before!']
 
-def replace(word):
-    subs = {'sail:': 'sale:', 'schooner,': 'shoes,', 'seen': 'worn.'}
-    new_word = subs.get(word, word)
-    return new_word
+	def replace(word):
+	    subs = {'sail:': 'sale:', 'schooner,': 'shoes,', 'seen': 'worn.'}
+	    new_word = subs.get(word, word)
+	    return new_word
 
-new_tokens = my_map(replace, tokens)
+	new_tokens = my_map(replace, tokens)
 
-print(new_tokens)
-```
+	print(new_tokens)
 
 expected output:
 
-```
-['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
-```
+	['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
 
 ### Example 3 (my_filter):
 
-```
-numbers = [0, -10, 8, 0, 1, -4, -8]
+	numbers = [0, -10, 8, 0, 1, -4, -8]
 
-def negative(x):
-    return x < 0
+	def negative(x):
+	    return x < 0
 
-negative_numbers = my_filter(negative, numbers)
-print(f'Negative: {negative_numbers}')
-```
+	negative_numbers = my_filter(negative, numbers)
+	print(f'Negative: {negative_numbers}')
 
 expected output:
 
-```
-Negative: [-10, -4, -8]
-```
+	Negative: [-10, -4, -8]
 
 ### Example 4 (my_filter):
 
-```
-numbers = my_filter(lambda x:  x % 17 == 0, range(100))
-print(f'Divisible by 17: {numbers}')
-```
+	numbers = my_filter(lambda x:  x % 17 == 0, range(100))
+	print(f'Divisible by 17: {numbers}')
 
 expected output:
 
-```
-Divisible by 17: [0, 17, 34, 51, 68, 85]
-```
+	Divisible by 17: [0, 17, 34, 51, 68, 85]
 
 ### Example 5 (my_filter):
 
-```
-tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
+	tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
 
-def no_before(word):
-    return word != 'before!'
+	def no_before(word):
+	    return word != 'before!'
 
-new_tokens = my_filter(no_before, tokens)
+	new_tokens = my_filter(no_before, tokens)
 
-print(new_tokens)
-```
+	print(new_tokens)
 
 expected output:
 
-```
-['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
-```
+	['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
 
 ### Example 6 (my_reduce):
 
-```
-negative_numbers = [-10, -4, -8]
+	negative_numbers = [-10, -4, -8]
 
-def negative_mul(a, b):
-    return -(a * b)
+	def negative_mul(a, b):
+	    return -(a * b)
 
-number = my_reduce(negative_mul, negative_numbers)
-print(number)
-```
+	number = my_reduce(negative_mul, negative_numbers)
+	print(number)
 
 expected output:
 
-```
--320
-```
+	-320
 
 ### Example 7 (my_reduce):
 
-```
-tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
+	tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
 
-def join(a, b):
-    return a + ' ' + b
+	def join(a, b):
+	    return a + ' ' + b
 
-text = my_reduce(join, tokens)
-print(text)
-```
+	text = my_reduce(join, tokens)
+	print(text)
 
 expected output:
 
-```
-For sale: baby shoes, never worn.
-```
+	For sale: baby shoes, never worn.

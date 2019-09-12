@@ -6,14 +6,12 @@ Write a program called `classify_unigram.py` that can determine relevant categor
 
 The directory `articles` contains an article called `cooking veggies` from HuffPost on the question: is better to cook vegetables or eat them raw? The tool you're going to write should be able to determine the topics of this article:
 
-```
-# python classify_unigram.py "articles\cooking veggies.txt"
-FOOD & DRINK             2323
-TASTE                    2157
-WELLNESS                 1449
-HEALTHY LIVING           1172
-SCIENCE                  1041
-```
+  # python classify_unigram.py "articles\cooking veggies.txt"
+  FOOD & DRINK             2323
+  TASTE                    2157
+  WELLNESS                 1449
+  HEALTHY LIVING           1172
+  SCIENCE                  1041
 
 As you can see, the location of the text file is provided by the first command line argument. The output are the top five categories related to the article. The scores reflect how related the categories are (higher = better).
 
@@ -28,17 +26,15 @@ For this exercise we have to take a look at the `data` directory. It contains tw
 
 The directory `unigrams` contains 41 files ( `ARTS.csv`, `BUSINESS.csv`, `TASTE.csv`, etc.), all these files contains lists of single words (surprisingly called unigrams) and scores pertaining to the category. For example the file `TRAVEL.csv` contains the lines:
 
-```
-overtourism,17
-airfares,17
-lagoons,17
-lençóis,17
-...
-saltwater,10
-floridian,10
-croatian,10
-...
-```
+  overtourism,17
+  airfares,17
+  lagoons,17
+  lençóis,17
+  ...
+  saltwater,10
+  floridian,10
+  croatian,10
+  ...
 
 These are just a couple of examples lines, the entire file contains many, many more. Every line contains a keyword, related to the topic and a score reflecting how strongly related it is (separated by a comma). So, the word 'overtourism' (with a score of 17) is more strongly related to 'TRAVEL' than 'croatian' (with a score of 10).
 
