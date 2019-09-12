@@ -1,14 +1,22 @@
 # Package
 
-The functions `my_map`, `my_filter`, and `my_reduce` are very general, they could be used in many different contexts. In fact most of the typical manipulations of list that you find in actual programs could be expressed in terms of only these three functions.
+## Goal
 
-So it make sense to create a package to bundle those functions together into one package. This way it will become easier to reuse them in other projects.
+Create a package for the functions you created in the previous assignment.
+
+## Why?
+
+The functions `my_map`, `my_filter`, and `my_reduce` are very general (i.e., they could be used in many different context). In fact most of the typical manipulations of list that you find in actual programs could be expressed in terms of those functions. So it make sense to create a package to bundle those functions together. This way it will become easier to reuse them in other projects.
+
+## Specification
 
 1. Move the functions my_map, my_filter, and my_reduce to a new package called `functional`.
-2. Create a file `test-ftools.py`in the module directory to test the package.
-3. Add documentation to the package.
+2. Create a file `test-ftools.py`in the module directory to test the package (see below).
+3. Add documentation to the package (see below).
 
-For the file `test-ftools.py` copy the code below. If you created the package correctly, this code should work as is.
+## Testing
+
+For the file `test-ftools.py` and copy the code below. If you created the package correctly, this code should work as is.
 
 ```
 from functional import my_map, my_filter, my_reduce
@@ -38,21 +46,19 @@ print(number)
 If everything went right you should get the following output:
 
 ```
+# python test-ftools.py
 [1, 2, 3, 4, 5]
 [5, 4, 3, 2, 1]
 [5, 4, 2, 1]
 5421
 ```
 
-> Add some tests of your own to the file, to convince yourself the functions always work as expected. Think about edge cases: What happens if you provide an empty list as argument? What happens if your function has side effects (like print statements)?
+## Documentation
 
-Make sure that you document the package in such a way that `pydoc` can automatically extract the right information.
-
-When running `pydoc functional`, you should see something like this:
-
-After
+Make sure that you document the package in such a way that pydoc can automatically extract the right information. The pydoc documentation should look somethin like this:
 
 ```
+# pydoc functional
 Help on package functional:
 
 NAME
@@ -70,9 +76,10 @@ FILE
     your-home-dir/module6/functional/__init__.py
 ```
 
-If your package contains sub-modules, like in our case the module `tools`, make sure those modules are correctly documented as well. E.g., `pydoc functional.tools`:
+If your package contains sub-modules, like in our case the module `tools`, make sure those modules are correctly documented as well. For example:
 
 ```
+# pydoc functional.tools
 NAME
     functional.tools - This module provides a number of classical functional programming tools.
 
@@ -96,4 +103,4 @@ FUNCTIONS
         ...
 ```
 
-There are many ways to write documentation, you can find some examples [here](https://docs.python-guide.org/writing/documentation/). The most important is consistency: pick one style and stick to it.
+There are many ways to write documentation, but a very popular style is NumPy style documentation. Have a look at some examples [here](Example NumPy Style Python Docstrings — napoleon 0.7 documentation) and use this style of documentation.

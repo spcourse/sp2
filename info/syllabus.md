@@ -1,8 +1,8 @@
-# Scientific Programming 1<br><small>Syllabus</small>
+# Scientific Programming 2<br><small>Syllabus</small>
 
 University of Amsterdam / Programming Lab / 50621SCP3Y / Version 4.0-beta
 
-Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This first part is intended for students who have no experience in programming at all. The course comprises four modules, wherein you learn about the Python language, but foremost about strategies you can use to solve complex problems.
+Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This second part is intended for students who already followed Scientific Programming 1.
 
 ## Staff
 
@@ -14,7 +14,7 @@ If you have practical matters that you would like to discuss, always send an e-m
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not stricly necessary.
+Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not strictly necessary.
 
 ## Goals
 
@@ -52,7 +52,7 @@ Finally, you must pass the final exam. There are two opportunities for semester 
 
 ## Feedback
 
-Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!). 
+Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!).
 
 ## Books
 

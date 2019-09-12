@@ -18,4 +18,8 @@ A secondary goal of this module is to focus a bit more on program design and sty
 
 #### Part 3: Natural language processing
 
-5. <span class="badge badge-primary">Assignment</span>Identify the topics of news articles using natural language processing: [news](/news/news)
+5. <span class="badge badge-primary">Assignment</span> Split a text into separate words: [news](/news/tokenize)
+
+6. <span class="badge badge-primary">Assignment</span> Classify a text based on single words: [news](/news/unigrams)
+
+7. <span class="badge badge-primary">Assignment</span> Classify a text based on word combinations: [news](/news/unigrams)

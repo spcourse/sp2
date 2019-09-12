@@ -1,29 +1,29 @@
 # Functional Programming
 
-The functional tools map, reduce and filter are already part of Python, but we're not going to use those. We will create our own versions of those tools.
+## Goal
+
+Implement the functions `my_map`, `my_filter`, and `my_reduce`.
+
+## Specification
 
 1. If you haven't done so already, create a new directory for this module (e.g., `module 6`).
 2. Create a file tools.py in the module directory.
-3. Implement and *test* the function `my_map()`.
-4. Implement and *test* the function `my_filter()`.
-5. Implement and *test* the function `my_reduce()`.
+3. Implement and *test* the function `my_map()`, `my_filter()`, `my_reduce()` as specified in the previous readings. Make sure that it works for the examples below.
 
-Of course you're not allowed to use the built-in python versions of these functions. You are however allowed to use those as a reference for your own versions.
+> Note: Python already has similar functions built-in. Of course you're not allowed to use those.
 
-Here below you find some examples of how these functions should work.
+## Examples
 
-## Examples of my_map
-
-### Example 1
+### Example 1 (my_map)
 
 ```
 numbers = [1, 2, 3, 4]
 
 def square(x):
- return x * x
+	return x * x
 
 def repeat(x):
- return x + 10*x
+	return x + 10*x
 
 squared_numbers = my_map(square, numbers)
 repeated_numbers = my_map(repeat, numbers)
@@ -39,29 +39,109 @@ expected output:
 [11, 22, 33, 44]
 ```
 
-### Example 2:
+### Example 2 (my_map):
 
 ```
-story = ['For', 'sale', ':', 'baby', 'shoes', ',', 'never', 'worn', '.']
+tokens = ['For', 'sail:', 'baby', 'schooner,', 'never', 'seen', 'before!']
 
-def initial(x):
- return x[0]
+def replace(word):
+    subs = {'sail:': 'sale:', 'schooner,': 'shoes,', 'seen': 'worn.'}
+    new_word = subs.get(word, word)
+    return new_word
 
-initials = my_map(initial, story)
-lengths = my_map(len, story)
+new_tokens = my_map(replace, tokens)
 
-print(initials)
+print(new_tokens)
 ```
 
 expected output:
 
 ```
-['F', 's', ':', 'b', 's', ',', 'n', 'w', '.']
-[3, 4, 1, 4, 5, 1, 5, 4, 1]
+['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
 ```
 
-#TODO
+### Example 3 (my_filter):
 
-## Examples of my_filter
+```
+numbers = [0, -10, 8, 0, 1, -4, -8]
 
-## Examples of my_reduce
+def negative(x):
+    return x < 0
+
+negative_numbers = my_filter(negative, numbers)
+print(f'Negative: {negative_numbers}')
+```
+
+expected output:
+
+```
+Negative: [-10, -4, -8]
+```
+
+### Example 4 (my_filter):
+
+```
+numbers = my_filter(lambda x:  x % 17 == 0, range(100))
+print(f'Divisible by 17: {numbers}')
+```
+
+expected output:
+
+```
+Divisible by 17: [0, 17, 34, 51, 68, 85]
+```
+
+### Example 5 (my_filter):
+
+```
+tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.', 'before!']
+
+def no_before(word):
+    return word != 'before!'
+
+new_tokens = my_filter(no_before, tokens)
+
+print(new_tokens)
+```
+
+expected output:
+
+```
+['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
+```
+
+### Example 6 (my_reduce):
+
+```
+negative_numbers = [-10, -4, -8]
+
+def negative_mul(a, b):
+    return -(a * b)
+
+number = my_reduce(negative_mul, negative_numbers)
+print(number)
+```
+
+expected output:
+
+```
+-320
+```
+
+### Example 7 (my_reduce):
+
+```
+tokens = ['For', 'sale:', 'baby', 'shoes,', 'never', 'worn.']
+
+def join(a, b):
+    return a + ' ' + b
+
+text = my_reduce(join, tokens)
+print(text)
+```
+
+expected output:
+
+```
+For sale: baby shoes, never worn.
+```

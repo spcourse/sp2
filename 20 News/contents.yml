@@ -6,4 +6,6 @@ Introduction: /news
     Packages (reading): /news/packages
     Packages (assignment): /news/package
 "Part 3: Natural language processing":
-    News (assignment): /news/news
+    Tokenize (assignment): /news/tokenize
+    Unigrams (assignment): /news/unigrams
+    Bigrams (assignment): /news/bigrams
