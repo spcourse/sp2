@@ -28,13 +28,11 @@ Species*, with the original line number added at the start of each line. We'll
 look specifically at the pair of words *"varieties"* and *"species"* for this
 small bit of sample text.
 
-```
-13671: varieties[V1]. These are strange relations on the view of each species[S1]              
-13672: having been independently created, but are intelligible if all species[S2]          
-13673: first existed as varieties[V2].                                                     
-13674:                                                                                 
-13675: As each species[S3] tends by its geometrical ratio of reproduction to    
-```
+    13671: varieties[V1]. These are strange relations on the view of each species[S1]              
+    13672: having been independently created, but are intelligible if all species[S2]          
+    13673: first existed as varieties[V2].                                                     
+    13674:                                                                                 
+    13675: As each species[S3] tends by its geometrical ratio of reproduction to    
 
 The word varieties occurs twice, marked by `[V_]`, and the word species occurs
 3 times, marked by `[S_]`. Running the indexing of the pairs on this text
