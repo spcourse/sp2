@@ -7,7 +7,7 @@ formats available for each book, but easiest to process will definitely be
 the assignment, but feel free to download some other books and use those to
 test your system with instead.
 
-Download the assignment files [here](/complexity/downloads/module_5.tar.gz).
+Download the assignment files [here](module_5.tar.gz).
 
 Open one of the downloaded books and take a look at the format. Note that these
 books do not contain any page numbers, but are just line after line filled with

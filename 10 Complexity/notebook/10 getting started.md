@@ -6,7 +6,7 @@ which you should use to answer some short questions about the material. These
 notebooks allow a mixture of nicely formatted text, *Python* code and some
 tests. 
 
-Download the notebook file [here](/complexity/downloads/module_5_questions.ipynb).
+Download the notebook file [here](module_5_questions.ipynb).
 
 There will be some short questions for every section of the assignment in the
 notebook. For now you'll only have to do the questions on the *efficiency*
