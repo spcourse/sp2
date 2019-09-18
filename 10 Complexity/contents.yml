@@ -1,7 +1,7 @@
 Introduction: /complexity
 "Part 1: Learn about computational complexity":
     Efficiency: /complexity/efficiency
-    Notebook questions (assignment): /complexity/notebooks
+    Notebook questions (assignment): /complexity/notebook
 "Part 2: Data structures and their efficiency":
     Dictionaries: /complexity/dictionaries
     Tuples: /complexity/tuples
@@ -11,4 +11,5 @@ Introduction: /complexity
     Applying big O in your code: /complexity/application
     Improving count_occurrence: /complexity/example
 "Part 4: Write your own efficient code":
-    Indexing words (assignment): /complexity/book_index
+    Indexing words (assignment): /complexity/word-index
+    Indexing pairs (assignment): /complexity/pair-index
