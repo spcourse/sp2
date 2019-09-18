@@ -1,5 +1,5 @@
 Standard:
     Modules:
-        Complexity: '/complexity/contents'
-        News: '/news/contents'
-        Survival: '/survival/contents'
+        Complexity: '/complexity'
+        News: '/news'
+        Survival: '/survival'
