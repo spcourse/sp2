@@ -7,6 +7,8 @@ formats available for each book, but easiest to process will definitely be
 the assignment, but feel free to download some other books and use those to
 test your system with instead.
 
+Download the assignment files [here](downloads/module_5.tar.gz).
+
 Open one of the downloaded books and take a look at the format. Note that these
 books do not contain any page numbers, but are just line after line filled with
 text from the book. If you would want to refer to a specific word in this book,
@@ -75,8 +77,8 @@ This indexing program will be an interactive look-up, meaning you will not know
 beforehand how many and which words will be searched in our book. The function
 should therefore return an index of all the words which can be easily searched.
 When a word is looked up, the program should return all the line numbers where
-this word occurs. The function `build_index()` should return this book index
-structure, on which you can later perform the searches.
+this word occurs. The function `build_index()` in `word_index.py` should return
+this book index structure, on which you can later perform the searches.
 
 Think about kind of data structure would an efficient choice to build this
 book index with. Complete the `build_index()` function and have it return your

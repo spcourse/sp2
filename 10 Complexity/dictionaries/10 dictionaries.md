@@ -1,4 +1,4 @@
-## Introduction
+# Dictionaries
 
 Dictionaries are one of the fundamental data structures of Python, and
 just like lists, they can be used to store several elements together in
@@ -117,25 +117,25 @@ many situations this result is much more useful then producing an error.
 
 We can also explicitly ask if a key is present in the dictionary using `in`
 
-  >>> if 'banana' in basket:
-  ...   print("We've got bananas!")
-  ... 
-  We've got bananas!
+    >>> if 'banana' in basket:
+    ...   print("We've got bananas!")
+    ... 
+    We've got bananas!
 
 This works exactly the same way as it does for lists, *with 1 important
 difference.* Using `in` on a list will search through the entire list, and so
 this will actually take longer to complete as more elements are added to the
-list, because it is actually an $\\mathcal{O}(N)$ operation. As stated in the
+list, because it is actually an *O(N)* operation. As stated in the
 introduction, dictionaries are not just convenient to use, but also very
 efficient. In fact, they are so efficient that searching in a dictionary is an
-$\\mathcal{O}(1)$ operation. This means the search will take approximately the
+*O(1)* operation. This means the search will take approximately the
 same time if the dictionary contains 1 or **1 million** elements!
 
 This is a *strange and counter-intuitive* fact, and why this is true is well
 beyond the scope of this video, but it should give you an idea of the power of
 dictionaries and why they are used so often: Checking if a key is present in a
 dictionary or retrieving the value stored with that key are both **constant
-time** $\\mathcal{O}(1)$ operations, irrespective of the number of elements
+time** *O(1)* operations, irrespective of the number of elements
 stored in that dictionary.
 
 As a result, dictionaries are mostly used for these look-up operations, but

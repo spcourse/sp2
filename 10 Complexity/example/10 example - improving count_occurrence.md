@@ -1,4 +1,4 @@
-## Example: Improving `count_occurrence()`
+# Example: Improving `count_occurrence()`
 
 Writing efficient code can be tricky and will take practice, but here we will
 try and walk you through the process step-by-step. If at any point you think
@@ -37,7 +37,7 @@ this might make the code a *bit* faster in most cases, it does not actually
 reduce the *worst case* complexity of the code at all. The worst case would
 then be that every element is unique and therefore we would still need to do
 the complete inner loop for *every* element, resulting in a count of 1 for each
-and our same $\\mathcal{O}(N^2)$ complexity.
+and our same *O(N^2)* complexity.
 
 Avoiding recounting would therefore be a bit better, but not the kind of speed
 up we are after in this exercise. So we will have to change the way the counts
@@ -53,7 +53,7 @@ marks next to each number should be equal to their count. Great, but then the
 problem just becomes: How do we know if we've already seen a number? If we have
 already see it, how do we know at what place to add the mark? And we have to of
 course do all this **without looping through the list again**, as that would
-basically give us the same $\\mathcal{O}(N^2)$ solution as before.
+basically give us the same *O(N^2)* solution as before.
 
 As a general tip, any time you are trying to make some code more efficient,
 changing the structure of the data to something that would make the individual
@@ -67,7 +67,7 @@ operation to see if we have already added an element as a *key* to the
 dictionary. Then the associated *value* of that key could keep track of the
 count for that element and we could use the square brackets to efficiently
 retrieve it. So in a dictionary both of these operations would actually be
-$\\mathcal{O}(1)$ complexity! Lets take a look at the code for this new
+*O(1)* complexity! Lets take a look at the code for this new
 version
 
 	def count_occurrence_v2(inputs):

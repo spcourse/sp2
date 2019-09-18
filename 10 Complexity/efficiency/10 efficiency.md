@@ -1,3 +1,6 @@
+
+# Efficiency
+
 For this assignment we are going to start with some short examples and
 questions about **efficient** code. You probably have noticed by now that there
 can be quite a few different ways to solve some problems in *Python*. Swapping
@@ -45,8 +48,8 @@ to measure the current time directly before and after the function. Below is
 general function, which will apply some function to a list and measure how long
 this takes.
 
-Next we'll use the `random` library to generate integer between $0$ and $100$
-and repeat this $N$ times, to have a list of $N$ random integers. You do not
+Next we'll use the `random` library to generate integer between *0* and *100*
+and repeat this *N* times, to have a list of *N* random integers. You do not
 have to understand the details of these function, but they are used for all
 tests and thus shown here for completeness.
 
@@ -70,9 +73,9 @@ tests and thus shown here for completeness.
 		# Generate N random numbers between 0 and max_int
 		return [random.randint(max_int) for i in range(N)]
 
-Now we have all the components to measure the \`sum_list()\` function. We can generate random inputs of size $N$ using \`random_list()\` and use `timed_function_list()`to measure how long it takes to process each input.
+Now we have all the components to measure the `sum_list()` function. We can generate random inputs of size *N* using `random_list()` and use `timed_function_list()`to measure how long it takes to process each input.
 
-The code below uses different powers of 10 as increasingly larger inputs (`\*\*` is the power operator in *Python*). For each input size it generates a random list and times how long it took to compute the total using \`sum_list()\`.
+The code below uses different powers of 10 as increasingly larger inputs (`**` is the power operator in *Python*). For each input size it generates a random list and times how long it took to compute the total using `sum_list()`.
 
 	for i in range(5, 9):
 		inputs = random_list(10**i)
@@ -95,17 +98,17 @@ each element added to the list. This means the `sum_list()` function has a
 linear increasing efficiency.
 
 Quantifying this increase in efficiency is done more formally in computer
-science using the big $\mathcal{O}$ notation. The big $\mathcal{O}$ is written
-as a function of the input size $N$, so a simple linear increase would be
-denoted as $\mathcal{O}(N)$. As the size of the input $N$ increases, so does
-the computation time increase by a factor $\mathcal{O}(N)$.
+science using the big *O* notation. The big *O* is written
+as a function of the input size *N*, so a simple linear increase would be
+denoted as *O(N)*. As the size of the input *N* increases, so does
+the computation time increase by a factor *O(N)*.
 
 ### Timing tests and the big O notation
 
-The big $\mathcal{O}$ notation is quite a coarse measure, which only
+The big *O* notation is quite a coarse measure, which only
 concerns what the biggest factor will be for the computation time as the
 input grows. In contrast, these timing tests are accurate to the microsecond
-($10^{-6}$ seconds), so there will always be some differences between the
+(*10^{-6}* seconds), so there will always be some differences between the
 theoretical factor and the measured scale factor. In addition, your computer
 will also be performing other tasks in the background, so there will even be
 differences in the times if you repeat the measurements, even though the
@@ -124,7 +127,7 @@ in mind when comparing the results between experiments.*
 
 ## Quadratic Complexity
 
-So, the `sum_list` function has complexity of $\mathcal{O}(N)$, but
+So, the `sum_list` function has complexity of *O(N)*, but
 unfortunately, not all problems can be solved with a linear complexity. Lets
 take a look at another example, where we are trying to count how often each
 number occurs in our list. We will take a somewhat naive approach and generate
@@ -178,32 +181,32 @@ using to make this comparison is **much** smaller, in order to keep the
 computation times manageable. Secondly, for this function, with every factor 10
 more elements, the computation time appears to scale up by a much larger factor than 10!
 
-Going from 1000 to 10000 elements the input size $N$ grows by a factor of 10. What we measured is the time grows from $0.0421$ to $4.2984$ or a factor of 102, which seems  closer to a factor of  $100$, or $10^2$.
+Going from 1000 to 10000 elements the input size *N* grows by a factor of 10. What we measured is the time grows from *0.0421* to *4.2984* or a factor of 102, which seems  closer to a factor of  *100*, or *10^2*.
 
 This is because our function `count_occurrence` actually has a quadratic complexity,
-denoted as $\mathcal{O}(N^2)$. This means that as the size of the input for
-this function grows by some factor $N$, we expect the computation time to grow
-approximately by $N^2$.
+denoted as *O(N^2)*. This means that as the size of the input for
+this function grows by some factor *N*, we expect the computation time to grow
+approximately by *N^2*.
 
 ### Comparing linear and quadratic complexity
 
-Recall that computing the sum of the elements with our linear $\mathcal{O}(N)$
-function for $10^9$ elements took about 7 seconds. For the quadratic
-`count_occurrence` function, the last measurement we have was for $10^5$
+Recall that computing the sum of the elements with our linear *O(N)*
+function for *10^9* elements took about 7 seconds. For the quadratic
+`count_occurrence` function, the last measurement we have was for *10^5*
 elements, taking approximately 4 seconds (on this machine). We can use the
-$\mathcal{O}(N^2)$ complexity of the function to try and estimate how long this
-might take for $10^9$ elements.
+*O(N^2)* complexity of the function to try and estimate how long this
+might take for *10^9* elements.
 
-An input size of $10^9$ elements would be an increase of a factor $10^4$ in
-input size compared to $10^5$ elements. Given the quadratic complexity, we would expect
-a $(10^4)^2$ increase in computation time, meaning about $4$ seconds $\\times
-10^8$, which is about **13 years!**
+An input size of *10^9* elements would be an increase of a factor *10^4* in
+input size compared to *10^5* elements. Given the quadratic complexity, we would expect
+a *(10^4)^2* increase in computation time, meaning about *4* seconds *x*
+10^8, which is about **13 years!**
 
-Here we can really see a practical difference between a $\mathcal{O}(N)$ or a
-$\mathcal{O}(N^2)$ function. For $10^3$ elements or less, you probably won't
+Here we can really see a practical difference between a *O(N)* or a
+*O(N^2)* function. For *10^3* elements or less, you probably won't
 notice any difference at all, as all computations will be well under 1 second.
-For $10^6$ it already makes the difference between less than 1 second and
-several minutes of waiting for your results. And at $10^9$ it is the difference
+For *10^6* it already makes the difference between less than 1 second and
+several minutes of waiting for your results. And at *10^9* it is the difference
 between a couple of seconds and a completely infeasible couple of years.
 
 Nowadays having millions or more elements in your data set is really quite
@@ -213,7 +216,7 @@ really be critical.
 ## Constant time
 
 There is one last complexity class we will introduce here, to round out your
-perspective on complexity; big $\mathcal{O}(1)$. Big $\mathcal{O}(1)$ is also
+perspective on complexity; big *O(1)*. Big *O(1)* is also
 called *constant time* and it means that the time to compute a function
 remains constant as the input grows in size. This is the best possible complexity
 any algorithm can have, as it means that the time for the function will remain
@@ -221,7 +224,7 @@ roughly the same, even if you have billions of elements to process.
 
 What kind of function could meet this ideal complexity might be hard to
 imagine for now, but we'll start with a trivial example. Later in this module we'll see
-much more interesting functions with $\mathcal{O}(1)$ complexity, specifically
+much more interesting functions with *O(1)* complexity, specifically
 when we cover dictionaries. Lets start by considering this simple function, which
 always returns the first element from a list:
 
@@ -250,7 +253,7 @@ always returns the first element from a list:
 As you a can see, getting the first element takes about the same time for each
 of these input sizes, even though the inputs get bigger with a factor 10 each
 time. This means the function `get_first_element` has a complexity of
-$\mathcal{O}(1)$. So in theory, we could get the first element from a list with
+*O(1)*. So in theory, we could get the first element from a list with
 *any* number of elements and it would still only take 0.000004 seconds (although at some point we might have some trouble fitting that list in our computers memory).
 
 Next, take a look at the videos on data structures. These videos will not just

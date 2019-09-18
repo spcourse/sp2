@@ -1,13 +1,18 @@
+
 ## Assignment 3: Near word pairs
 
 For this last assignment you will extend the indexing program from the previous
-assignment to support a more interesting type of search. Looking for individual
-words can already tell you quite a lot about where to find certain information,
-but a pair of words would of course allow the user to be a lot more specific
-about what exactly they are looking for. The 2 words they are looking for might
-not necessarily be *directly* next to each other, but you would expect them to
-*near* enough, if they are indeed related. So, what you will build is a search
-for *word pairs*: Do these two words occur close together anywhere in the book?
+assignment, so it can support a more interesting type of search. You should
+keep working with the same files as before, but now you should work on the
+`pair_index.py` file.
+
+Looking for individual words can already tell you quite a lot about where to
+find certain information, but a pair of words would of course allow the user to
+be a lot more specific about what exactly they are looking for. The 2 words
+they are looking for might not necessarily be *directly* next to each other,
+but you would expect them to *near* enough, if they are indeed related. So,
+what you will build is a search for *word pairs*: Do these two words occur
+close together anywhere in the book?
 
 Let's say for now that "near enough" is within 5 words. This means building
 an index where we can search for a pair of words and find all lines where these

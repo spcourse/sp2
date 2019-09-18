@@ -1,7 +1,19 @@
 
-## Introduction
+# Jupyter notebooks
 
-For this assignment there will also be a [Jupyter notebook](http://jupyter.org/) which you should use to answer some short questions about the material. These notebooks allow a mixture of nicely formatted text, *Python* code and some tests. 
+For this assignment there will be a [Jupyter notebook](http://jupyter.org/)
+which you should use to answer some short questions about the material. These
+notebooks allow a mixture of nicely formatted text, *Python* code and some
+tests. 
+
+Download the notebook file [here](downloads/module_5_questions.ipynb).
+
+There will be some short questions for every section of the assignment in the
+notebook. For now you'll only have to do the questions on the *efficiency*
+section.
+
+After completing every section, answer the question in this notebook and check
+your answers, before moving on to the next section.
 
 ## Getting started
 
@@ -13,4 +25,8 @@ This will print some information about the *Notebook* server in your console, an
 
 This first page shows the dashboard, which lists the notebooks available in the current directory. You can create new notebooks from the dashboard with the `New` button (select *Python 3* notebook), or open existing ones. Creating a new notebook will create a new file `Untitled1.ipynb`. The extension `.ipynb` indicates it is a notebook file, you can rename the file to something more descriptive at the top of the page.
 
-Now open the downloaded notebook *module_5_questions.ipynb* and continue with the assignment there. Start by reading the part about *notebook cells* and *markdown* there.
+Now open the downloaded notebook *module_5_questions.ipynb* and continue with
+the assignment there. Start by reading the part about *notebook cells* and
+*markdown* there.
+
+
