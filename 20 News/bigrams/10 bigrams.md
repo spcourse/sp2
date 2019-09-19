@@ -43,10 +43,9 @@ In this example the bigram 'lonely planet' has a score of 17 for the category `t
 * You wil need to start with creating a bigram list for every article. You are allowed to use a for loop for this.
 * If (in the spirit of this assignment) you would like to avoid using  a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
 
-
-    >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
-    >>> print(zipped_list)
-    [('a', 'X'), ('b', 'Y'), ('c', 'Z')]
+        >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
+        >>> print(zipped_list)
+        [('a', 'X'), ('b', 'Y'), ('c', 'Z')]
 
 ## Cleanup
 
