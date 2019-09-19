@@ -21,8 +21,8 @@ Before you start programming have a look at the articles to get a feel for the d
 
 Implement a program called `list_words.py` that generates a list of all the words in a given text file and prints that list. Each word in the output should be unique, written in lowercase, and stripped from punctuation marks and white spaces. For example:
 
-  # python list_words.py "articles\short.txt"
-  [for, sale, baby, shoes, never, worn]
+    # python list_words.py "articles\short.txt"
+    [for, sale, baby, shoes, never, worn]
 
 ## Tips
 
@@ -30,7 +30,7 @@ Implement a program called `list_words.py` that generates a list of all the word
 * The method `s.split(',')` will split s on every ','.
 * The variable `sys.argv` is a list containing the command line arguments. Lets, for example, say that the file `test.py` contains the following code:
 
-        import sys
-        print(sys.argv[1])
+    import sys
+    print(sys.argv[1])
 
   Then running `python test.py "Hello, world!"` should produce the output `Hello, world!`.
