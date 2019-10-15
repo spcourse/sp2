@@ -7,8 +7,6 @@ do **not** contain a mapping between keys and values like a dictionary. Instead
 they support some other operations commonly performed with sets, like
 intersection.
 
-(Draw 2 overlapping sets on whiteboard and highlight the intersection)
-
 Lets take a look at some sets in practice
 
 ## Screencapture

@@ -37,7 +37,7 @@ this might make the code a *bit* faster in most cases, it does not actually
 reduce the *worst case* complexity of the code at all. The worst case would
 then be that every element is unique and therefore we would still need to do
 the complete inner loop for *every* element, resulting in a count of 1 for each
-and our same *O(N^2)* complexity.
+and our same $$O(N^2)$$ complexity.
 
 Avoiding recounting would therefore be a bit better, but not the kind of speed
 up we are after in this exercise. So we will have to change the way the counts
@@ -53,7 +53,7 @@ marks next to each number should be equal to their count. Great, but then the
 problem just becomes: How do we know if we've already seen a number? If we have
 already see it, how do we know at what place to add the mark? And we have to of
 course do all this **without looping through the list again**, as that would
-basically give us the same *O(N^2)* solution as before.
+basically give us the same $$O(N^2)$$ solution as before.
 
 As a general tip, any time you are trying to make some code more efficient,
 changing the structure of the data to something that would make the individual

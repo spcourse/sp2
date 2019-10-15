@@ -75,10 +75,10 @@ memory, then you might also better understand its complexity. Slicing has a
 complexity of *O(N)*, so even if it looks simple and doesn't contain
 any loops, it can be quite an expensive operation.
 
-A slice like `\[1:\]` therefore does not "cut off the first element", but actually
+A slice like `[1:]` therefore does not "cut off the first element", but actually
 copies all the elements after index `1` to a new list, meaning it is a linear
 *O(N)* complexity operation. In contrast, indexing a list with just
-`\[1\]` would always be constant time *O(1)* complexity operation. A
+`[1]` would always be constant time *O(1)* complexity operation. A
 small change in the syntax can actually make a big change in complexity!
 
 Lists have quite a few of these deceptively simple looking operations that
