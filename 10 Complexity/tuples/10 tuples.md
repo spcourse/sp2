@@ -2,8 +2,6 @@
 
 Tuples are very much like lists, as they store sequences of elements, but they tend to be used quite differently. The important difference with tuples is they are immutable, which means they support some operations that lists don't (and vice versa). We'll dive more into what this difference is by looking at some examples.
 
-## Screencapture
-
 Creating a tuple is very similar to a list, except we use rounded brackets
 instead of square brackets
 
@@ -102,7 +100,7 @@ The main purpose of tuples therefore is storing a small fixed number of
 different things together in one structure. There is one other important
 application of tuples which we haven't discussed yet; **hashing**. Hashing is
 the underlying magic that makes dictionaries so efficient. In the previous
-video we talked about the fact that searching for keys in dictionaries was
+text we talked about the fact that searching for keys in dictionaries was
 actually a constant time $$O(1)$$ operation. Dictionaries achieve this
 by a process called *hashing* of the key, which is some computation that tells
 the computer where in the dictionary to look for the key. Hashing is only

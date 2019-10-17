@@ -258,7 +258,7 @@ time. This means the function `get_first_element` has a complexity of
 $$O(1)$$. So in theory, we could get the first element from a list with
 *any* number of elements and it would still only take 0.000004 seconds (although at some point we might have some trouble fitting that list in our computers memory).
 
-Next, take a look at the videos on data structures. These videos will not just
-the operations the data structures support, but also the complexity is of these
-operations. Many data structures are used *specifically* because they are more
-efficient in certain situations.
+Next, take a look at the readings on data structures. These reading will not
+just cover the operations that a data structure supports, but also what the
+complexity is of each these operations. Many data structures are used *specifically*
+because they are more efficient in certain situations.

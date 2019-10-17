@@ -5,11 +5,7 @@ to dictionaries. Like dictionaries, they are unordered collections and require
 all stored elements to be hashable. However, they just store elements and
 do **not** contain a mapping between keys and values like a dictionary. Instead
 they support some other operations commonly performed with sets, like
-intersection.
-
-Lets take a look at some sets in practice
-
-## Screencapture
+intersection. Lets take a look at some sets in practice.
 
 Making a set can be done using the same curly braces as a dictionary
 

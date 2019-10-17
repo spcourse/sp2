@@ -30,15 +30,13 @@ translation in the dictionary.
 	Dictionary[Please]
 	-> Por favor
 
-So the mapping is from one element to another associated element (its
+The mapping here is from one element to another associated element (its
 translation), which we might want to look up. This is generally how
 dictionaries are used in Python. Lets take a closer look at at the syntax in
 Python and some more cases where we might want to use dictionaries.
 
-## Screencapture
-
-So, dictionaries are an efficient way to store pairs of variables together.  As
-an example, we could make a fruit basket and store the quantity we have of the different types of fruit. In our previous example we stored Spanish
+So, dictionaries are an efficient way to store pairs of variables together. As
+another example, we could make a fruit basket and store the quantity we have of the different types of fruit. In our previous example we stored Spanish
 translations for English words in our dictionary, and here we are going to
 store counts for each type of fruit. Using dictionaries in this way, as a
 mapping from elements to some count (or a score) is another very common way to use dictionaries
@@ -132,7 +130,7 @@ $$O(1)$$ operation. This means the search will take approximately the
 same time if the dictionary contains 1 or **1 million** elements!
 
 This is a *strange and counter-intuitive* fact, and why this is true is well
-beyond the scope of this video, but it should give you an idea of the power of
+beyond the scope of this text, but it should give you an idea of the power of
 dictionaries and why they are used so often: Checking if a key is present in a
 dictionary or retrieving the value stored with that key are both **constant
 time** $$O(1)$$ operations, irrespective of the number of elements

@@ -1,10 +1,8 @@
 
 # List slicing and indexing
 
-Here we will cover some more things about
-lists, including slicing and indexing. Let's dive right in.
-
-## Screencapture
+Here we will cover some more things about lists, including slicing and
+indexing. Let's dive right in.
 
 A slice is used to *cut* a section out of a list, as the name might imply.
 Instead of using an index to retrieve an individual element from a list, we can
@@ -129,11 +127,11 @@ even supports *negative* step sizes, so going from the back of the slice to the
 front. The most common way you'll see this, is to **reverse** a list completely
 with just a slice, so step size of `-1` for the full list.
 
-Finally, while for this whole video we have talked about lists, it is important
+Finally, while for this whole text we have talked about lists, it is important
 to note that slicing works exactly the same for the other *ordered*
 collections, so strings and tuples. Any built-in element that uses *indexing*
 to access its elements, will usually also support slices.
 
-That completes this video on slicing and indexing. Up next is the final section
+That completes this reading on slicing and indexing. Up next is the final section
 on complexity in this series, about how to combine all this into an efficient
 program.
