@@ -67,7 +67,7 @@ operation to see if we have already added an element as a *key* to the
 dictionary. Then the associated *value* of that key could keep track of the
 count for that element and we could use the square brackets to efficiently
 retrieve it. So in a dictionary both of these operations would actually be
-*O(1)* complexity! Lets take a look at the code for this new
+$$O(1)$$ complexity! Lets take a look at the code for this new
 version
 
 	def count_occurrence_v2(inputs):

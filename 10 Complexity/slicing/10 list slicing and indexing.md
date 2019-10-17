@@ -72,17 +72,17 @@ want a modify the copy but keep the original intact.
 
 Now that you understand the slice operation actually makes a new piece of
 memory, then you might also better understand its complexity. Slicing has a
-complexity of *O(N)*, so even if it looks simple and doesn't contain
+complexity of $$O(N)$$, so even if it looks simple and doesn't contain
 any loops, it can be quite an expensive operation.
 
 A slice like `[1:]` therefore does not "cut off the first element", but actually
 copies all the elements after index `1` to a new list, meaning it is a linear
-*O(N)* complexity operation. In contrast, indexing a list with just
-`[1]` would always be constant time *O(1)* complexity operation. A
+$$O(N)$$ complexity operation. In contrast, indexing a list with just
+`[1]` would always be constant time $$O(1)$$ complexity operation. A
 small change in the syntax can actually make a big change in complexity!
 
 Lists have quite a few of these deceptively simple looking operations that
-actually have *O(N)* complexity.
+actually have $$O(N)$$ complexity.
 
 	>>> l
 	[3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
@@ -92,12 +92,12 @@ actually have *O(N)* complexity.
 	2
 
 Any searching operation in a list, so using `in` or trying to find the place of an element
-using `.index()` will be an *O(N)* operation, as it will
+using `.index()` will be an $$O(N)$$ operation, as it will
 actually have to go through the elements one-by-one and compare them. So even
-simple `if` statements like `if x in l` can have *O(N)* complexity
+simple `if` statements like `if x in l` can have $$O(N)$$ complexity
 without explicitly looping over the list.
 
-Single instances of these *O(N)* operations might not be so bad, but
+Single instances of these $$O(N)$$ operations might not be so bad, but
 if you end up repeating them many times in a loop then it might start to add
 up. If you find yourself doing many `in` operations in a loop then you should
 always consider if you shouldn't use a *dictionary* or *set* instead. There will

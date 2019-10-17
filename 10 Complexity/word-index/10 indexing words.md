@@ -56,7 +56,7 @@ Filter very common word words from the book to prevent adding them to the
 index. Complete the functions `read_stopwords()` and `filter_word()` to do
 this.
 
-### Questions
+### Question 1
 
 Consider the total number of stop words passed to `filter_word()` to be the
 the functions input size **N**.
@@ -138,7 +138,7 @@ list would be *"the"*. Search for this word and check that indeed nothing is
 returned.
 
 Test any other words you want to search and maybe try a different book too.
-Remember you can quit the program any time by pressing *<ctrl-c>*. Make sure
+Remember you can quit the program any time by pressing *\<ctrl-c\>*. Make sure
 you are convinced all parts work correctly and understand how the program works
 as a whole before moving on to the next part.
 

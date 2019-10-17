@@ -47,7 +47,7 @@ the original order from the list is lost in this conversion.
 
 As you might have noticed, sets share many attributes with dictionaries. Like
 dictionaries, they also work based on **hashing**, which means that checking
-if an element is in a set is also a constant time *O(1)* operation.
+if an element is in a set is also a constant time $$O(1)$$ operation.
 
 	>>> 'a' in s
 	True
