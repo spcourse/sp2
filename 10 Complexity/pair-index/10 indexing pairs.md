@@ -82,11 +82,10 @@ word. When you index a new word, you can append it to that recent word list and
 remove the least recent word at at the front of the list (which is now no
 longer *recent*). This might look something like:
 
-```python
-recent_words.append(word)
-if len(recent_words) > recency_size:
-    recent_words.pop(0)
-```
+    recent_words.append(word)
+    if len(recent_words) > recency_size:
+        recent_words.pop(0)
+
 
 The function `.pop(0)` removes the element at position `0` (i.e. the front)
 from the list. The `recency_size` parameter specifies how many words back you
@@ -177,7 +176,7 @@ your answer.
 
 This assignment is completely optional, but can provide a nice challenge if you
 are up for that. For this bonus assignment, you will need to make word pair
-indices for two differnt books and see what word pairs overlap between these
+indices for two different books and see what word pairs overlap between these
 books. Then you should find the top 10 pairs that occur the *most* between the
 two books. So the end result of running the program sould be showing the top
 10 most common overlapping word pairs between both the books.

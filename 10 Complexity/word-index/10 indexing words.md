@@ -67,11 +67,9 @@ What is the complexity of your `filter_word()` function? Explain your answer.
 
 With these two functions completed, the `read_gutenberg_file()` function should
 now work correctly. It will return you a list of tuples, where each tuple
-contains a word and its line number *(note: technically the function returns a
-iterator and not a list, but you can loop over this exactly as if it was
-a list)*. So, looping over the result of `read_gutenberg_file()` will give you
-pairs of words and their line numbers, which you can then use to build your
-book index.
+contains a word and its line number. So, looping over the result of
+`read_gutenberg_file()` will give you pairs of words and their line numbers,
+which you can then use to build your book index.
 
 This indexing program will be an interactive look-up, meaning you will not know
 beforehand how many and which words will be searched in our book. The function
