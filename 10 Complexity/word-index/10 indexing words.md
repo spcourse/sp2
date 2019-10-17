@@ -17,7 +17,7 @@ occurs.
 
 This is exactly the type of index you will have to construct: We want to be
 able to quickly search if a word occurs in a book and if so, at what lines.
-Quite a bit of starting code has already been provided in `word_indexing.py`.
+Quite a bit of starting code has already been provided in `word_index.py`.
 Most importantly, the function `read_gutenberg_file()` will take the filename
 of a book and read its contents, and handling the user input has also already
 been taken care of. The rest of the book indexing system is up to you to write.
@@ -80,7 +80,7 @@ When a word is looked up, the program should return all the line numbers where
 this word occurs. The function `build_index()` in `word_index.py` should return
 this book index structure, on which you can later perform the searches.
 
-Think about kind of data structure would an efficient choice to build this
+Think about a kind of data structure would an efficient choice to build this
 book index with. Complete the `build_index()` function and have it return your
 indexing data structure. Use the `read_gutenberg_file()` to loop through the
 file and add each word and line number to your indexing structure.

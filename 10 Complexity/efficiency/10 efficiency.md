@@ -44,11 +44,11 @@ As the number of elements in this list grows, so does the number of steps
 in this for loop. So, we would naturally expect longer lists to take longer to
 compute. Let's test that hypothesis, by seeing how long different calls of this
 function end up taking. We'll do this using the `time` library, which we can use
-to measure the current time directly before and after the function. Below is
+to measure the current time directly before and after the function. Below is a
 general function, which will apply some function to a list and measure how long
 this takes.
 
-Next we'll use the `random` library to generate integer between *0* and *100*
+Next we'll use the `random` library to generate an integer between *0* and *100*
 and repeat this *N* times, to have a list of *N* random integers. You do not
 have to understand the details of these function, but they are used for all
 tests and thus shown here for completeness.
@@ -71,7 +71,7 @@ tests and thus shown here for completeness.
 	  
 	def random_list(N, max_int=100):
 		# Generate N random numbers between 0 and max_int
-		return [random.randint(max_int) for i in range(N)]
+		return [random.randint(0, max_int) for i in range(N)]
 
 Now we have all the components to measure the `sum_list()` function. We can generate random inputs of size *N* using `random_list()` and use `timed_function_list()`to measure how long it takes to process each input.
 
@@ -108,7 +108,7 @@ the computation time increase by a factor *O(N)*.
 The big *O* notation is quite a coarse measure, which only
 concerns what the biggest factor will be for the computation time as the
 input grows. In contrast, these timing tests are accurate to the microsecond
-(*10^{-6}* seconds), so there will always be some differences between the
+($$10^{-6}$$ seconds), so there will always be some differences between the
 theoretical factor and the measured scale factor. In addition, your computer
 will also be performing other tasks in the background, so there will even be
 differences in the times if you repeat the measurements, even though the
@@ -181,32 +181,32 @@ using to make this comparison is **much** smaller, in order to keep the
 computation times manageable. Secondly, for this function, with every factor 10
 more elements, the computation time appears to scale up by a much larger factor than 10!
 
-Going from 1000 to 10000 elements the input size *N* grows by a factor of 10. What we measured is the time grows from *0.0421* to *4.2984* or a factor of 102, which seems  closer to a factor of  *100*, or *10^2*.
+Going from 1000 to 10000 elements the input size *N* grows by a factor of 10. What we measured is the time grows from *0.0421* to *4.2984* or a factor of 102, which seems  closer to a factor of  *100*, or $$10^2$$.
 
 This is because our function `count_occurrence` actually has a quadratic complexity,
-denoted as *O(N^2)*. This means that as the size of the input for
+denoted as $$O(N^2)$$. This means that as the size of the input for
 this function grows by some factor *N*, we expect the computation time to grow
-approximately by *N^2*.
+approximately by $$N^2$$.
 
 ### Comparing linear and quadratic complexity
 
 Recall that computing the sum of the elements with our linear *O(N)*
-function for *10^9* elements took about 7 seconds. For the quadratic
-`count_occurrence` function, the last measurement we have was for *10^5*
+function for $$10^9$$ elements took about 7 seconds. For the quadratic
+`count_occurrence` function, the last measurement we have was for $$10^5$$
 elements, taking approximately 4 seconds (on this machine). We can use the
 *O(N^2)* complexity of the function to try and estimate how long this
-might take for *10^9* elements.
+might take for $$10^9$$ elements.
 
-An input size of *10^9* elements would be an increase of a factor *10^4* in
-input size compared to *10^5* elements. Given the quadratic complexity, we would expect
-a *(10^4)^2* increase in computation time, meaning about *4* seconds *x*
-10^8, which is about **13 years!**
+An input size of $$10^9$$ elements would be an increase of a factor $$10^4$$ in
+input size compared to $$10^5$$ elements. Given the quadratic complexity, we would expect
+a $$(10^4)^2$$ increase in computation time, meaning about *4* seconds *x*
+$$10^8$$, which is about **13 years!**
 
 Here we can really see a practical difference between a *O(N)* or a
-*O(N^2)* function. For *10^3* elements or less, you probably won't
+*O(N^2)* function. For $$10^3$$ elements or less, you probably won't
 notice any difference at all, as all computations will be well under 1 second.
-For *10^6* it already makes the difference between less than 1 second and
-several minutes of waiting for your results. And at *10^9* it is the difference
+For $$10^6$$ it already makes the difference between less than 1 second and
+several minutes of waiting for your results. And at $$10^$$ it is the difference
 between a couple of seconds and a completely infeasible couple of years.
 
 Nowadays having millions or more elements in your data set is really quite

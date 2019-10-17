@@ -21,9 +21,9 @@ saw
 * **Dictionaries** and **sets**, which are both *unordered* collections of data
   that allow fast *O(1)* checking for the presence of an element using `in`.
   Dictionaries also have *O(1)* complexity for retrieving a value
-  associated with a key, e.g. `dictionary\[key\]`.
+  associated with a key, e.g. `dictionary[key]`.
 * **Lists** and **tuples**, which are both *ordered* collections of data that
-  allow for *O(1)* complexity indexes, e.g. `t\[5\]`, but where many
+  allow for *O(1)* complexity indexes, e.g. `t[5]`, but where many
   other operations like searching with `in` or cutting with slicing actually
   has *O(N)* complexity.
 * Lastly, tuples are *immutable*,  so they can *hashed*, meaning  the can be used in sets or as
@@ -63,7 +63,7 @@ of 4 can be dropped and the complexity simplified back to *O(1)*.
 
 This is because for the complexity class we are only interested how the amount of computations *changes* with the size of the input. The amount of computations here is completely independent on the size of `input_list,`and so will not change if the `input_list`gets larger by *any* factor.  Whether the fixed amount of computations is 4 or 1 does not matter for the complexity class,  the computation time remains the same and so is multiplied by O(1) for any factor increase in the input size.
 
-The big *O* notation always depends on the size of the input considered, specifically what happens with very large inputs. As an input get more massive, any constant multiplication becomes less and less relevant for the computation time, as it gets relatively smaller. Any constant multiplication (that does not depend on the size of the input) of the complexity can always be removed, so any operation that always the same amount of time or steps, gets simplified to O(1). 
+The big *O* notation always depends on the size of the input considered, specifically what happens with very large inputs. As an input get more massive, any constant multiplication becomes less and less relevant for the computation time, as it gets relatively smaller. Any constant multiplication (that does not depend on the size of the input) of the complexity can always be removed, so any operation that always has the same amount of time or steps, gets simplified to O(1). 
 
 The same simplification can be done with *O(N)* complexities. Lets take a look at the example function below. It checks if an element is present in the list, and if so, finds the index of that element and slices the list right before the found element, cutting off the rest of the list.
 
@@ -99,9 +99,9 @@ but just *O*(N)*.
 As the big *O* notation is about *very large* inputs, the slowest part of the
 complexity will always end up being as *much* bigger factor on the computation
 time. So if you have an *O(N)* operation followed by an
-*O(N^2)* operation, then the complexity of the whole program is not
-*O(N +N^2)*, but just *O(N^2)* as determined by the slower
-second part. For an input size *N* of 2, the *O(N)* part in the total *O(N +N^2)* complexity would still have an impact, but the bigger *N* gets, the larger the effect of the *O(N^2)* complexity. Therefore, when adding  operations with a different complexity together, this gets simplified to just the slowest complexity.
+$$O(N^2)$$ operation, then the complexity of the whole program is not
+$$O(N +N^2)$$, but just $$O(N^2)$$ as determined by the slower
+second part. For an input size *N* of 2, the $$O(N)$$ part in the total $$O(N +N^2)$$ complexity would still have an impact, but the bigger *N* gets, the larger the effect of the $$O(N^2)$$ complexity. Therefore, when adding  operations with a different complexity together, this gets simplified to just the slowest complexity.
 
 These slow parts that end up determining the complexity of the whole program
 are the "bottle necks" of the program. They are the parts that will really
@@ -112,12 +112,12 @@ parts to *improve.*
 ## 3. Nested complexities multiply
 
 When an operation is nested inside a loop, it gets a bit trickier: the complexity of the operation is multiplied with that of the loop. Repeating an *O(N)* operation *N* times
-inside a loop will have an *O(N x N)* or *O(N^2)*
+inside a loop will have an *O(N x N)* or $$O(N^2)$$
 complexity.
 
 You might have already guessed that repeating slow operations inside a loop
 will be *very* slow, but now you have a more complete tool to express and
-analyze this. Lets take look at our original example for *O(N^2)*,
+analyze this. Lets take look at our original example for $$O(N^2)$$,
 the function that would count how often each element occurred in the input.
 
 	def count_occurrence(inputs):
@@ -144,14 +144,14 @@ total complexity for the inner loop is *O(N)*.
 
 That inner loop is then itself repeated *N* times in the outer loop (line 3), once for
 each element in the `inputs`. The combined complexity for the outer loop is
-therefore *N x N*, so *O(N^2)*. Then there is an assignment at
+therefore *N x N*, so $$O(N^2)$$. Then there is an assignment at
 the start of the function and return at the end, both *O(1)*, which
 can be dropped as they certainly won't be the slowest part of the computation.
 
 So the resulting complexity for this function does indeed come out to
-*O(N^2)*. This the same conclusion as from the timing tests, when for
+$$O(N^2)$$. This the same conclusion as from the timing tests, when for
 every factor of 10 the input got bigger, the function would approximately take
-*10^2 = 100* times longer to compute.
+$$10^2 = 100$$ times longer to compute.
 
 	The count_occurrence of        100 elements took 0.000427 seconds to compute.
 	The number 72 occurs 1 times
@@ -184,7 +184,7 @@ Same thing applies for loops that only do *N/2* repetitions or *3N*, both will
 just multiply the inner complexity by *N*, with the constant factor dropped.
 All that matters is that loop scales linearly with the size of the input. It is
 also possible to make more complex looping structures that would multiply by
-*N^2* or even something like *2^N*, so consider how many steps your loop is
+$$N^2$$ or even something like $$2^N$$, so consider how many steps your loop is
 approximately taking when determining the complexity. Although, in general a
 simple loop over the input will just multiply the inner complexity by *N*.
 

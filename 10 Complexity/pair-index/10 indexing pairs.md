@@ -72,7 +72,7 @@ functions* and they can be copied from your `word_index.py` solution verbatim.
 Start by adding your solution for these 3 functions to the file.
 
 Next up is writing the function `build_pair_index()`, which should return an
-index similair your old `build_index()` function, but be searchable by word
+index similar to your old `build_index()` function, but be searchable by word
 pairs. Building an indexing system for word pairs can be a little more
 tricky, so we'll provide you with some hints on how to proceed.
 
@@ -122,7 +122,7 @@ ensure you always search for them in that same alphabetical order. You may
 implement either solution for this.
 
 Lastly, the `search_pair_index()` function will need to be completed. The input
-will be handled similairly as for `search_index()`, except that the user should
+will be handled similarly as for `search_index()`, except that the user should
 now type 2 words as input, separated by space. These 2 words are then passed to
 `search_pair_index()`, together with the index you constructed. Search for
 these two words to your pairs index, applying that same alphabetical sorting to
@@ -142,8 +142,8 @@ words of each other in a book. Complete the functions `read_stopwords()`,
 
 Test you program by running
 
-```
-python pair_index.py darwin_origin_of_species.txt
+```python 
+pair_index.py darwin_origin_of_species.txt
 ```
 
 This will build the word pairs index using a recency size of 5. Try some pairs
