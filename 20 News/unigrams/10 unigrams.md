@@ -40,7 +40,7 @@ The directory `unigrams` contains 41 files ( `ARTS.csv`, `BUSINESS.csv`, `TASTE.
 
 These are just a couple of examples lines, the entire file contains many, many more. Every line contains a keyword, related to the topic and a score reflecting how strongly related it is (separated by a comma). So, the word 'overtourism' (with a score of 17) is more strongly related to 'TRAVEL' than 'croatian' (with a score of 10).
 
-This list is compiled by analyzing many tens of thousands of articles from HuffPost ([News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)). It is not relevant exactly how this is done, at this point.
+These unigrams are compiled by analyzing many tens of thousands of articles from HuffPost ([News Category Dataset](https://www.kaggle.com/rmisra/news-category-dataset)). You don't have to know the unigrams are generated, but the underlying principle is called Naive Bayes Classification. If you're interested you can have a look at [Andrew Ng's explanation on this subject](https://www.youtube.com/watch?v=z5UQyCESW64) (some familiarity with probability theory required).
 
 ## Scores
 
