@@ -34,14 +34,14 @@ In this example the bigram 'lonely planet' has a score of 17 for the category `t
 ## Specification
 
 * Create a program called `classify_bigram.py` that can read a text file provided as command line argument.
-* Use the bigram files to compute the total category score for every catagory. Don't use any `for`-loop, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
+* Use the bigram files to compute the total category score for every category. Don't use any `for`-loop, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
 * Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.
 * Cleanup and add a `README.md` and `LICENSE` file to the project (see below).
 
 ## Tips
 
-* You wil need to start with creating a bigram list for every article. You are allowed to use a for loop for this.
-* If (in the spirit of this assignment) you would like to avoid using  a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
+* You will need to start with creating a bigram list for every article. You are allowed to use a for loop for this.
+* If (in the spirit of this assignment) you would like to avoid using a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
 
         >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
         >>> print(zipped_list)

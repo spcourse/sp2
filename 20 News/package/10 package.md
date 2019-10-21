@@ -51,7 +51,7 @@ If everything went right you should get the following output:
 
 ## Documentation
 
-Make sure that you document the package in such a way that pydoc can automatically extract the right information. The pydoc documentation should look somethin like this:
+Make sure that you document the package in such a way that pydoc can automatically extract the right information. The pydoc documentation should look something like this:
 
     # pydoc functional
 
@@ -96,4 +96,4 @@ If your package contains sub-modules, like in our case the module `tools`, make 
         my_map(f, l)
             ...
 
-There are many ways to write documentation, but a very popular style is NumPy style documentation. Have a look at some examples [here](Example NumPy Style Python Docstrings — napoleon 0.7 documentation) and use this style of documentation.
+There are many ways to write documentation, but a very popular style is NumPy style documentation. Have a look at some examples [here](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html) and use this style of documentation.
