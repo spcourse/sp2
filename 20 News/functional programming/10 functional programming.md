@@ -92,7 +92,7 @@ Often you want to *reduce* a list to one single aggregate element. For example t
     >>> list = [1, 2, 3, 4]
     >>> sum = 0
     >>> for num in list:
-    >>>     sum = add(product, num)
+    >>>     sum = add(sum, num)
     >>> print(sum)
     10
 
@@ -129,7 +129,7 @@ When using map, filter and reduce you often need to provide a very simple functi
     def square(x):
         return x * x
 
-For creating very simple functions you can us the lambda lambda notation like below:
+For creating very simple functions you can use the lambda notation like below:
 
     >>> square = lambda x : x * x
     >>> print(square(5))

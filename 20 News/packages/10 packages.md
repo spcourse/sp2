@@ -43,7 +43,7 @@ When we run `python my_program.py` we get the following output:
      5 4 3 2 1 5 4 3 2 1
     [5, 4, 3, 2, 1, 5, 4, 3, 2, 1]
 
-    The code works, but lets try to organize it a bit better.
+The code works, but let's try to organize it a bit better.
 
 ### Move functions to module
 
@@ -124,7 +124,7 @@ We need to change the import statement in `my_program.py` such that it knows to 
     my_number_list = convert_to_ints(my_string3)
     print(my_number_list)
 
-The label `my_string_package.manipulations`in the import statement tells python to look in the folder `my_string_package` at the file `manipulations.py`.
+The label `my_string_package.manipulations` in the import statement tells python to look in the folder `my_string_package` at the file `manipulations.py`.
 
 ### Add init
 
@@ -162,7 +162,7 @@ Now we can simplify the import statement in `my_program.py`:
     my_number_list = convert_to_ints(my_string3)
     print(my_number_list)
 
-When python comes across the statement `from my_string_package import ...` it knows to look for a file `__init__.py`in the `my_string_package` folder. The other files can remain unchanged.
+When python comes across the statement `from my_string_package import ...` it knows to look for a file `__init__.py` in the `my_string_package` folder. The other files can remain unchanged.
 
 Code `conversions.py`:
 
@@ -179,7 +179,7 @@ Code `manipulations.py`:
 
 ## Add documentation
 
-Once created a package you need to document it. So that the next guy using the package (most likely your future self), can find out how to use it without having to read all the code. The tool `pydoc` can automatically extract information from python packages.
+Once created a package you need to document it. So that the next person using the package (most likely your future self), can find out how to use it without having to read all the code. The tool `pydoc` can automatically extract information from python packages.
 
 Run `$ pydoc my_string_package` (from the `my project` directory):
 
@@ -195,7 +195,7 @@ Run `$ pydoc my_string_package` (from the `my project` directory):
     FILE
         [some path]\my_string_package\__init__.py
 
-As you can see it `pydoc` automatically generated some information about our package. We get the name of the package, the sub-modules ( `conversions` and `manipulations`), and the location of the package.
+As you can see it `pydoc` automatically generated some information about our package. We get the name of the package, the sub-modules ( `conversions` and `manipulations`), and the location of the package. Type `q` to exit `pydoc`. 
 
 We can even inspect the sub-modules themselves.
 
