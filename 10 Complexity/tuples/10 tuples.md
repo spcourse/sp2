@@ -1,16 +1,20 @@
 # Tuples
 
-Tuples are very much like lists, as they store sequences of elements, but they tend to be used quite differently. The important difference with tuples is they are immutable, which means they support some operations that lists don't (and vice versa). We'll dive more into what this difference is by looking at some examples.
+Tuples are very much like lists, as they store sequences of elements, but they
+tend to be used quite differently. The important difference for tuples is that
+they are immutable, which means they can support some operations that lists
+don't (and vice versa). We'll dive more into what this difference is by looking
+at some examples.
 
-Creating a tuple is very similar to a list, except we use rounded brackets
-instead of square brackets
+Creating a tuple is very similar to creating a list, except we use rounded
+brackets instead of square brackets
 
 	>>> t = (42, 'hello', 3.1415)
 	>>> t
 	(42, 'hello', 3.1415)
 
 We can access elements from a tuple at a specific index with square brackets
-just like a list
+just like with a list
 
 	>>> t[1]
 	'hello'
@@ -22,9 +26,9 @@ However, when we try to assign to an index, like with a list, we get an error
 	  File "<stdin>", line 1, in <module>
 	TypeError: 'tuple' object does not support item assignment
 
-This is the first sign of the fact that the tuple is indeed immutable: We
-cannot change what is at a specific index. In addition, we also cannot append
-things to a tuple either
+This is the first sign of the fact that the tuple is indeed immutable: It is
+*not* possible to change a value at a specific index. In addition to this, we
+cannot append things to a tuple either
 
 	>>> t.append('world')
 	Traceback (most recent call last):
@@ -35,11 +39,11 @@ So once a tuple is created, we cannot change the elements it contains or add
 more elements. This what it means to be immutable; it *cannot be mutated* or
 changed at all.
 
-All of this might seem like a lot of restrictions, and thus a tuple can just do
-less than a list, but being immutable has some advantages too.
+With all these restrictions, it might seem like a tuple just does a lot less
+then a list, but immutability also has some advantages.
 
-One of the most common ways a tuple is used, is to have a function return
-multiple values.
+One of the most common ways a tuple is used, is returning multiple values from
+a function.
 
 	>>> def find_max_index(l):
 	...     max_ind = 0
@@ -55,12 +59,14 @@ multiple values.
 	>>> find_max_index(list_of_values)
 	(2, 9.7)
 
-This function tries to find the maximum value in a list, however it does not just
-return the maximum value, it also returns the index of that maximum value
+This function tries to find the maximum value in a list, however it does not
+just return the maximum value, it also returns the index of that maximum value
 in the list. Both values are returned together in a tuple.
 
-When you combine several things with comma's in between, they automatically becomes a tuple, even without the round brackets around it. This is called tuple *packing*. The last line could therefore also have been
-`return max_ind, max_val` which is the form you will see more often.
+When you combine several things with comma's in between, they automatically
+becomes a tuple, even without the round brackets around it. This is called
+tuple *packing*. The last line could therefore also have been `return max_ind,
+max_val` which is the form you will see more often.
 
 	>>> maximum_index, maximum_value = find_max_index(list_of_values)
 	>>> maximum_index
@@ -73,7 +79,8 @@ Here we assign to 2 new variables `maximum_index` and `maximum_value` in just 1
 line. This is called tuple unpacking and assigns the values from the tuple to
 the variables in the same order as they were in the tuple.
 
-The number of elements must therefore match however many variables you are trying to unpack.
+The number of elements must therefore match however many variables you are
+trying to unpack.
 
 	>>> t
 	(42, 'hello', 3.1415)
@@ -89,12 +96,19 @@ The number of elements must therefore match however many variables you are tryin
 	>>> a
 	42
 
-So when unpacking a tuple the number of elements must match exactly and we end up giving every element a different variable name. This should start to give you an idea of how and when tuples are used versus lists. If we have some large number of the same type of thing, all stored together, you would store them in a list. That way you can loop over them and process each element the same way.
+So when unpacking a tuple the number of elements must match exactly and we end
+up giving every element a different variable name. This should start to give
+you an idea of how and when tuples are used versus lists. If we have some large
+number of the same type of thing, all stored together, you would store them in
+a list. That way you can append new elements, loop over each element and
+process them all the same way.
 If however, you have a small fixed number of different things you want to store
 together, like a maximum value and its index, then you would use a tuple. You
 can then return these things, pass them to a function or even store several of
 them in a list, but the items will remain together, unchanged, in the tuple.
-So, things stored together in a tuple should always be able to be unpacked; you should know exactly how many elements you are expecting to be in the tuple and what different things are stored at each index.
+So, things stored together in a tuple should always be able to be unpacked; you
+should know exactly how many elements you are expecting to be in the tuple and
+what different things are stored at each index.
 
 The main purpose of tuples therefore is storing a small fixed number of
 different things together in one structure. There is one other important
