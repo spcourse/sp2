@@ -16,7 +16,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/20%20News/logo.png" class="card-img-top" alt="...">
+				<img src="/course/20%20News/logo.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">News</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 6</h6>
@@ -29,7 +29,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/30%20Survival/logo.png" class="card-img-top" alt="...">
+				<img src="/course/30%20Survival/logo.jpg" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Survival</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 7</h6>
