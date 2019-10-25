@@ -3,7 +3,7 @@
 
 		<div class="col">
 			<div class="card mb-3">
-				<img src="/course/10%20Complexity/logo.jpg" class="card-img-top" alt="...">
+				<img src="/course/10%20Complexity/logo.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Complexity</h5>
 					<h6 class="card-subtitle mb-2 text-muted">Level 5</h6>
