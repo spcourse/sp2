@@ -51,8 +51,10 @@ In general, the total category score for an article given a category is computed
 ## Specification
 
 * Create a program called `classify_unigram.py` that can read a text file provided as command line argument.
-* Use the unigram files to compute the total category score for every category. Don't use any `for`-loop, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
-* Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.
+* Read and tokenize the text file.
+* Read and the unigram files and store the data in dictionaries.
+* Use the unigram dictionaries and the tokenized text to compute the total category score for every category. Don't use any `for`-loops for *this* step, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
+* Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.)
 
 ### Tips
 

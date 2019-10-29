@@ -33,15 +33,16 @@ In this example the bigram 'lonely planet' has a score of 17 for the category `t
 
 ## Specification
 
-* Create a program called `classify_bigram.py` that can read a text file provided as command line argument.
-* Use the bigram files to compute the total category score for every category. Don't use any `for`-loop, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
-* Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.
+* Create a program called `classify_unigram.py` that can read a text file provided as command line argument.
+* Read and tokenize the text file.
+* Read and the bigram files and store the data in dictionaries.
+* Use the bigram dictionaries and the tokenized text to compute the total category score for every category. Don't use any `for`-loops for *this* step, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
+* Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.)
 * Cleanup and add a `README.md` and `LICENSE` file to the project (see below).
 
 ## Tips
 
-* You will need to start with creating a bigram list for every article. You are allowed to use a for loop for this.
-* If (in the spirit of this assignment) you would like to avoid using a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
+* You will need to start with creating a bigram list for every article. You are allowed to use a for loop for this. But, if (in the spirit of this assignment) you would like to avoid using a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
 
         >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
         >>> print(zipped_list)
@@ -52,5 +53,5 @@ In this example the bigram 'lonely planet' has a score of 17 for the category `t
 * Let's treat this assignment as if you were going to make it into a public project. Adorn your code with comments and docstrings where appropriate.
 * Provide a README.md, containing a description for the project. This doesn't have to be in Markdown format but can be plain text.
 * Provide a LICENSE file with the project. [Here](https://choosealicense.com/) you can find a tool for selecting the right license for your project. Choose an *open source* licence that you deem appropriate and copy the text into the LICENSE file.
-* BONUS: One question merits special attention: Is there a lot of duplication of code? 
+* BONUS: One question merits special attention: Is there a lot of duplication of code?
     * It is likely that the files `classify_unigram.py` and `classify_bigram.py` have a lot of of code in common. Can you find a way to move parts of the code to an external module to avoid this? *Take care to backup your code before you start to restructure it*.
