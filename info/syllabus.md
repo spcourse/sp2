@@ -8,25 +8,29 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 Simon Pauw (teacher)  
 Marleen Rijksen (teacher)  
+Vera Schild (teacher)
 Martijn Stegeman (editor)
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules that you might take. For each module, you can choose one of the case studies and learn Python along the way. If you are particularly interested, you may also do more than one case study per module, even though this is not strictly necessary.
+Your entry to the course is the [Modules](/modules) page. Here we have linked all modules (levels) that you have to complete.
 
-## Goals
+## Passing the course
 
-This really is a beginner's course. We will teach you the basics of Python programming as well as several different ways of solving computational problems. After this course, we envision that you:
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
 
-- can transform the description of a simple algorithm into working code by combining basic program elements
-- can apply several scientific programming techniques from different areas of study
-- can use a couple of libraries in your program and know how to find and read documentation on other libraries
-- can make your programs simpler and easier to read by employing a few standard tactics
-- can trace and fix several common programming errors
+- you have submitted a fully working solution for each module
+- you must pass the final exam (date TBA)
 
-When you have finished one case study for each module, you might take up Scientific Programming 2, in which we will teach you most of the remaining parts of Python, enabling you to read and contribute to other's projects, or start your own!
+## Coursework
+
+The deadlines for handing in the modules are:
+
+* Level 5: Friday, November 8
+* Level 6: Friday, September 22
+* Level 7: Friday, December 6
 
 ## Asking questions
 
@@ -38,25 +42,22 @@ Besides Stack Overflow, you can come to the programming lab at the following tim
 
 > The lab is open for you on **Tuesdays 15:00--17:00**. You can find us in room **A1.22** at the Science Park 904 building. When coming to the lab for the first time, please find your teacher and introduce yourself! That way it's easier to ask questions when needed.
 
-## Passing the course
+## Goals
 
-The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
+After this course you should be able to independently tackle typically programming challenges that you might encounter in your field of studies/research. We will teach you more intermediate Python concepts. And some more advanced concepts pertaining to data analysis. After this course, we envision that you:
 
-- you have worked through one case study per each of the four modules
-- you have submitted a fully working solution for each problem in those case studies
-
-Finally, you must pass the final exam. There are two opportunities for semester 1, which have been planned on:
-
-- October TBA
-- December TBA
+- can use native python data structures (like sets, dictionaries, and tuples)
+- analyze the complexity of an algorithm
+- quickly learn to use new python packages and know how to find documentation for them
+- create your own packages
+- write proper documentation
+- use higher level functional programming concepts (such as map, reduce and filter)
+- import and analyze data
+- create advanced plots
 
 ## Feedback
 
 Programming is like writing. You can gradually learn to write programs that are more beautiful, functional, short, elegant or simple. To learn this, you'll need some feedback, and it's mostly up to you to get it. You can show your programs in class to fellow students or your teacher; you can post a fragment of your code on Stack Overflow and ask for advice on improving; or you can send the staff an e-mail and we'll have a look (this might take a while though!).
-
-## Books
-
-No books are required for this course. Embedded in some of the modules are parts of the book *Think Python* by Allen Downey. If you'd like, you can read the remainder of the book on [its website](https://greenteapress.com/wp/think-python/).
 
 ## Doing your own work {#academic_honesty}
 
@@ -131,21 +132,15 @@ BSc programme. Find them here in [English] and [Dutch].
 
 ## Acknowledgements
 
-This course has been designed by Martijn Stegeman (<mailto:martijn@stgm.nl>) and Ivo van Vulpen (<mailto:ivo.van.vulpen@nikhef.nl>).
+This course has been designed by Martijn Stegeman, Simon Pauw, Tim Doolan, and Ivo van Vulpen.
 
 This work is partially based on many great programming resources that have been published as Open Courseware under a [Creative Commons license](https://creativecommons.org). The resulting work itself is also published under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Feel free to re-use! If you would like to use the work commercially, please send an e-mail for arranging a license.
 
 We have had lots of help from students as well as teaching assistants who tried the course or added ideas of their own. We especially thank:
 
-- Jelle van Assema (assignments and checkpy)
-- Marianne de Heer Kloots (revisions and testing)
-- Maarten Inja (DNA assignment)
-- Simon Pauw (revisions)
-- Quinten Post (translations)
+- Quinten Post (video)
 - Marleen Rijksen (revisions)
-- Huub Rutjes (films)
-- Vera Schild (test automation)
-- Luca Verhees (artwork "semester of code")
+- Vera Schild (revisions)
 
 We have used materials from the following sources:
 
