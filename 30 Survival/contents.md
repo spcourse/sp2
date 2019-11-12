@@ -13,4 +13,7 @@ The module consists of two parts. First you will learn how to use a library call
 #### Part 2: Survival
 
 2. <span class="badge badge-primary">Assignment</span> Plot and analyze biology data using the *Seaborn* library: [survival](/survival/survival)
-g
+
+### Submitting
+
+[Submit your code](/survival/submit).
