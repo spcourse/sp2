@@ -1,0 +1,4 @@
+name: weather
+files:
+    required:
+        - module_6.zip

@@ -1,0 +1,5 @@
+name: weather
+files:
+    required:
+        - pandas.ipynb
+        - survival.ipynb

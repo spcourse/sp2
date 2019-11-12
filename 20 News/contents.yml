@@ -9,3 +9,5 @@ Introduction: /news
     Tokenize (assignment): /news/tokenize
     Unigrams (assignment): /news/unigrams
     Bigrams (assignment): /news/bigrams
+"Submit":
+    Submit your code: /news/submit

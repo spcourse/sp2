@@ -23,3 +23,7 @@ A secondary goal of this module is to focus a bit more on program design and sty
 6. <span class="badge badge-primary">Assignment</span> Classify a text based on single words: [news](/news/unigrams)
 
 7. <span class="badge badge-primary">Assignment</span> Classify a text based on word combinations: [news](/news/bigrams)
+
+### Submitting
+
+[Submit your code](/news/submit).
