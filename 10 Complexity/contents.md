@@ -44,4 +44,4 @@ through large collections of text fast, so it should also be *efficient*.
 
 ### Submitting
 
-[Submit your code]("/complexity/submit).
+[Submit your code](/complexity/submit).
