@@ -42,3 +42,6 @@ through large collections of text fast, so it should also be *efficient*.
 
 10. <span class="badge badge-primary">Assignment</span> Indexing pairs (assignment): [pair-index](/complexity/pair-index)
 
+### Submitting
+
+[Submit your code]("/complexity/submit).

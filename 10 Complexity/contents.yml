@@ -13,3 +13,5 @@ Introduction: /complexity
 "Part 4: Write your own efficient code":
     Indexing words (assignment): /complexity/word-index
     Indexing pairs (assignment): /complexity/pair-index
+"submit":
+    Submit your code: /complexity/submit
