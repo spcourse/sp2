@@ -1,4 +1,4 @@
-name: weather
+name: survival
 files:
     required:
         - pandas.ipynb
