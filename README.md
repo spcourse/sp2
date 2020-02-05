@@ -3,7 +3,7 @@
 Deze cursusmaterialen leren je Python kennen, een programmeertaal die inmiddels veel gebruikt wordt in de wetenschap. Er zijn drie modules:
 
 - ...
-Deze cursus is gemaakt door Martijn Stegeman (<mailto:martijn@stgm.nl>), Simon Pauw (<mailto:s.pauw@uva.nl>) en Tim Doolan (<mailto:t.doolan@uva.nl>). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
+Deze cursus is gemaakt door Martijn Stegeman (<mailto:martijn@stgm.nl>), Simon Pauw (<mailto:s.pauw@uva.nl>) en Tim Doolan (<mailto:t.f.doolan@uva.nl>). We hebben veel hulp gehad van studenten en assistenten die de cursus hebben uitgeprobeerd of eigen ideeën bijgedragen. Speciale dank gaat naar:
 
 - ...
 
