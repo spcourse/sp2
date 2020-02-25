@@ -8,7 +8,6 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 Simon Pauw (teacher)  
 Marleen Rijksen (teacher)  
-Vera Schild (teacher)
 Martijn Stegeman (editor)
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
@@ -19,18 +18,40 @@ Your entry to the course is the [Modules](/modules) page. Here we have linked al
 
 ## Passing the course
 
-The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 13 December:
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
 
 - you have submitted a fully working solution for each module
-- you must pass the final exam (date TBA)
+- you must pass the final exam 
 
-## Coursework
+## Deadlines
 
-The deadlines for handing in the modules are:
+Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
+
+**Semester 2**
+
+| Finish course in: | 4 weeks (block 4)     | 8 weeks (block 5) | 
+| ----------------- | --------------------- | ----------------- | 
+| Level 5           | Wed, 4 Mar            | Fri, 10 Apr       | 
+| Level 6           | Thu, 12 Mar           | Fri, 24 Apr       | 
+| Level 7           | Fri, 20 Mar           | Fri, 8 May        | 
+
+Note: If you'd like to take Data Processing in block 5, you will need to do the 4-week schedule in period 4 (after SP1), in order to leave enough time!
+
+**Semester 1**
+
+The deadlines for period 2:
 
 * Level 5: Friday, November 8
 * Level 6: Friday, September 22
 * Level 7: Friday, December 6
+
+## Exam
+
+There are multiple opportunities to take the exam, depending on the schedule you follow.
+
+**Semester 2**
+* Monday, 30 March
+* Monday, 25 May
 
 ## Asking questions
 
