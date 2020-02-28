@@ -31,8 +31,8 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 
 | Finish course in: | 4 weeks (block 4)     | 8 weeks (block 5) | 
 | ----------------- | --------------------- | ----------------- | 
-| Level 5           | Wed, 4 Mar            | Fri, 10 Apr       | 
-| Level 6           | Thu, 12 Mar           | Fri, 24 Apr       | 
+| Level 5           | Fri, 6 Mar            | Fri, 10 Apr       | 
+| Level 6           | Fri, 13 Mar           | Fri, 24 Apr       | 
 | Level 7           | Fri, 20 Mar           | Fri, 8 May        | 
 
 Note: If you'd like to take Data Processing in block 5, you will need to do the 4-week schedule in period 4 (after SP1), in order to leave enough time!
