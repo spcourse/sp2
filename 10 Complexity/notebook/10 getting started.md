@@ -1,5 +1,5 @@
 
-# Jupyter notebooks
+# Jupyter Notebooks
 
 For this assignment there will be a [Jupyter notebook](http://jupyter.org/)
 which you should use to answer some short questions about the material. These
@@ -13,7 +13,7 @@ First, follow the *Jupyter* installation instructions
 Download the notebook file for this assignment [here](module_5_questions.ipynb)
 (right-click and save).
 
-## Getting started
+## Getting Started
 
 In your terminal, navigate to the directory where you placed the file for the
 assignment and run the command
