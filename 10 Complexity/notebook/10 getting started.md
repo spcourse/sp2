@@ -7,8 +7,8 @@ notebooks allow a mixture of nicely formatted text, *Python* code and some
 tests. 
 
 First, follow the *Jupyter* installation instructions
-[here](https://jupyter.org/install). If you installed *Python* using Anaconda,
-you should use the *conda* option option to install Jupyter too.
+[here](https://jupyter.org/install). If you installed *Python* using
+*Anaconda*, you should use the `conda` option option to install Jupyter too.
 
 Download the notebook file for this assignment [here](module_5_questions.ipynb)
 (right-click and save).
@@ -36,7 +36,7 @@ descriptive at the top of the page.
 ## Complexity Questions
 
 Now open the downloaded notebook *module_5_questions.ipynb* by navigating to
-the correct folder in the browser and selecting the file. The rest of the
+the correct folder in your webbrowser and selecting the file. The rest of the
 assignment instructions will be in the notebook.
 
 Start by reading the part about *Notebook cells* and *Markdown*. Next, answer
@@ -44,7 +44,7 @@ the questions on the *Efficiency* section (which was the first part of this
 module) and write your answers in the code cells there.
 
 For each of the sections in Part 1, 2 and 3 of this module there will some
-corresponing question you should answer in this notebook. After completing a
-section, answer the question in this notebook and check your answers, before
+corresponing question you should answer in the notebook. After completing a
+section, answer the question in the notebook and check your answers, before
 moving on to the next section.
 
