@@ -8,7 +8,7 @@ tests.
 
 First, follow the *Jupyter* installation instructions
 [here](https://jupyter.org/install). If you installed *Python* using
-*Anaconda*, you should use the `conda` option option to install Jupyter too.
+*Anaconda*, you should use the `conda` option option to install *Jupyter* too.
 
 Download the notebook file for this assignment [here](module_5_questions.ipynb)
 (right-click and save).
