@@ -4,11 +4,13 @@
 For this assignment there will be a [Jupyter notebook](http://jupyter.org/)
 which you should use to answer some short questions about the material. These
 notebooks allow a mixture of nicely formatted text, *Python* code and some
-tests. 
+tests.
 
-First, follow the *Jupyter* installation instructions
-[here](https://jupyter.org/install). If you installed *Python* using
-*Anaconda*, you should use the `conda` option option to install *Jupyter* too.
+First, you should use the `conda` option option to install *Jupyter* too:
+
+    conda install -c conda-forge jupyterlab
+
+If you didn't install *Python* using *Anaconda*, follow the *Jupyter* installation instructions [here](https://jupyter.org/install).
 
 Download the notebook file for this assignment [here](module_5_questions.ipynb)
 (right-click and save).
@@ -17,7 +19,7 @@ Download the notebook file for this assignment [here](module_5_questions.ipynb)
 
 In your terminal, navigate to the directory where you placed the file for the
 assignment and run the command
-    
+
     jupyter notebook
 
 This will print some information about the *Notebook* server in your console,
@@ -47,4 +49,3 @@ For each of the sections in Part 1, 2 and 3 of this module there will some
 corresponing question you should answer in the notebook. After completing a
 section, answer the question in the notebook and check your answers, before
 moving on to the next section.
-
