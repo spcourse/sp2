@@ -104,7 +104,7 @@ recent words and the current words in the index, so the next step would be
 adding each of these pairs separately to the index.
 
 The program should add each of these pairs of the current word and the 5 most
-recent words the index, meaning there should actually be 5 pairs added to the
+recent words to the index, meaning there should actually be 5 pairs added to the
 index for every word processed. Write the code that will add all these recent
 pairs of words to the index. Store each pair of words together in the index in
 a way that you can easily search for that same pair of words again. Remember,
