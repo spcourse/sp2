@@ -1,5 +1,0 @@
-name: survival
-files:
-    required:
-        - pandas.ipynb
-        - survival.ipynb
