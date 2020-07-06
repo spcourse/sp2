@@ -1,0 +1,13 @@
+Introduction: .
+"Part 1: Functional Programming":
+    Functional programming (reading): functional-programming
+    Functional programming (assignment): functional
+"Part 2: Create a new Python package":
+    Packages (reading): packages
+    Packages (assignment): package
+"Part 3: Natural language processing":
+    Tokenize (assignment): tokenize
+    Unigrams (assignment): unigrams
+    Bigrams (assignment): bigrams
+"Submit":
+    Submit your code: submit
