@@ -1,0 +1,17 @@
+Introduction: .
+"Part 1: Learn about computational complexity":
+    Efficiency: efficiency
+    Notebook questions (assignment): notebook
+"Part 2: Data structures and their efficiency":
+    Dictionaries: dictionaries
+    Tuples: tuples
+    Sets: sets
+    List slicing and indexing: slicing
+"Part 3: How to write efficient code":
+    Applying big O in your code: application
+    Improving count_occurrence: example
+"Part 4: Write your own efficient code":
+    Indexing words (assignment): word-index
+    Indexing pairs (assignment): pair-index
+"Submit":
+    Submit your code: submit
