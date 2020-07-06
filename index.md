@@ -1,6 +1,6 @@
-# Scientific Programming 2<br><small>Syllabus</small>
+# Scientific Programming 2
 
-University of Amsterdam / Programming Lab / 50621SCP3Y / Version 4.0-beta
+## Syllabus<br><small>Fall 2020</small>
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This second part is intended for students who already followed Scientific Programming 1.
 
