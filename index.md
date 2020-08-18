@@ -7,51 +7,53 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 ## Staff
 
 Simon Pauw (teacher)  
-Marleen Rijksen (teacher)  
+Natasja Wezel (teacher)  
 Martijn Stegeman (editor)
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
 
 ## What to do
 
-Your entry to the course is the [Modules](/modules) page. Here we have linked all modules (levels) that you have to complete.
+Your entry to the course is the sidebar, where you can leaf through all modules (levels) that you have to complete.
 
 ## Passing the course
 
 The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
 
 - you have submitted a fully working solution for each module
-- you must pass the final exam 
+- you must pass the final exam
 
 ## Deadlines
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Semester 2**
+**Start block 1**
 
-| Finish course in: | 4 weeks (block 4)     | 8 weeks (block 5) | 
-| ----------------- | --------------------- | ----------------- | 
-| Level 5           | Tue, 10 Mar           | Fri, 10 Apr       | 
-| Level 6           | Tue, 17 Mar           | Fri, 24 Apr       | 
-| Level 7           | Tue, 24 Mar           | Fri, 8 May        | 
+| Finish course in: | 4 weeks (block 1, week 5-8) | 8 weeks (block 1, week 1-8) | 16 weeks (block 1, week 1-16) |
+| ----------------- | --------------------------- | --------------------------- | ----------------------------- |
+| Level 5           | Tue, 6 Oct                  | Fri, 11 Sep                 | Fri, 2 Oct                    |
+| Level 6           | Tue, 13 Oct                 | Fri, 25 Sep                 | Fri, 6 Nov                    |
+| Level 7           | Tue, 20 Oct                 | Fri, 9 Oct                  | Fri, 4 Dec                    |
 
-Note: If you'd like to take Data Processing in block 5, you will need to do the 4-week schedule in period 4 (after SP1), in order to leave enough time!
 
-**Semester 1**
+**Start block 2**
 
-The deadlines for period 2:
+| Finish course in: | 8 weeks (block 1, week 9-16) |
+| ----------------- | ---------------------------- |
+| Level 5           | Fri, 6 Nov                   |
+| Level 6           | Fri, 20 Nov                  |
+| Level 7           | Fri, 4 Dec                   |
 
-* Level 5: Friday, November 8
-* Level 6: Friday, September 22
-* Level 7: Friday, December 6
+
+Note: If you'd like to take Data Processing in block 2, you will need to do the 4-week schedule in period 1 (directly after SP1), in order to leave enough time!
 
 ## Exam
 
 There are multiple opportunities to take the exam, depending on the schedule you follow.
 
-**Semester 2**
-* Monday, 30 March
-* Monday, 25 May
+**Semester 1**
+- Tuesday, 20 October
+- Tuesday, 14 December
 
 ## Asking questions
 
@@ -153,7 +155,7 @@ BSc programme. Find them here in [English] and [Dutch].
 
 ## Acknowledgements
 
-This course has been designed by Martijn Stegeman, Simon Pauw, Tim Doolan, and Ivo van Vulpen.
+This course has been designed by Martijn Stegeman, Simon Pauw, Tim Doolan.
 
 This work is partially based on many great programming resources that have been published as Open Courseware under a [Creative Commons license](https://creativecommons.org). The resulting work itself is also published under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Feel free to re-use! If you would like to use the work commercially, please send an e-mail for arranging a license.
 
