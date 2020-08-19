@@ -3,7 +3,7 @@
 
 For this last assignment you will extend the indexing program from the previous
 assignment, so it can support a more interesting type of search. You should
-keep working with the same files as before, but now you should work on the
+keep working with the same text files as before, but now you should work on the
 `pair_index.py` file.
 
 Looking for individual words can already tell you quite a lot about where to
@@ -23,7 +23,7 @@ two, independent of the order in which the words appeared.
 
 ### Example
 
-Lets take a look at an example. Below are 6 lines from *On the Origin of
+Lets take a look at a specific example. Below are 6 lines from *On the Origin of
 Species*, with the original line number added at the start of each line. We'll
 look specifically at the pair of words *"varieties"* and *"species"* for this
 small bit of sample text.
@@ -36,7 +36,7 @@ small bit of sample text.
 
 The word varieties occurs twice, marked by `[V_]`, and the word species occurs
 3 times, marked by `[S_]`. Running the indexing of the pairs on this text
-would result in 3 matches with 5 words of each other:
+would result in 3 matches within 5 words of each other:
 
 * V1 and S1, distance 5 words, matched at line 13671
 * S2 and V2, distance 4 words, matched at line 13673
@@ -46,7 +46,7 @@ A couple of things to note here. First, it doesn't matter if the words are on
 the same line like `V1` and `S1`, on seperate lines like `S2` and `V2`, or even
 in separate paragraphs like `V2` and `S3`. Only the distance between the
 matched words counts. Secondly, it might seem like the distance between words
-are too small, but remember that stopwords are ignored in the distance too.
+is too small, but remember that stopwords are ignored in the distance too.
 *"These"*, *"are"*, *"on"*, *"the"*, *"of"* and *"each"* are all stopwords, so
 the effective distance between `V1` and `S1` is only 5 words. Lastly, the same
 word can be a part of multiple matches, like here `V2` matches with both `S2`
@@ -64,63 +64,80 @@ words *"varieties"* and *"species"* should therefore give exactly 3 matches:
 
 ### Building the index
 
-This pair indexing system will become a separate Python program. A similar
-starting template has been provided in `pair_index.py`. Some of the
-functionality of the pair indexing program will be exactly the same as for the
-single word index. These functions are listed under the section *Old
+This pair indexing system will become a separate Python program. A starting
+template similar to `word_index.py` has been provided in `pair_index.py`. Some
+of the functionality of the pair indexing program will be exactly the same as
+for the single word index. These functions are listed under the section *Old
 functions* and they can be copied from your `word_index.py` solution verbatim.
 Start by adding your solution for these 3 functions to the file.
 
 Next up is writing the function `build_pair_index()`, which should return an
-index similar to your old `build_index()` function, but be searchable by word
-pairs. Building an indexing system for word pairs can be a little more
-tricky, so we'll provide you with some hints on how to proceed.
+index similar to your old `build_index()` function, but searchable by word
+pairs, where a word pair is a tuple: `(word_1, word_2, line_number)`. Building
+an indexing system in which you can search for word pairs can be a little
+tricky, so we will guide you through the steps.
 
-A good starting point would be a list of words that were *recently* added to
-the index, so you can efficiently find what words are close to the current
-word. When you index a new word, you can append it to that recent word list and
-remove the least recent word at at the front of the list (which is now no
-longer *recent*). This might look something like:
+Eventually, your function should return a list of every pair of words that is
+in the text with a `recency_size` maximum number of words in between. Let's say
+that we are currently looking at a word in the middle of the text, which we will
+call `current_word`, and that `recency_size=5`, which means that we will take
+into account any word that has occurred in the last five words. This means that
+there should actually be five pairs added to the index for every word processed.
 
-    recent_words.append(word)
+Before we can add these pairs to our big list of words, we would need to know
+what the five most recent words are. A good method of tracking these words as we
+go is by creating a secondary list `recent_words` that is updated as we go. When
+you index a new word, you can append it to that recent word list and remove the
+least recent word at at the front of the list (which is now no longer *recent*).
+This might look something like:
+
+    recent_words.append(current_word)
     if len(recent_words) > recency_size:
         recent_words.pop(0)
 
+Essentially, we are making a queue of words that holds a maximum of
+`recency_size` words. The function `.pop(0)` removes the element at position `0`
+(i.e. the front) from the list. The `if` statement allows the list of recent
+words to fill up as the program is reading the first couple of words in the
+book. Once the recent words list is full, you'll want to remove the least recent
+element from the front of the list.
 
-The function `.pop(0)` removes the element at position `0` (i.e. the front)
-from the list. The `recency_size` parameter specifies how many words back you
-still want to consider as recent, and has a default value of 5. The `if`
-statement allows the list of recent words to fill up as the program is reading
-the first couple of words in the book. Once the recent words list is full,
-you'll want to remove the least recent element from the front of the list.
+Start your function by copying your `build_index()` function. It should already
+use the `read_gutenberg_file()` which converts and filters the words from the
+`filename`-file. Use the code above to integrate a list of `recent_words`, and
+test it before continuing. At this point your code should read words from a file
+as a list of tuples, get a `current_word` from this list, add the word to your
+index, at the end of a loop add it to a list of `recent_words`, and finally
+after the main loop return the index. It is essential that your `current_word`
+is not added to the `recent_words` list before adding the word to the index.
 
-You can now use the `read_gutenberg_file()` function (which already converts
-and filters the words from the file), and some of the `recent_words` code above
-to start writing the `build_pair_index()` function. At this point your code
-should have a list of recent words and a current word (which should *not* have
-been added to recent words list yet), ready to be added to index. When the
-index is done, it should be possible to find each combination of the these
+Now, instead of just adding the word to the index, we should add each possible
+word pair to the index. Remove your code adding just one word to the index, and
+replace it by a for-loop that goes over each of the entries in `recent_words`.
+When the index is done, it should be possible to find each combination of the
 recent words and the current words in the index, so the next step would be
 adding each of these pairs separately to the index.
 
-The program should add each of these pairs of the current word and the 5 most
-recent words to the index, meaning there should actually be 5 pairs added to the
-index for every word processed. Write the code that will add all these recent
-pairs of words to the index. Store each pair of words together in the index in
-a way that you can easily search for that same pair of words again. Remember,
-the line number you add for each pair should always be the line number of the
-most recent (i.e. current) word.
+The program should add each of these pairs of the `current_word` and each of the
+`recent_words` to the index. This means that, using default values, there should
+be five pairs added to the index for every word processed. (Note that this is
+not true for the first five words, as there are not five most recent words.)
+Write the code that will add all these recent pairs of words to your index.
+Store each pair of words together in the index in a such way that you can easily
+search for that same pair of words again. Remember, the line number you add for
+each pair should always be the line number of the  `current_word`.
 
 Something to note while building your index is that order of these words in the
 pair will most likely matter when trying to find that pair back. Your program
-should however return line numbers of matches, independent of the order these
-words occur in. The easiest solution would be to add *two* pairs, in the two
-different orders, but that would double the number of pairs in the index.
-Another solution might be to *sort* the two words alphabetically and then
-ensure you always search for them in that same alphabetical order. You may
-implement either solution for this.
+should however return a line number for each match, independent of the order
+the words of a match occur in. You can fix this after implementing adding the
+pairs to your index. The easiest solution would be to add *two* pairs, in the
+two different orders, but that would double the number of pairs in the index.
+Another solution might be to *sort* the two words alphabetically and then ensure
+you always search for them in that same alphabetical order. You may implement
+either solution for this.
 
-Lastly, the `search_pair_index()` function will need to be completed. The input
+Finally, the `search_pair_index()` function will need to be completed. The input
 will be handled similarly as for `search_index()`, except that the user should
 now type 2 words as input, separated by space. These 2 words are then passed to
 `search_pair_index()`, together with the index you constructed. Search for
@@ -141,7 +158,7 @@ words of each other in a book. Complete the functions `read_stopwords()`,
 
 Test you program by running
 
-```python 
+```python
 pair_index.py darwin_origin_of_species.txt
 ```
 
@@ -161,6 +178,11 @@ Lastly, compare the program to the example given before. Search for the words
 *"species"* and *"varieties"*, which should give many matches in the book.
 Starting from line 13670, there should be exactly 3 matches; 13671, 13673 and
 13675, corresponding the matches from the 6 example lines shown earlier.
+
+If it is difficult to find these or other occurences specifically, you may want
+to create a file that only has this piece of text, or your own version of a
+piece of text, such that you can test it in isolation. Remember to include
+`*** START` and `*** END` in these files, or the program will not start reading!
 
 ### Question 3
 
@@ -201,4 +223,3 @@ The steps here will involve some more difficult operations, but try and still
 think about how to solve each of these *efficiently*. Specifically, finding the
 overlapping pairs between the books and finding which of these pairs are the
 most common between the books should be done efficiently.
-
