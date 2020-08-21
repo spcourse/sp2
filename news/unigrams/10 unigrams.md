@@ -8,12 +8,12 @@ Write a program called `classify_unigram.py` that can determine relevant categor
 
 The directory `articles` contains an article called `cooking veggies` from HuffPost on the question: is better to cook vegetables or eat them raw? The tool you're going to write should be able to determine the topics of this article:
 
-    # python classify_unigram.py "articles\cooking veggies.txt"
-    FOOD & DRINK             2323
-    TASTE                    2157
-    WELLNESS                 1449
-    HEALTHY LIVING           1172
-    SCIENCE                  1041
+    $ python classify_unigram.py "articles\cooking veggies.txt"
+    FOOD & DRINK        3679
+    TASTE               3361
+    WELLNESS            2103
+    HEALTHY LIVING      1606
+    GREEN               1451
 
 As you can see, the location of the text file is provided by the first command line argument. The output are the top five categories related to the article. The scores reflect how related the categories are (higher = better).
 
@@ -48,14 +48,32 @@ Using the scores in the word list above you can compute the total score for a ca
 
 In general, the total category score for an article given a category is computed by looking up all the words of the article in the category unigram list and adding up all the scores. If a word is not in the unigram list, the score is assumed to be 0.
 
+Note that the scores you get might not align with the example given above, as your tokenize might result in a slightly different wordlist. *This is okay.* In stead of comparing your scores to the scores listed above, it might be better to create your own short article (a couple of words) such that you can check your results manually.
+
 ## Specification
 
 * Create a program called `classify_unigram.py` that can read a text file provided as command line argument.
 * Read and tokenize the text file.
 * Read the unigram files and store the data in dictionaries.
-* Use the unigram dictionaries and the tokenized text to compute the total category score for every category. Don't use any `for`-loops for *this* step, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
+* Use the unigram dictionaries and the tokenized text to compute the total category score for every category. Don't use any `for`-loops for *this* step, instead use the functions `my_map`, `my_filter`, and `my_reduce`. (Which of course contain loops themselves.)
 * Print a sorted list with the 5 highest scoring categories for the text. (The formatting should be the same as shown above.)
 
 ### Tips
 
 * If you cannot figure out how to avoid using a loop, write the program with loops first. Try to replace them with  `my_map`, `my_filter`, and `my_reduce `later.
+* You are allowed to use a loop to go over the different categories.
+* You will face a problem in using the `my_map` and `my_filter` functions, where you need to pass it both a dictionary and an element, while both `my_map` and `my_filter` only accept one variable. There is a couple of ways that you can deal with this. One way is the use of lambda functions, while the other is to create a local function. Let's say that we have a list containing numeric data and a list containing numbers to multiply that data by:
+
+    data_list = [1, 2, 3, 4]
+    multiply_list = [12, 23, 34]
+
+    for multiplier in multiply_list:
+        results_lambda_function = my_map(lambda x: x * multiplier, data_list)
+
+        def multiply(x):
+            return x * multiplier
+
+        results_local_function = my_map(multiply, data_list)
+
+  Essentially, in both solutions, we create some local scope wherein our second variable is set as we create a function. This way, every loop, we create a "new" function that only has one input variable, but that will always use our second variable as a multiplier. In your case, this set variable will be a dictionary concerning a specific category, while the other (free) variable is a tokenized word.
+  

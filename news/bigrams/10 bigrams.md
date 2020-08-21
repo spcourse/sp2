@@ -29,11 +29,22 @@ The directory `bigrams` in `data` contains list of scored bigrams for every cate
     ireland,is,12
     ...
 
-In this example the bigram 'lonely planet' has a score of 17 for the category `travel`, and the bigram `airline industry` has a score of 10.
+In this example the bigram `lonely planet` has a score of 17 for the category `travel`, and the bigram `airline industry` has a score of 10.
+
+Running the bigram program should result in something like this:
+
+    $ python classify_bigram.py "articles\cooking veggies.txt"
+    FOOD & DRINK        1935
+    WELLNESS            1572
+    TASTE               1378
+    HEALTHY LIVING      1177
+    SCIENCE             811
+
+Note that the scores you get might not align with the example given above, as your tokenize might result in a slightly different wordlist. *This is okay.* In stead of comparing your scores to the scores listed above, it might be better to create your own short article (a couple of words) such that you can check your results manually.
 
 ## Specification
 
-* Create a program called `classify_unigram.py` that can read a text file provided as command line argument.
+* Create a program called `classify_bigram.py` that can read a text file provided as command line argument.
 * Read and tokenize the text file.
 * Read and the bigram files and store the data in dictionaries.
 * Use the bigram dictionaries and the tokenized text to compute the total category score for every category. Don't use any `for`-loops for *this* step, instead use the functions `my_map`, `my_filter`, and `my_reduce`.
@@ -44,9 +55,9 @@ In this example the bigram 'lonely planet' has a score of 17 for the category `t
 
 * You will need to start with creating a bigram list for every article. You are allowed to use a for loop for this. But, if (in the spirit of this assignment) you would like to avoid using a loop, you can use the function `zip()` in python (together with some very clever list-slicing) to achieve the same. It combines two lists into one:
 
-        >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
-        >>> print(zipped_list)
-        [('a', 'X'), ('b', 'Y'), ('c', 'Z')]
+    >>> zipped_list = list(zip(['a', 'b', 'c'], ['X', 'Y', 'Z'])
+    >>> print(zipped_list)
+    [('a', 'X'), ('b', 'Y'), ('c', 'Z')]
 
 ## Cleanup
 

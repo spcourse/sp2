@@ -180,3 +180,9 @@ Method 4, map and lambda:
         return map(lambda s: s.isupper(), t)
 
 So, which is better? That depends on the goal, personal taste, and context. I tend to prefer functional solutions because the resulting code looks cleaner. But I tend to avoid lambda functions because they don't help the readability of the code. So in this case I would probably opt for method 3. But there are many good arguments to make for the other methods. The most important is to be consistent. Try to choose one style of programming and stick to it throughout the project.
+
+## Notes on MapReduce
+
+> MapReduce is a programming paradigm used in many programming libraries to enable users to apply functions to large swathes of data at once. Since it basically provides a general strategy for split-apply-combine, it enables the library to apply the function in parallel, thereby increasing efficiency by solving parts of the task at the same time before combining results. You will come by multiple Python libraries that utilize it in the future.
+
+> As a distributed computing paradigm, an even more extreme variant of MapReduce was applied by Google (before 2014), where it was (among other things) used to index the large amount of online documents in it's database to enable quick search. This involves splitting the dataset, dividing it over many servers, applying a map function on each partition of the data, a shuffle phase wherin servers redistribute data based on outputs, and then reducing each group of keys.

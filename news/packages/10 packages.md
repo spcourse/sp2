@@ -195,7 +195,7 @@ Run `$ pydoc my_string_package` (from the `my project` directory):
     FILE
         [some path]\my_string_package\__init__.py
 
-As you can see it `pydoc` automatically generated some information about our package. We get the name of the package, the sub-modules ( `conversions` and `manipulations`), and the location of the package. Type `q` to exit `pydoc`. 
+As you can see it `pydoc` automatically generated some information about our package. We get the name of the package, the sub-modules ( `conversions` and `manipulations`), and the location of the package. Type `q` to exit `pydoc`.
 
 We can even inspect the sub-modules themselves.
 
@@ -311,11 +311,23 @@ Run `$ pydoc my_string_package.manipulations`:
 
 We should still add documentation to `conversions.py` and, of course, normally you would try to make the documentation a bit more helpful than in this example, but I suppose you get the point by now.
 
-## Readme and license
+## README and LICENSE
 
 We only documented the `my_string_package` package above. It is good practice to always document every function you write and every python file you create, even if it is not part of a package.
 
-When you publish your project you also typically add at least a license and a readme file to the root of your project. The license file is a text file called LICENSE. It is best to stick to existing license texts (you can find an overview [here](https://choosealicense.com/)). The readme file is typically a markdown file called README.md. Markdown is a simple markup language that is made popular by the code-sharing platform [GitHub](https://github.com). If you're interested in learning Markdown you can find more information [here](https://www.markdownguide.org/).  
+When you publish your project you also typically add at least a LICENSE and a README file to the root of your project. The LICENSE file is a text file called `LICENSE`. It is best to stick to existing LICENSE texts (you can find an overview [here](https://choosealicense.com/)).
+
+The README file is typically a markdown file called `README.md`. Markdown is a simple markup language that is made popular by the code-sharing platform [GitHub](https://github.com). If you're interested in learning Markdown you can find more information [here for an explanation](https://www.markdownguide.org/) or [here for an interactive tutorial](https://commonmark.org/help/). A README should be a text file that introduces and explains a project. It contains information that is commonly required to understand what the project is about. It's an easy way to answer questions that your audience will likely have regarding how to install and use your project, and also how to collaborate.
+
+A README should at least contain:
+- A name for the project
+- A description of the project
+- An explanation of the project contents and structure
+- The name of the author
+
+But it is common to see other stuff as well. Take a look at the GitHub of your favorite Python modules and see if there is more that you would like to add. [This website](https://www.makeareadme.com/) offers a basic template and some hints.
+
+## Structure
 
 Once you added all these documents you should wind up with a minimal project structure that looks something like this:
 
