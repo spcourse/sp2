@@ -5,7 +5,9 @@ Introduction: .
 "Part 2: Create a new Python package":
     Packages (reading): packages
     Packages (assignment): package
-"Part 3: Natural language processing":
+"Part 3: File I/O":
+    File I/O (reading): file-io
+"Part 4: Natural language processing":
     Tokenize (assignment): tokenize
     Unigrams (assignment): unigrams
     Bigrams (assignment): bigrams
