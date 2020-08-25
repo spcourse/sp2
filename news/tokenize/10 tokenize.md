@@ -31,12 +31,18 @@ Implement a program called `list_words.py` that generates a list of all the word
 * After importing the module `string`, it is possible to get a list of every common type of punctuation in the variable `string.punctuation`. This variable contains: ``'!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'``. The same can be done for whitespace with `string.whitespace`, and digits with `string.digits`.
 * The variable `sys.argv` is a list containing the command line arguments. Lets, for example, say that the file `test.py` contains the following code:
 
-    ```python
-    import sys
-    print(sys.argv[1])
-    ```
 
-  Then running `python test.py "Hello, world!"` should produce the output `Hello, world!`.
+    import sys
+    print(f'Number of arguments: {sys.argc}')
+    print(f'Arguments: {sys.argv}')
+    print(sys.argv[1])
+
+
+  Then running `python test.py "Hello, world!"` should produce the output:
+
+    Number of arguments: 2
+    Arguments: ['test.py', 'Hello, World!']
+    Hello, World!
 
 Ultimately, you should check whether results are reasonable yourself. There might be some characters that you have to add to your "stripping" methods manually. Data cleaning code is always a bit messy and most of the time has a lot of problem-specific additions, but try to keep it nice and organized. Comment your code whereever it has these problem-specific additions and create functions where necessary.
 
