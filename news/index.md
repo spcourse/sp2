@@ -6,23 +6,29 @@ A secondary goal of this module is to focus a bit more on program design and sty
 
 #### Part 1: Functional Programming
 
-1. Learn about functional programming: [functional programming](/news/functional-programming)
+1. Learn about [functional programming](/news/functional-programming)
 
 2. <span class="badge badge-primary">Assignment</span> Implement the functions `map`, `filter`, and `reduce`: [map](/news/functional)
 
-#### Part 2: Create a new Python package
+#### Part 2: Create a your own Python package
 
-3. Learn how to create new Python packages: [packages](/news/packages)
+3. Learn how to create your own [Python packages](/news/packages)
 
-4. <span class="badge badge-primary">Assignment</span> Make a new package called `functional` based on the functions from Part 1: [create functional package](/news/package)
+4. <span class="badge badge-primary">Assignment</span> Make your own package called `functional` based on the functions from Part 1: [create functional package](/news/package)
+
+#### Part 3: File I/O and `os`
+
+5. Learn about [reading and writing files](/news/file-io)
+
+6. Learn about [the `os` library](/news/operating-system-interfaces)
 
 #### Part 3: Natural language processing
 
-5. <span class="badge badge-primary">Assignment</span> Split a text into separate words: [news](/news/tokenize)
+7. <span class="badge badge-primary">Assignment</span> Split a text into separate words: [news](/news/tokenize)
 
-6. <span class="badge badge-primary">Assignment</span> Classify a text based on single words: [news](/news/unigrams)
+8. <span class="badge badge-primary">Assignment</span> Classify a text based on single words: [news](/news/unigrams)
 
-7. <span class="badge badge-primary">Assignment</span> Classify a text based on word combinations: [news](/news/bigrams)
+9. <span class="badge badge-primary">Assignment</span> Classify a text based on word combinations: [news](/news/bigrams)
 
 ### Submitting
 
