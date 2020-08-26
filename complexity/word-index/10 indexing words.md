@@ -7,7 +7,8 @@ formats available for each book, but easiest to process will definitely be
 the assignment, but feel free to download some other books and use those to
 test your system with instead.
 
-Download the assignment files [here](module_5.zip).
+Download the assignment files [here](module_5.zip). Unzip the module into your
+working directory.
 
 Open one of the downloaded books and take a look at the format. Note that these
 books do not contain any page numbers, but are just line after line filled with
@@ -108,7 +109,7 @@ using input. Complete the functions `build_index()`, `search_index()` and
 ### Testing your program
 
 Now it is time to test your indexing and searching functions! Run the program
-by typing 
+by typing
 
 ```
 python word_index.py darwin_origin_of_species.txt
@@ -156,4 +157,3 @@ that is searched in `user_input_search()` to be that functions input size
 
 What is the complexity of the `user_input_search()` function in terms of **N**
 and **M**? Explain your answer.
-

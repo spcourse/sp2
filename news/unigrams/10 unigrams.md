@@ -8,14 +8,14 @@ Write a program called `classify_unigram.py` that can determine relevant categor
 
 The directory `articles` contains an article called `cooking veggies` from HuffPost on the question: is better to cook vegetables or eat them raw? The tool you're going to write should be able to determine the topics of this article:
 
-    $ python classify_unigram.py "articles\cooking veggies.txt"
+    $ python classify_unigram.py "articles/cooking veggies.txt"
     FOOD & DRINK        3679
     TASTE               3361
     WELLNESS            2103
     HEALTHY LIVING      1606
     GREEN               1451
 
-As you can see, the location of the text file is provided by the first command line argument. The output are the top five categories related to the article. The scores reflect how related the categories are (higher = better).
+As you can see, the location of the text file is provided by the first command line argument. The output are the top five categories related to the article. The scores reflect how related the categories are (higher = more correlated).
 
 ## Data
 

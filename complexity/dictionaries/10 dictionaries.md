@@ -22,7 +22,7 @@ want to store its Spanish translation:
 	Yes         :   Si
 	No          :   No
 	Please      :   Por favor
-	Thank you   :   Gracias 
+	Thank you   :   Gracias
 
 Here the English words are the keys and we can easily look up their Spanish
 translation in the dictionary.
@@ -117,7 +117,7 @@ We can also explicitly ask if a key is present in the dictionary using `in`
 
     >>> if 'banana' in basket:
     ...   print("We've got bananas!")
-    ... 
+    ...
     We've got bananas!
 
 This works exactly the same way as it does for lists, *with 1 important
@@ -125,8 +125,9 @@ difference.* Using `in` on a list will search through the entire list, and so
 this will actually take longer to complete as more elements are added to the
 list, because it is actually an $$O(N)$$ operation. As stated in the
 introduction, dictionaries are not just convenient to use, but also very
-efficient. In fact, they are so efficient that searching in a dictionary is an
-$$O(1)$$ operation. This means the search will take approximately the
+efficient. In fact, they are so efficient that searching in a dictionary in
+practice almost always is is an $$O(1)$$ operation (in very improbable cases,
+the big $O$ might be $O(N)$). This means the search will take approximately the
 same time if the dictionary contains 1 or **1 million** elements!
 
 This is a *strange and counter-intuitive* fact, and why this is true is well
@@ -169,7 +170,7 @@ We can even use the `items` function to easily loop over both
 
     >>> for fruit, amount in basket.items():
     ...   print(fruit, amount)
-    ... 
+    ...
     apple 6
     orange 2
     strawberry 10

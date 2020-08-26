@@ -26,8 +26,9 @@ saw
   allow for $$O(1)$$ complexity indexes, e.g. `t[5]`, but where many
   other operations like searching with `in` or cutting with slicing actually
   has $$O(N)$$ complexity.
-* Lastly, tuples are *immutable*,  so they can *hashed*, meaning  the can be used in sets or as
-  dictionary keys. Lists are *mutable* and thus they *cannot* be *hashed*.
+* Lastly, tuples are *immutable*, and can *hashed*, meaning they can be used in
+  sets or as dictionary keys. Lists are *mutable*, not hashable, and thus they
+  *cannot* be *hashed*.
 
 ## Combining complexities
 
@@ -61,7 +62,7 @@ retrieval, an addition and a return. You might therefore argue that the
 complexity of this function should be $$O(4)$$, but the constant factor
 of 4 can be dropped and the complexity simplified back to $$O(1)$$.
 
-This is because for the complexity class we are only interested how the amount 
+This is because for the complexity class we are only interested how the amount
 of computations *changes* with the size of the input. The amount of computations
 here is completely independent on the size of `input_list,`and so will not change
 if the `input_list`gets larger by *any* factor. Whether the fixed amount of
@@ -141,10 +142,10 @@ the function that would count how often each element occurred in the input.
 				# If the elements match, increase the count by 1
 				if elem_1 == elem_2:
 					c += 1
-			
+
 			# After comparing to all the elements in the list, add the count
 			counts.append(c)
-		
+
 		# Return the list of counts for each element
 		return counts
 

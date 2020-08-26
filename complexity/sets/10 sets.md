@@ -50,7 +50,7 @@ if an element is in a set is also a constant time $$O(1)$$ operation.
 
 So no matter how many elements in the set, checking if elements are present
 will be fast. The fact that sets work with hashing, means that they can also
-only contain immutable elements, so we we cannot add a list as an element:
+only contain hashable elements, so we we cannot add a list as an element:
 
 	>>> s.add([3, 4])
 	Traceback (most recent call last):

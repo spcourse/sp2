@@ -1,5 +1,7 @@
 # Functional programming
 
+Functional programming is the process of building software by composing so-called "pure" functions. These functions avoid having interactions outside of their own scope and as such have no side-effects. All these functions do, is somehow transform an input into an output. We will discuss some higher-order functions that abide by the principles of functional programming that can be used to manipulate lists.
+
 When manipulating lists, we often find ourselves writing more or less the same code in different applications. In fact most list operations can be categorized in three main patterns: *map*, *filter* and *reduce*. Here, we will discuss those patterns one by one and understand their use cases.
 
 > Note that in the examples below the functions `my_map`, `my_filter` and `my_reduce` do not exist. Those are purely hypothetical examples.

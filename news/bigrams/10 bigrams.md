@@ -33,7 +33,7 @@ In this example the bigram `lonely planet` has a score of 17 for the category `t
 
 Running the bigram program should result in something like this:
 
-    $ python classify_bigram.py "articles\cooking veggies.txt"
+    $ python classify_bigram.py "articles/cooking veggies.txt"
     FOOD & DRINK        1935
     WELLNESS            1572
     TASTE               1378
