@@ -32,9 +32,9 @@ through large collections of text fast, so it should also be *efficient*.
 
 #### Part 3: How to write efficient code
 
-7. Apply big O in your own code: [application](/complexity/application)
+7. Apply big O in your own code: [application](/complexity/big-o)
 
-8. Improving the `count_occurrence()` function: [example](/complexity/example)
+8. Improving the `count_occurrence()` function: [example](/complexity/big-o-example)
 
 #### Part 4: Write your own efficient code
 
