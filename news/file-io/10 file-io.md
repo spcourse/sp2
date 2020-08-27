@@ -1,5 +1,20 @@
 # Reading, writing, and finding files; file I/O
 
+The following code will open a file and print every line:
+
+with open('some_file.txt', 'r') as f:
+    for line in f:
+        print(line, end='')
+
+This will `open` `'some_file.txt'` in read mode (`'r'`), and assign it to the variable named `f`. Then, a for loop loops over every `line` in the file by finding the line endings indicated by `'\n'`. This `'\n'` is included in the variable `line`. The function print always adds a newline (another `\n`) when printing, unless we pass it `end=''`, which will make it add an empty string at the end. Let's say our file is set up as follows:
+
+    'This is the first line of the file.\n Second line of the file.\n'
+
+Then our program would output:
+
+    This is the first line of the file.
+    Second line of the file.
+
 Throughout coming exercises and in future projects you will come across many situations where you need to read data from a file. In this writeup we will introduce you to some of the basics of reading, writing, and finding files using Python.
 
 > All information that is in a box like the one this text is in, is advanced information which you can read if you want to know more about the methods.
