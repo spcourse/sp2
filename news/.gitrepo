@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/spcourse/news.git
 	branch = main
-	commit = 3d5d0d6d45ac3ce28290ac27c806a220165dedfa
-	parent = fd7e27779163be274c2bee689601b1c3fbb42209
+	commit = 39867445e467517fc29ab5473b309c85d4131dab
+	parent = d9bc6f43d79c3682ffdffcd61bd752f1926729ff
 	method = merge
 	cmdver = 0.4.1
