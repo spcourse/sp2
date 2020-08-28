@@ -6,9 +6,13 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 ## Staff
 
-Simon Pauw (teacher)  
-Natasja Wezel (teacher)  
-Martijn Stegeman (editor)
+Simon Pauw
+
+Natasja Wezel
+
+Kiki van Rongen
+
+Martijn Stegeman
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
 
@@ -22,6 +26,19 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 - you have submitted a fully working solution for each module
 - you must pass the final exam
+
+## Asking questions
+
+In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
+
+- The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+- If you cannot solve the problem through Ed, you can plan a [Zoom](...) meeting with someone of our staff.
+
+Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
+
+| Mon           | Tue           | Wed           | Thu           | Fri           |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 |
 
 ## Deadlines
 
@@ -52,6 +69,7 @@ Note: If you'd like to take Data Processing in block 2, you will need to do the 
 There are multiple opportunities to take the exam, depending on the schedule you follow.
 
 **Semester 1**
+
 - Tuesday, 20 October
 - Tuesday, 14 December
 
