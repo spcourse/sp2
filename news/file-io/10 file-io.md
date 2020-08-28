@@ -33,7 +33,7 @@ _The rest of the examples assume that there is some variable `f` that holds an o
 
 ## File encodings
 
-When using `open()`, it is possible to pass an optional parameter named `encoding`. This parameter can be set to one of the various text-encoding codecs that is available in Python. These codes define how the bits and bytes in the file should be enterpreted as strings.
+When using `open()`, it is possible to pass an optional parameter named `encoding`. This parameter can be set to one of the various text-encoding codecs that is available in Python. These codes define how the bits and bytes in the file should be interpreted as strings.
 
     f = open('some_file.txt', 'r', encoding='utf-8', errors='replace')
 
