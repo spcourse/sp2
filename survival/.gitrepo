@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/spcourse/survival.git
+	branch = main
+	commit = bc6a38e5e02958b58cdc3495c8c73c16b7f02b57
+	parent = 695006dc68df41f9870e503d705b34b5d15cc54c
+	method = merge
+	cmdver = 0.4.1
