@@ -1,8 +1,17 @@
 Welcome:
-    Read the syllabus to get started: /syllabus
+  Read the syllabus to get started: /syllabus
+
 Complexity:
+  ".":
     - complexity
+  Submit your solutions: /submit/complexity
+
 News:
+  ".":
     - news
+  Submit your solutions: /submit/news
+
 Survival:
+  ".":
     - survival
+  Submit your solutions: /submit/survival
