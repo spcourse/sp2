@@ -1,8 +1,0 @@
-name: complexity
-files:
-    required:
-        - module_5_questions.ipynb
-        - word_index.py
-        - pair_index.py
-    optional:
-        - common_word_pairs.py
