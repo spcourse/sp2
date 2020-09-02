@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/spcourse/complexity.git
 	branch = main
-	commit = 73bf547b3048b8831119fa09d26de753216465a8
-	parent = a97d1c4a67cdbf589f1597f84e955fe3176fa9d5
+	commit = f4108bb9756b47d05a7ef284ba5344153a0f20cf
+	parent = 468fba25da54cfcf937861a87500533fc0843f67
 	method = merge
 	cmdver = 0.4.1
