@@ -1,4 +1,25 @@
 grades:
+    complexity:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
+    news:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
+    survival:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
     exam:
         type: pass
         subgrades:
