@@ -14,7 +14,7 @@ Kiki van Rongen
 
 Martijn Stegeman
 
-If you have practical matters that you would like to discuss, always send an e-mail to the staff via <help@mprog.nl>. We will answer within a couple of days, if not hours.
+If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
 
 ## What to do
 
@@ -32,7 +32,7 @@ The course's final result will be "pass" or "fail", which means that **no grades
 In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
 
 - The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
-- If you cannot solve the problem through Ed, you can plan a [Zoom](...) meeting with someone of our staff.
+- If you cannot solve the problem through Ed, you can plan a [Zoom](https://calendly.com/uvascipro/help/) meeting with someone of our staff.
 
 Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
 
