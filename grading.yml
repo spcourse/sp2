@@ -26,3 +26,19 @@ grades:
             passed: boolean
         calculation: passed
         hide_subgrades: true
+
+calculation:
+    finalgrade:
+      assignments: 0
+      exam: 1
+
+assignments:
+    show_progress: true
+    submits:
+        complexity: 1
+        news: 1
+        survival: 1
+exam:
+    show_progress: true
+    submits:
+      oral: 1
