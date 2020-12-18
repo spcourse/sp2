@@ -41,4 +41,4 @@ assignments:
 exam:
     show_progress: true
     submits:
-      oral: 1
+      exam: 1
