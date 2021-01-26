@@ -1,6 +1,6 @@
 # Scientific Programming 2
 
-## Syllabus<br><small>Fall 2020</small>
+## Syllabus<br><small>Spring 2021</small>
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This second part is intended for students who already followed Scientific Programming 1.
 
@@ -10,7 +10,7 @@ Simon Pauw
 
 Natasja Wezel
 
-Kiki van Rongen
+Iris Luden
 
 Martijn Stegeman
 
@@ -31,47 +31,51 @@ The course's final result will be "pass" or "fail", which means that **no grades
 
 In this course you'll mostly work independently and ask for help online. There are two ways you can get help:
 
-- The first resource for editing help is [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
-- If you cannot solve the problem through Ed, you can plan a [Zoom](https://calendly.com/uvascipro/help/) meeting with someone of our staff.
+* Online lab-sessions through ...
+* You can also ask questions on [Ed](https://us.edstem.org/courses/2335/), an online discussion platform. You will receive an invitation for this platform at the start of the course. Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+
 
 Zoom help is available on the following moments (these are also the moments you can expect quick answers on Ed):
 
-| Mon           | Tue           | Wed           | Thu           | Fri           |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 | 15:00 - 17:00 |
+> TBT
+
 
 ## Deadlines
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Start block 1**
+**Start Feb 2021**
+| Finish course in: | 8 weeks | 16 weeks |
+|---------|-----------------|-----------------|
+| Level 5 | Fri 12 Feb 2021 | Fri 26 Feb 2021 |
+| Level 6 | Fri 26 Feb 2021 | Tue 06 Apr 2021 |
+| Level 7 | Fri 12 Mar 2021 | Mon 17 May 2021 |
 
-| Finish course in: | 4 weeks (block 1, week 5-8) | 8 weeks (block 1, week 1-8) | 16 weeks (block 1, week 1-16) |
-| ----------------- | --------------------------- | --------------------------- | ----------------------------- |
-| Level 5           | Tue, 6 Oct                  | Fri, 11 Sep                 | Fri, 2 Oct                    |
-| Level 6           | Tue, 13 Oct                 | Fri, 25 Sep                 | Fri, 6 Nov                    |
-| Level 7           | Tue, 20 Oct                 | Fri, 9 Oct                  | Fri, 4 Dec                    |
+**Start March 2021 (directly following the 4 week SP1 schedule)**
+| Finish course in: | 4 weeks |
+|---------|-----------------|
+| Level 5 | Fri 05 Mar 2021 |
+| Level 6 | Fri 12 Mar 2021 |
+| Level 7 | Fri 19 Mar 2021 |
+
+Note: If you'd like to take Data Processing in block 5, you will need to do this 4-week schedule in period 4 (directly after SP1), in order to leave enough time!
+
+**Start April (/end of March) 2021**
+| Finish course in: | 8 weeks |
+|---------|-----------------|
+| Level 5 | Tue 13 Apr 2021 |
+| Level 6 | Thu 29 Apr 2021 |
+| Level 7 | Thu 20 May 2021 |
 
 
-**Start block 2**
-
-| Finish course in: | 8 weeks (block 1, week 9-16) |
-| ----------------- | ---------------------------- |
-| Level 5           | Fri, 6 Nov                   |
-| Level 6           | Fri, 20 Nov                  |
-| Level 7           | Fri, 4 Dec                   |
-
-
-Note: If you'd like to take Data Processing in block 2, you will need to do the 4-week schedule in period 1 (directly after SP1), in order to leave enough time!
 
 ## Exam
 
 There are multiple opportunities to take the exam, depending on the schedule you follow.
 
-**Semester 1**
+**Semester 2**
 
-- Tuesday, 20 October
-- Tuesday, 14 December
+> TBT
 
 ## Asking questions
 
