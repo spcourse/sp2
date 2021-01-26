@@ -45,6 +45,7 @@ Zoom help is available on the following moments (these are also the moments you 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
 **Start Feb 2021**
+
 | Finish course in: | 8 weeks | 16 weeks |
 |---------|-----------------|-----------------|
 | Level 5 | Fri 12 Feb 2021 | Fri 26 Feb 2021 |
@@ -52,6 +53,7 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Level 7 | Fri 12 Mar 2021 | Mon 17 May 2021 |
 
 **Start March 2021 (directly following the 4 week SP1 schedule)**
+
 | Finish course in: | 4 weeks |
 |---------|-----------------|
 | Level 5 | Fri 05 Mar 2021 |
@@ -61,6 +63,7 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 Note: If you'd like to take Data Processing in block 5, you will need to do this 4-week schedule in period 4 (directly after SP1), in order to leave enough time!
 
 **Start April (/end of March) 2021**
+
 | Finish course in: | 8 weeks |
 |---------|-----------------|
 | Level 5 | Tue 13 Apr 2021 |
