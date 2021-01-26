@@ -44,7 +44,7 @@ Zoom help is available on the following moments (these are also the moments you 
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Start Feb 2021**
+**Start February 2021**
 
 | Finish course in: | 8 weeks | 16 weeks |
 |---------|-----------------|-----------------|
