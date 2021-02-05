@@ -6,15 +6,11 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 ## Staff
 
-Simon Pauw
-
-Natasja Wezel
-
-Iris Luden
-
-Martijn Stegeman
-
-Björn Out
+Simon Pauw  
+Natasja Wezel  
+Iris Luden  
+Martijn Stegeman  
+Björn Out  
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
 
@@ -42,13 +38,15 @@ There are four moments in the week that there is help available on wonder.me:
 
 ## Deadlines
 
+> Note: for you, this is the first half of the course. For the second half, there will be a separate website with separate deadlines.
+
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-| Module     | Deadline        |
-|------------|-----------------|
-| Complexity | Fri 12 Feb 2021 |
-| News       | Fri 19 Feb 2021 |
-| Survival   | Fri 26 Feb 2021 |
+| Module     | Deadline              |
+|------------|-----------------------|
+| Complexity | Fri 12 Feb 2021 18:00 |
+| News       | Fri 19 Feb 2021 18:00 |
+| Survival   | Fri 26 Feb 2021 18:00 |
 
 ## Asking questions
 
