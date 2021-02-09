@@ -54,6 +54,7 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Level 7 | Fri 12 Mar 2021 | Mon 17 May 2021 |
 
 **Start March 2021 (directly following the 4 week SP1 schedule)**
+
 > This schedule has been revised. In light of the Covid-19 measures, the deadline schema of Scientific Programming **1** has been shortened. If you followed the reduced schema you should be able to start this schedule on Thursday Feb 18 March 2021.
 >
 > If for Scientific Programming 1 you did follow the original schedule (including level 3), you van follow the deadlines in parentheses ().
@@ -82,7 +83,10 @@ There are multiple opportunities to take the exam, depending on the schedule you
 
 **Semester 2**
 
-> TBT
+* Thu 18 Mar 2021
+* Fri 19 Mar 2021
+* Wed 19 May 2021
+* Thu 20 May 2021
 
 ## Asking questions
 
