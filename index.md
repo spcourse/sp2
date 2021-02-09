@@ -54,12 +54,15 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | Level 7 | Fri 12 Mar 2021 | Mon 17 May 2021 |
 
 **Start March 2021 (directly following the 4 week SP1 schedule)**
+> This schedule has been revised. In light of the Covid-19 measures, the deadline schema of Scientific Programming **1** has been shortened. If you followed the reduced schema you should be able to start this schedule on Thursday Feb 18 March 2021.
+>
+> If for Scientific Programming 1 you did follow the original schedule (including level 3), you van follow the deadlines in parentheses ().
 
 | Finish course in: | 4 weeks |
 |---------|-----------------|
-| Level 5 | Fri 05 Mar 2021 |
-| Level 6 | Fri 12 Mar 2021 |
-| Level 7 | Fri 19 Mar 2021 |
+| Level 5 | Fri 26 Feb 2021 (Fri 05 Mar 2021) |
+| Level 6 | Fri 05 Mar 2021 (Fri 12 Mar 2021) |
+| Level 7 | Fri 12 Mar 2021 (Fri 19 Mar 2021) |
 
 Note: If you'd like to take Data Processing in block 5, you will need to do this 4-week schedule in period 4 (directly after SP1), in order to leave enough time!
 
