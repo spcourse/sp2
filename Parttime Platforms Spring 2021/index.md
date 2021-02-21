@@ -48,14 +48,6 @@ Deadlines for each level are listed below. Only by agreement in advance is it po
 | News       | Fri 19 Feb 2021 18:00 |
 | Survival   | Fri 26 Feb 2021 18:00 |
 
-## Asking questions
-
-In this course you'll mostly work independently and ask for help online. We have created a special "Stack Overflow" section, for which you will be invited as soon as you register on this website.
-
-<https://stackoverflow.com/c/uva-prog-lab>
-
-Besides Stack Overflow, you can come to the programming lab at the following time. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
-
 ## Goals
 
 After this course you should be able to independently tackle typically programming challenges that you might encounter in your field of studies/research. We will teach you more intermediate Python concepts. And some more advanced concepts pertaining to data analysis. After this course, we envision that you:
