@@ -83,10 +83,17 @@ There are multiple opportunities to take the exam, depending on the schedule you
 
 **Semester 2**
 
-* Thu 18 Mar 2021
-* Fri 19 Mar 2021
+* Fri 26 Mar 2021
 * Wed 19 May 2021
 * Thu 20 May 2021
+
+You can use the link below to book a time slot for the exam. **Only book a slot when you've finished all the required modules of a course!**
+
+[Book your exam!](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/)!
+
+If none of the available slots is convenient for you, please send us an email: <scientific@mprog.nl>.
+
+It can happen that your exam is a couple of weeks after you finished the last assignment. Please, feel free to already make start with the next course (Scientific Programming 2)! Do send an email to let us know.
 
 ## Asking questions
 
