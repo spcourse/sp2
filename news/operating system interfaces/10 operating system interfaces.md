@@ -37,6 +37,6 @@ Indicating that, in our main folder (indicated by `'.'`), there is one folder na
 
     for (root, dirs, files) in os.walk('.'):
         for file in files:
-            do_something(os.path.join(root, file)
+            do_something(os.path.join(root, file))
 
 Which will apply `do_something()` to each of the files in our main folder, before applying the function to all files in the first subfolder, then that subfolder's subfolders, etc. `os.walk()` is a very powerful tool that can make short work of otherwise very complicated file-managing tasks!
