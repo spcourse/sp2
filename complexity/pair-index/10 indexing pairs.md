@@ -73,18 +73,19 @@ Start by adding your solution for these 3 functions to the file.
 
 Next up is writing the function `build_pair_index()`, which should return an
 index similar to your old `build_index()` function, but searchable by word
-pairs, where a word pair is a tuple: `(word_1, word_2, line_number)`. Building
+pairs, where a word pair is a tuple: `(word_1, word_2)`. Building
 an indexing system in which you can search for word pairs can be a little
 tricky, so we will guide you through the steps.
 
-Eventually, your function should return a list of every pair of words that is
-in the text with a `recency_size` maximum number of words in between. Let's say
-that we are currently looking at a word in the middle of the text, which we will
-call `current_word`, and that `recency_size=5`, which means that we will take
-into account any word that has occurred in the last five words. This means that
-there should actually be five pairs added to the index for every word processed.
+Eventually, your function should return a list of line numbers for every pair of
+words that is in the text with a `recency_size` maximum number of words in
+between. Let's say that we are currently looking at a word in the middle of the
+text, which we will call `current_word`, and that `recency_size=5`, which means
+that we will need take into account any potential word pair for this word that
+has occurred within the last five words. This means that there should actually
+be five pairs added to the index for every word processed.
 
-Before we can add these pairs to our big list of words, we would need to know
+Before we can add these new pairs to our big collection of pairs, we would need to know
 what the five most recent words are. A good method of tracking these words as we
 go is by creating a secondary list `recent_words` that is updated as we go. When
 you index a new word, you can append it to that recent word list and remove the
