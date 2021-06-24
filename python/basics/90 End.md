@@ -1,1 +1,0 @@
-That's it for now! Now get started with the first assignment.

@@ -1,0 +1,12 @@
+complexity:
+    remote: https://github.com/spcourse/complexity.git
+    branch: main
+news:
+    remote: https://github.com/spcourse/news.git
+    branch: main
+survival:
+    remote: https://github.com/spcourse/survival.git
+    branch: main
+python:
+    remote: https://github.com/spcourse/sp1-python.git
+    branch: main

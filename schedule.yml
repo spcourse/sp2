@@ -2,16 +2,29 @@ Welcome:
   Read the syllabus to get started: /syllabus
 
 Complexity:
-  ".":
-    - complexity
-  Submit your solutions: /submit/complexity
+    Introduction: complexity/
+    "Part 1: Learn about computational complexity":
+        Efficiency: complexity/efficiency
+        Notebook questions (assignment): complexity/notebook
+    "Part 2: Data structures and their efficiency":
+        Dictionaries: complexity/dictionaries
+        Tuples: complexity/tuples
+        Sets: complexity/sets
+        List slicing and indexing: complexity/slicing
+    "Part 3: How to write efficient code":
+        Applying big O in your code: complexity/big-o
+        Improving count_occurrence: complexity/big-o-example
+    "Part 4: Write your own efficient code":
+        Indexing words (assignment): complexity/word-index
+        Indexing pairs (assignment): complexity/pair-index
+    Submit your solutions: /submit/complexity
 
 News:
-  ".":
-    - news
-  Submit your solutions: /submit/news
+    # ".":
+    #   - news
+    Submit your solutions: /submit/news
 
 Survival:
-  ".":
-    - survival
-  Submit your solutions: /submit/survival
+    # ".":
+    #   - survival
+    Submit your solutions: /submit/survival
