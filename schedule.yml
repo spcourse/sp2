@@ -2,21 +2,21 @@ Welcome:
   Read the syllabus to get started: /syllabus
 
 Complexity:
-    Introduction: complexity/
+    Introduction: /complexity
     "Part 1: Learn about computational complexity":
-        Efficiency: python/efficiency
-        Notebook questions (assignment): complexity/notebook
+        Efficiency: /en/python/efficiency
+        Notebook questions (assignment): /complexity/notebook
     "Part 2: Data structures and their efficiency":
-        Dictionaries: python/dictionaries
-        Tuples: python/tuples
-        Sets: python/sets
-        List slicing and indexing: python/slicing
+        Dictionaries: /en/python/dictionaries
+        Tuples: /en/python/tuples
+        Sets: /en/python/sets
+        List slicing and indexing: /en/python/slicing
     "Part 3: How to write efficient code":
-        Applying big O in your code: python/big-o
-        Improving count_occurrence: python/big-o-example
+        Applying big O in your code: /en/python/big-o
+        Improving count_occurrence: /en/python/big-o-example
     "Part 4: Write your own efficient code":
-        Indexing words (assignment): complexity/word-index
-        Indexing pairs (assignment): complexity/pair-index
+        Indexing words (assignment): /complexity/word-index
+        Indexing pairs (assignment): /complexity/pair-index
     Submit your solutions: /submit/complexity
 
 News:
