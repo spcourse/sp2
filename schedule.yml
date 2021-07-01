@@ -37,6 +37,9 @@ News:
     Submit your solutions: /submit/news
 
 Survival:
-    # ".":
-    #   - survival
+Introduction: /survival
+    "Part 1: Pandas":
+        Pandas (assignment): /survival/pandas
+    "Part 2: Survival":
+        Survival (assignment): /survival/survival
     Submit your solutions: /submit/survival
