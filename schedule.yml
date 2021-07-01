@@ -2,7 +2,7 @@ Welcome:
   Read the syllabus to get started: /syllabus
 
 Complexity:
-    Introduction: /complexity
+    Introduction: /complexity/
     "Part 1: Learn about computational complexity":
         Efficiency: /python/en/efficiency
         Notebook questions (assignment): /complexity/notebook
@@ -37,7 +37,7 @@ News:
     Submit your solutions: /submit/news
 
 Survival:
-Introduction: /survival
+    Introduction: /survival/
     "Part 1: Pandas":
         Pandas (assignment): /survival/pandas
     "Part 2: Survival":
