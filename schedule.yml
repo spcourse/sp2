@@ -7,7 +7,10 @@ Complexity:
         Efficiency: /python/en/efficiency
         Notebook questions (assignment): /complexity/notebook
     "Part 2: Data structures and their efficiency":
-        Dictionaries: /python/en/dictionaries
+        Dictionaries (theory): /python/en/dictionaries/use
+        Dictionaries (practice): /python/en/dictionaries/use/practice
+        Efficiency of dictionaries (theory): /python/en/dictionaries/complexity
+        Efficiency of dictionaries (practice): /python/en/dictionaries/complexity/practice
         Tuples: /python/en/tuples
         Sets: /python/en/sets
         List slicing and indexing: /python/en/slicing
