@@ -64,6 +64,7 @@ In this course you'll mostly work on assignments independently. But you're not o
 * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
 
 **Forum**: We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
+
 * Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
 * Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
 * Please keep the language in English on the forum, as not all students following this course speak Dutch.
@@ -73,8 +74,8 @@ In this course you'll mostly work on assignments independently. But you're not o
 
 The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
 
-- you have submitted a fully working solution for each module
-- you must pass the final exam
+* you have submitted a fully working solution for each module
+* you must pass the final exam
 
 ### Coursework
 
