@@ -1,6 +1,6 @@
 # Scientific Programming 2
 
-## Syllabus<br><small>Spring 2021</small>
+## Syllabus<br><small>Fall 2021</small>
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This second part is intended for students who already followed Scientific Programming 1.
 
@@ -8,102 +8,21 @@ Welcome to this programming course! In the weeks ahead, you'll use the programmi
 
 Simon Pauw
 
-Natasja Wezel
-
 Iris Luden
 
 Martijn Stegeman
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
 
-## What to do
+## Getting started
 
 Your entry to the course is the sidebar, where you can leaf through all modules (levels) that you have to complete.
 
-## Passing the course
+## Prerequisites
 
-The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
+This course assumes that you have completed the course Scientific Programming 1. If you didn't do this, but have equivalent programming experience, please discuss this with us before starting the course.
 
-- you have submitted a fully working solution for each module
-- you must pass the final exam
-
-## Asking questions
-
-In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are two ways you can get help:
-
-* Online lab-sessions: We have created an online classroom on [wonder.me](https://www.wonder.me/r?id=8b9b7728-3e68-4924-ad4b-8dca2c2c8c70). In this classroom you can get help from us (and from your fellow students). We will be available at the office-hours mentioned here below. But you can log into the classroom at any time. So also outside of the office hours, you can use the classroom to meet up with other students.
-* You can also ask questions on [Ed](https://edstem.org/us/courses/4337/), an online discussion platform. You can use this to sign up link: [sign up for the Scientific Programming forum](https://edstem.org/us/join/za4ucr). Try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
-
-There are four moments in the week that there is help available on wonder.me:
-
-|               | Mon | Tue | Wed | Thu | Fri |
-|---------------|:---:|:---:|:---:|:---:|:---:|
-| 09:00 - 12:00 |  ✓  |     |     |  ✓  |     |  
-| 14:00 - 17:00 |     |  ✓  |     |     |  ✓  |
-
-## Deadlines
-
-Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
-
-**Start February 2021**
-
-| Finish course in: | 8 weeks | 16 weeks |
-|---------|-----------------|-----------------|
-| Level 5 | Fri 12 Feb 2021 | Fri 26 Feb 2021 |
-| Level 6 | Fri 26 Feb 2021 | Tue 06 Apr 2021 |
-| Level 7 | Fri 12 Mar 2021 | Mon 17 May 2021 |
-
-**Start March 2021 (directly following the 4 week SP1 schedule)**
-
-> This schedule has been revised. In light of the Covid-19 measures, the deadline schema of Scientific Programming **1** has been shortened. If you followed the reduced schema you should be able to start this schedule on Thursday Feb 18 March 2021.
->
-> If for Scientific Programming 1 you did follow the original schedule (including level 3), you van follow the deadlines in parentheses ().
-
-| Finish course in: | 4 weeks |
-|---------|-----------------|
-| Level 5 | Fri 26 Feb 2021 (Fri 05 Mar 2021) |
-| Level 6 | Fri 05 Mar 2021 (Fri 12 Mar 2021) |
-| Level 7 | Fri 12 Mar 2021 (Fri 19 Mar 2021) |
-
-Note: If you'd like to take Data Processing in block 5, you will need to do this 4-week schedule in period 4 (directly after SP1), in order to leave enough time!
-
-**Start April (/end of March) 2021**
-
-| Finish course in: | 8 weeks |
-|---------|-----------------|
-| Level 5 | Tue 13 Apr 2021 |
-| Level 6 | Thu 29 Apr 2021 |
-| Level 7 | Thu 20 May 2021 |
-
-
-
-## Exam
-
-There are multiple opportunities to take the exam, depending on the schedule you follow.
-
-**Semester 2**
-
-* Fri 26 Mar 2021
-* Wed 19 May 2021
-* Thu 20 May 2021
-
-You can use the link below to book a time slot for the exam. **Only book a slot when you've finished all the required modules of a course!**
-
-[Book your exam!](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/)!
-
-If none of the available slots is convenient for you, please send us an email: <scientific@mprog.nl>.
-
-It can happen that your exam is a couple of weeks after you finished the last assignment. Please, feel free to already make start with the next course (Scientific Programming 2)! Do send an email to let us know.
-
-## Asking questions
-
-In this course you'll mostly work independently and ask for help online. We have created a special "Stack Overflow" section, for which you will be invited as soon as you register on this website.
-
-<https://stackoverflow.com/c/uva-prog-lab>
-
-Besides Stack Overflow, you can come to the programming lab at the following time. Our teacher(s) will be ready to answer questions, help you find resources for programming, and help thinking about the problems at hand.
-
-> The lab is open for you on **Tuesdays 15:00--17:00**. You can find us in room **A1.22** at the Science Park 904 building. When coming to the lab for the first time, please find your teacher and introduce yourself! That way it's easier to ask questions when needed.
+Other than that, some modules assume high school mathematics or physics, but many do not. If you feel overwhelmed, don't hesitate to contact the course staff! We can explain the course's philosophy and requirements, and make recommendations on how to approach problems.
 
 ## Goals
 
@@ -117,6 +36,71 @@ After this course you should be able to independently tackle typically programmi
 - use higher level functional programming concepts (such as map, reduce and filter)
 - import and analyze data
 - create advanced plots
+
+## Asking questions
+
+In this course you'll mostly work on assignments independently. But you're not on your own! We're here to help. There are three ways you can get help:
+
+**Helpdesk (Programmeerbalie)**: You'll get to talk directly to an assistant.
+
+* Help is both available on campus (Science Park A1.24) or online.
+* Help is available on many moments throughout the week.
+* To use the helpdesk, make an appointment here: TODO
+* The schedule will be posted here below.
+<!-- |         | Mon | Tue | Wed | Thu | Fri |
+|---------|:---:|:---:|:---:|:---:|:---:|
+| 9 -  11 |     |     |     |     |     |  
+| 11 - 13 |     |     |     |     |     |
+| 13 - 15 |     |     |     |     |     |
+| 15 - 17 |     |     |     |     |     | -->
+
+
+**Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
+
+* There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
+* It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
+* This is a good place to work on your assignments and get immediate help.
+* This is the main place where you can meet other students.
+* There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
+
+**Forum**: We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
+* Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
+* Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
+* Please keep the language in English on the forum, as not all students following this course speak Dutch.
+* When you use Ed, try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+
+## Passing the course
+
+The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
+
+- you have submitted a fully working solution for each module
+- you must pass the final exam
+
+### Coursework
+
+Sufficient coursework means submitting a working solution to each problem from at least four modules of your own choosing, keeping in mind that you need to finish one module per level.
+
+You may not re-submit (variations of) solutions that you wrote for any other course's problems. In case you have done similar assignments before,
+discuss with the course staff whether this is the right course for you.
+
+### Deadlines
+
+Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
+
+**Semester 1**
+
+Deadlines: TODO
+
+### Exam
+
+There are multiple opportunities to take the exam.
+
+Exam slots: TODO
+
+Book your exam here: TODO
+
+
+If none of the available slots is convenient for you, please send us an email: <scientific@mprog.nl>.
 
 ## Feedback
 
