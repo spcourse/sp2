@@ -10,6 +10,8 @@ Simon Pauw
 
 Iris Luden
 
+Daan Moll
+
 Martijn Stegeman
 
 If you have practical matters that you would like to discuss, always send an e-mail to the staff via <scientific@mprog.nl>. We will answer within a couple of days, if not hours.
@@ -46,13 +48,11 @@ In this course you'll mostly work on assignments independently. But you're not o
 * Help is both available on campus (Science Park A1.24) or online.
 * Help is available on many moments throughout the week.
 * To use the helpdesk, make an appointment here: TODO
-* The schedule will be posted here below.
+* See the schedule for the helpdesk in the section below.
 <!-- |         | Mon | Tue | Wed | Thu | Fri |
 |---------|:---:|:---:|:---:|:---:|:---:|
-| 9 -  11 |     |     |     |     |     |  
-| 11 - 13 |     |     |     |     |     |
-| 13 - 15 |     |     |     |     |     |
-| 15 - 17 |     |     |     |     |     | -->
+| 9 -  11 | Daan|Iris |Iris |Iris |     |  
+| 13 - 15 | Daan|     |Daan |     |     | -->
 
 
 **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
@@ -70,6 +70,13 @@ In this course you'll mostly work on assignments independently. But you're not o
 * Use the forum: [Ed](https://edstem.org/us/courses/12543/discussion/).
 * Please keep the language in English on the forum, as not all students following this course speak Dutch.
 * When you use Ed, try to formulate your question clearly. Use code fragments to illustrate the problem. But, *never copy your entire code* here (this would make it too tempting for your fellow students to copy your code).
+
+### Schedule helpdesk and lab sessions:
+
+<!-- |         | Mon | Tue | Wed | Thu | Fri |
+|---------|:---:|:---:|:---:|:---:|:---:|
+| 9 -  11 | Lab session | Helpdesk  | Lab session   | Helpdesk  |     |  
+| 13 - 15 | Helpdesk   |    |Helpdesk   |     |     | -->
 
 ## Passing the course
 
