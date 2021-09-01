@@ -58,7 +58,8 @@ In this course you'll mostly work on assignments independently. But you're not o
 **Lab sessions**: You'll get to talk directly to an assistant and other students following the course.
 
 * There are lab sessions on campus (Monday and Wednesday between 9:00 and 11:00).
-* It's on Science Park, the precise location can differ from week to week and can be found on Datanose.
+* All these sessions take place on Science Park, check [Datanose](https://datanose.nl/#course[99563]) for precise locations.
+* To avoid overcrowding, please book a slot using these links: [Book Monday Lab Session](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/s/DMs1BphJ8U6A--L7PtN9tQ2) or [Book Wednesday Lab Session](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/s/pwL48P3zxEO9vZm-LE6ukQ2). (For the first two weeks, please limit yourselves to only one slot per week, so that everyone has a chance to work on campus.)
 * This is a good place to work on your assignments and get immediate help.
 * This is the main place where you can meet other students.
 * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
@@ -88,9 +89,55 @@ discuss with the course staff whether this is the right course for you.
 
 Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
 
-**Semester 1**
+The deadlines depend on the period in which you start the course (1, 2, 4, or 5) and at what pace you're following it (4, 8 or 16 weeks):
 
-Deadlines: TODO
+<details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
+
+| Finish course in:      | 4 weeks (start 29 Sept) | 8 weeks          | 16 weeks        |
+|------------------------|-------------------------|------------------|-----------------|
+| Level 5                | Fri 08 Okt 2021         | Mon 20 Sept 2021 | Fri 01 Okt 2021 |
+| Level 6                | Fri 15 Okt 2021         | Thu 07 Okt  2021 | Fri 05 Nov 2021 |
+| Level 7                | Fri 22 Okt 2021         | Thu 21 Okt  2021 | Fri 10 Dec 2021 |
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 2 (1 Sept 2021)</summary>
+
+| Finish course in: | 4 weeks (start 24 Nov)| 8 weeks         |
+|-------------------|-----------------------|-----------------|
+| Level 5           | Tue 30 Nov 2021       | Fri 12 Nov 2021 |
+| Level 6           | Wed 08 Dec 2021       | Thu 25 Nov 2021 |
+| Level 7           | Thu 16 Dec 2021       | Thu 16 Dec 2021 |
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 4 (7 Feb 2022)</summary>
+
+| Finish course in:      | 4 weeks (start 2 March) | 8 weeks         | 16 weeks          |
+|------------------------|-------------------------|-----------------|-------------------|
+| Level 5                | Fri 11 Mar 2022         | Fri 18 Feb 2022 | Wed 09 Mar   2022 |
+| Level 6                | Fri 18 Mar 2022         | Tue 08 Mar 2022 | Wed 13 April 2022 |
+| Level 7                | Fri 25 Mar 2022         | Fri 25 Mar 2022 | Wed 18 May   2022 |
+
+</details>
+
+<details markdown="1"><summary  markdown="span">Start block 5 (4 Apr 2022)</summary>
+
+| Finish course in: | 4 weeks (start 29 Apr) | 8 weeks            |
+|-------------------|------------------------|--------------------|
+| Level 5           | Wed 11 May 2022        | Wed 20 April  2022 |
+| Level 6           | Wed 18 May 2022        | Wed 11 May    2022 |
+| Level 7           | Wed 25 May 2022        | Wed 25 May    2022 |
+
+<!-- If you skipped Level 3 from Scientific Programming 1, this will be the schedule:
+
+| Finish course in: | 4 weeks (start 25 Apr) |
+|-------------------|------------------------|
+| Level 5           | Mon 09 May 2022        |
+| Level 6           | Mon 16 May 2022        |
+| Level 7           | Mon 23 May 2022        | -->
+
+</details>
 
 ### Exam
 
