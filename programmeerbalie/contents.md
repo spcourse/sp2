@@ -3,6 +3,7 @@
 This page is specifically for the Helpdesk, not for the lab sessions. You can make an appointment for the helpdesk and join us on Science Park or online.
 
 The location of the helpdesk depends on your chosen timeslot. Helpdesk schedule (valid from **Sept 7 2021** until **Oct 21 2021**):
+
 |       | Mon      | Tue       | Wed       | Thu       | Fri       |
 |:-----:|:--------:|:---------:|:---------:|:---------:|:---------:|
 | 9-11  |          | SP G2.02  |           | SP D1.160 |           |
