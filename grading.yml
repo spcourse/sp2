@@ -54,6 +54,9 @@ calculation:
 assignments:
     show_progress: true
     submits:
+        q1_complexity: 0
+        q2_complexity: 0
+        q3_complexity: 0
         complexity: 1
         news: 1
         survival: 1
