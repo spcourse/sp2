@@ -1,4 +1,23 @@
 grades:
+    q1_complexity:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+    q2_complexity:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+    q3_complexity:
+        type: pass
+        subgrades:
+            correct: boolean
+        calculation: correct
+        hide_subgrades: true
+
     complexity:
         type: pass
         subgrades:
