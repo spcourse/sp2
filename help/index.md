@@ -2,11 +2,11 @@
 
 There are three ways to get help:
 
-**Helpdesk (Programmeerbalie)** (online/on campus): You can book a slot to get to talk directly to an assistant. [Helpdesk info](/help#Helpdesk)
+**Helpdesk (Programmeerbalie)** (online/on campus): You can book a slot to get to talk directly to an assistant. [Helpdesk info](/help#helpdesk)
 
 **Lab sessions** (on campus): You'll work on campus (together with other students) in a classroom. You can ask us questions while you're working on your assignments. [Lab info](/help#lab-sessions)
 
-**Forum** (online): We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff. [Ed info](/help/forum)
+**Forum** (online): We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff. [Ed info](/help#ed)
 
 ## Schedule helpdesk and lab sessions
 
@@ -18,7 +18,7 @@ There are three ways to get help:
 | 17-19 |                        |                   | Lab <br /> (see Datanose) |                  |                        |
 
 
-# Helpdesk
+## Helpdesk
 
 * Help is both available on campus (at Science Park) and online.
 * Help is available on many moments throughout the week.
@@ -28,7 +28,7 @@ There are three ways to get help:
     * If you choose to join on campus check the schedule above.
 
 
-# Lab sessions
+## Lab sessions
 The lab sessions are the most classic way of getting help with your programming. You'll work on campus (together with other students) in a classroom. You can ask us questions while you're working on your assignments.
 
 * There are lab sessions on campus (Monday afternoon and Wednesday evening).
@@ -39,7 +39,7 @@ The lab sessions are the most classic way of getting help with your programming.
 * There is no online version of this. If you want to work online, you can always use the helpdesk to talk to an assistant.
 
 
-# Ed
+## Ed
 We use Ed as an online discussion platform. Here you can discuss the assignments with other students and also the staff.
 
 * Sign-up [here](https://edstem.org/us/join/uWysvk). You need an UvA-mail address for this. If this doesn't work send, an email to <scientific@mprog.nl>.
