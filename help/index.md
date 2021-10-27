@@ -12,7 +12,7 @@ There are three ways to get help:
 
 |       | Mon                    | Tue               | Wed                | Thu              | Fri                    |
 |:-----:|:----------------------:|:-----------------:|:------------------:|:----------------:|:----------------------:|
-| 9-11  | Helpdesk (online only) |                   |                    |                  | Helpdesk (online only) |
+| 9-11  | Helpdesk <br /> (online only) |                   |                    |                  | Helpdesk (online only) |
 | 11-13 |                        |                   |                    |                  |                        |
 | 13-15 |                        |                   |                    |                  |                        |
 | 15-17 | Lab (see Datanose)     | Helpdesk (A1.22)  |                    | Helpdesk (A1.22) |                        |
