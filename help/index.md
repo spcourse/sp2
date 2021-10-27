@@ -25,7 +25,7 @@ There are three ways to get help:
 * Whether you join online or join on campus, in both cases **you have to make an appointment**. You can make an appointment *up to one day ahead*, using this link: [book a slot](https://balie.mprog.nl/planner/4-scientific-programming)
 * When you book a slot, clearly indicate if you plan to join "on campus" or "online".
     * If you choose to join online, use this link: [Online Scientific Programming Lab](https://www.wonder.me/r?id=e57e2eb3-a410-4833-98f5-01b2d982d488)
-    * If you choose to join on campus check the schedule above.
+    * If you choose to join on campus check the schedule above for the location.
 
 
 ## Lab sessions
