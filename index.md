@@ -50,14 +50,6 @@ In this course you'll mostly work on assignments independently. But you're not o
 See for more info: [Help](/help)
 
 
-### Schedule helpdesk and lab sessions
-
-
-|         | Mon         | Tue       | Wed           | Thu       | Fri |
-|---------|:-----------:|:---------:|:-------------:|:---------:|:---:|
-| 9 -  11 | Lab session | Helpdesk  | Lab session   | Helpdesk  |     |  
-| 13 - 15 | Helpdesk    |           |               | Helpdesk  |     |
-
 ## Passing the course
 
 The course's final result will be "pass" or "fail", which means that **no grades are assigned**. To earn a "pass", you must meet the following requirements by 29 May:
@@ -74,11 +66,11 @@ discuss with the course staff whether this is the right course for you.
 
 ### Deadlines
 
-Deadlines for each level are listed below. Only by agreement in advance is it possible to extend these deadlines. Send an e-mail detailing your plans to the course staff at <scientific@mprog.nl> and we will consider your proposal.
+Deadlines for each level are listed below. The deadlines are our recommendation. If you follow these deadlines you'll have all the assignments finished in time for the corresponding examination moment. You can occasionally diverge a bit from the deadlines, but if you notice that you're structurally behind please contact us (<scientific@mprog.nl>).
 
-The deadlines depend on the period in which you start the course (1, 2, 4, or 5) and at what pace you're following it (4, 8 or 16 weeks):
+The deadlines depend on the period in which you start the course (4, or 5) and at what pace you're following it (4, 8 or 16 weeks).
 
-<details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
+<!-- <details markdown="1"><summary  markdown="span">Start block 1 (6 Sept 2021)</summary>
 
 | Finish course in:      | 4 weeks (start 29 Sept) | 8 weeks          | 16 weeks        |
 |------------------------|-------------------------|------------------|-----------------|
@@ -96,25 +88,29 @@ The deadlines depend on the period in which you start the course (1, 2, 4, or 5)
 | Level 6           | Wed 08 Dec 2021       | Thu 25 Nov 2021 |
 | Level 7           | Thu 16 Dec 2021       | Thu 16 Dec 2021 |
 
-</details>
+</details> -->
 
 <details markdown="1"><summary  markdown="span">Start block 4 (7 Feb 2022)</summary>
 
-| Finish course in:      | 4 weeks (start 2 March) | 8 weeks         | 16 weeks          |
-|------------------------|-------------------------|-----------------|-------------------|
-| Level 5                | Fri 11 Mar 2022         | Fri 18 Feb 2022 | Wed 09 Mar   2022 |
-| Level 6                | Fri 18 Mar 2022         | Tue 08 Mar 2022 | Wed 13 April 2022 |
-| Level 7                | Fri 25 Mar 2022         | Fri 25 Mar 2022 | Wed 18 May   2022 |
+| Finish course in:      | 4 weeks (start 2 March) | 8 weeks         | 16 weeks        |
+|------------------------|-------------------------|-----------------|-----------------|
+| Level 5                | Fri 11 Mar 2022         | Fri 18 Feb 2022 | Wed 09 Mar 2022 |
+| Level 6                | Fri 18 Mar 2022         | Tue 08 Mar 2022 | Wed 13 Apr 2022 |
+| Level 7                | Fri 25 Mar 2022         | Fri 25 Mar 2022 | Wed 18 May 2022 |
+|------------------------|-------------------------|-----------------|-----------------|
+| Exam                   | Wed 30 Mar 2022         | Thu  2 Jun 2022 | Thu  2 Jun 2022 |
 
 </details>
 
 <details markdown="1"><summary  markdown="span">Start block 5 (4 Apr 2022)</summary>
 
-| Finish course in: | 4 weeks (start 29 Apr) | 8 weeks            |
-|-------------------|------------------------|--------------------|
-| Level 5           | Wed 11 May 2022        | Wed 20 April  2022 |
-| Level 6           | Wed 18 May 2022        | Wed 11 May    2022 |
-| Level 7           | Wed 25 May 2022        | Wed 25 May    2022 |
+| Finish course in: | 4 weeks (start 29 Apr) | 8 weeks         |
+|-------------------|------------------------|-----------------|
+| Level 5           | Wed 11 May 2022        | Wed 20 Apr 2022 |
+| Level 6           | Wed 18 May 2022        | Wed 11 May 2022 |
+| Level 7           | Wed 25 May 2022        | Wed 25 May 2022 |
+|-------------------|------------------------|-----------------|
+| Exam              | Thu 2 Jun 2022         | Thu  2 Jun 2022 |
 
 <!-- If you skipped Level 3 from Scientific Programming 1, this will be the schedule:
 
@@ -128,25 +124,18 @@ The deadlines depend on the period in which you start the course (1, 2, 4, or 5)
 
 ### Exam
 
-The exam for this course is an oral exam of 10 to 15 minutes. We will discuss some parts of the code that you wrote yourself. The goal is to see if you properly understood your won solutions. You will not have to defend any design choices in this oral exam. So you will **not** get any question about how you code could be improved. You only have to show that you understood the design choices that you did make.
+The exam for this course is a programming exam. You'll make a number of smaller programming assignments in a controlled setting. This will take about 3 hours.
+
+- There is one exam for the courses Scientific Programming 1 and 2. If you already passed the Scientific Programming 1 course before, please contact us to plan the examination.
+- There is an exam at the end of each bock (block 1, 2, 4, and 5).
+- **You can only participate in the exam if you finished al the assignments!** If you did not finish the final assignment before the exam date, you'll have to take the exam at the next occasion.
 
 The dates for the exams:
 
-| Date:      | Time:         |
-|------------|---------------|
-| Fri 1  Oct | 14:00 - 17:00 |
-| Tue 5  Oct | 14:00 - 17:00 |
-| Wed 27 Oct | 14:00 - 17:00 |
-| Fri 29 Oct | 14:00 - 17:00 |
-| Fri 26 Nov | 14:00 - 17:00 |
-| Mon 20 Dec | 14:00 - 17:00 |
-| Wed 22 Dec | 14:00 - 17:00 |
-
-You need to book a slot for the exam. You can only do the exam after you handed in the last module.  So, don't book a slot weeks ahead, but book a slot when you're quite sure that you'll finish before the exam date: [book a slot](https://outlook.office365.com/owa/calendar/UniversiteitvanAmsterdam1@Amsuni.onmicrosoft.com/bookings/s/jRxaOHY610CVqb9vPYA9vQ2)
-
-If all slots are booked or you can really not make it to any of the available slots, please send me an email: <scientific@mprog.nl>.
-
-It can happen that your exam is a couple of weeks after you finished the last assignment. Please, feel free to already start with the next course (Data Processing)! But, do send an email to let me know.
+| Date:        | Time:         |
+|--------------|---------------|
+| Wed 30 March | 9:00 - 12:00  |
+| Thu 2 June   | 9:00 - 12:00  |
 
 ## Feedback
 
