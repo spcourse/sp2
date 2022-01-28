@@ -217,6 +217,8 @@ This work is partially based on many great programming resources that have been 
 We have had lots of help from students as well as teaching assistants who tried the course or added ideas of their own. We especially thank:
 
 - Quinten Post (video)
+- Natasja Wezel (video)
+- Iris Luden (video)
 - Marleen Rijksen (revisions)
 - Vera Schild (revisions)
 
