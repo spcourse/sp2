@@ -1,0 +1,559 @@
+party,candidate_number,candidate_name,votes
+1 GROENLINKS,1,"Groot Wassink, B.R.",12162
+,2,"Nadif, I.",12435
+,3,"Ernsting, Z.D.",694
+,4,"Bentoumya, Y.E.",4313
+,5,"van der Veen, K.S.N.",560
+,6,"van Renssen, N.A.",2313
+,7,"van Pijpen, J.F.",1031
+,8,"Yemane, M.",3115
+,9,"IJmker, E.C.",628
+,10,"van Keulen, S.",1297
+,11,"Taj, A.",298
+,12,"van Munster, C.A.D.",142
+,13,"Peters, E.A.",1094
+,14,"Doppen, M.",747
+,15,"Caton, B.",687
+,16,"KaradareviÄ, A",1273
+,17,"Rosenthal, I.",506
+,18,"Freeman, W.",288
+,19,"Nijhof, P.",96
+,20,"Bouali, F.",830
+,21,"Mollema, N.S.",67
+,22,"Imfeld, D.P.",57
+,23,"Veenhoff, A.M.",188
+,24,"Korpershoek, M.",158
+,25,"Gharbharan, M.J.",426
+,26,"Scharwachter, S.C.A.",161
+,27,"van der Does, J.A.H.",90
+,28,"Thesingh, A.C.",66
+,29,"Ogier, C.B.M.",122
+,30,"Blom, S.R.H.",101
+,31,"Roosma, F.",294
+,32,"ï¿½nver, E.",217
+,33,"Ulichki Boudchourt, F.",145
+,34,"van Doorninck, G.A.M.",174
+,35,"Meliani, T.",289
+,36,"Hirsch, D.H.",80
+,37,"van Ojik, A.",164
+,38,"KrÃ¶ger, S.C",126
+,39,"Bouchallikh, K.",374
+,40,"Corton, E.",288
+2 D66,1,"van Dantzig, R.H.",15537
+,2,"de Jager, D.O.C.",12294
+,3,"Rooderkerk, I.",1857
+,4,"Moeskops, E.D.M.",1545
+,5,"Aslami, A.S.",642
+,6,"Hofland, R.P.",277
+,7,"El Ksaihi, Y.",2873
+,8,"Lust, M.J.",1142
+,9,"Schmit, E.W.",186
+,10,"Wehkamp, J.",989
+,11,"TÃ¼rkkol, N",708
+,12,"Norbruis, K.F.O.",1304
+,13,"Hermans, T.J.",239
+,14,"van Schagen, J.J.B.",281
+,15,"Koekoek, R.D.",288
+,16,"Williams, M.E.",146
+,17,"Warmerdam, S.",162
+,18,"van Breugel, C.",721
+,19,"TaÅliyurt, A",197
+,20,"Peeters, L.C.M.",407
+,21,"Loor, M.E.",121
+,22,"Beek, R.M.",277
+,23,"van Garderen, G.C.",80
+,24,"Kroon, S.J.W.",59
+,25,"MÃ¼lder, H.S",70
+,26,"Ras, N.J.D.",25
+,27,"Verstegen, M.K.G.E.",43
+,28,"van der Schaaf, J.J.",90
+,29,"Brouwer-Klitsie, L.A.",75
+,30,"Diebels, J.P.T.",117
+,31,"van Vliet, E.I.C.",131
+,32,"Goossens, T.M.A.",114
+,33,"Fransen, T.M.",143
+,34,"Rutten, K.J.",62
+,35,"Liefting, P.",18
+,36,"Ronteltap, J.",100
+,37,"van Hilten, B.",18
+,38,"Hoeffnagel, C.C.",57
+,39,"Sheikrojan, F.F.",213
+,40,"Vaneker, C.H.J.",16
+,41,"van Erp, E.",113
+,42,"Scheper, B.E.",37
+,43,"Nienhuis, B.",41
+,44,"van Schaijik, H.W.",18
+,45,"de Wolff, A.",33
+,46,"Vroege, J.S.A.",56
+,47,"Shapiro, G.S.",121
+,48,"Kukenheim, S.",154
+,49,"Dittrich, B.O.",292
+,50,"Kat, H.",243
+3 VVD,1,"Martens, C.",25012
+,2,"Burgers, H.C.",1414
+,3,"von Gerhardt, M.S.",427
+,4,"Hoogtanders, Y.F.W.",1115
+,5,"Wijts, D.P.B.",473
+,6,"Staartjes, L.",327
+,7,"Nijssen, S.C.",244
+,8,"van der Kamp, W.T.M.",178
+,9,"Kleene, M.J.T.",754
+,10,"Hijlkema, S.N.",166
+,11,"Meijer, D.E.T.",186
+,12,"van Vliet, F.J.",214
+,13,"van Zanten, C.R.",692
+,14,"van Leeuwen, J.P.C.",139
+,15,"Rahimi, H.",318
+,16,"Termorshuizen, S.",52
+,17,"van Kraaij, R.L.R.",76
+,18,"van Stigt, D.F.M.",44
+,19,"van der Sande, S.C.",110
+,20,"van Vliet, J.M.",65
+,21,"Deterink, W.J.",43
+,22,"van der Sangen, N.M.R.",51
+,23,"van Loon, P.",41
+,24,"Volgers, R.J.C.",105
+,25,"Vis, M.E.",280
+,26,"Muller, Y.",57
+,27,"Kreiken, D.J.",48
+,28,"van Seventer, W.G.",202
+,29,"SlijepÄeviÄ,",75
+,30,"Ahmadi, M.H.",92
+,31,"Jol, A.",27
+,32,"Mulder, E.S.",139
+,33,"van der Meer, J.D.",16
+,34,"Snijder, M.",93
+,35,"van der Laan, B.",73
+,36,"Hooft, S.",13
+,37,"LaÃ¢ma-de Walle, H.I.J",40
+,38,"van der Baan, D.A.",45
+,39,"Pollarini, G.M.",36
+,40,"Dekker, A.M.",92
+,41,"Drenth, B.J.",19
+,42,"Salemink, L.W.",22
+,43,"Waller, C.J.",32
+,44,"Luijten, P.J.H.M.",28
+,45,"Van Wijngaarden, J.",54
+,46,"Paul, M.L.J.",30
+,47,"Torn, R.K.",47
+,48,"Marttin, A.A.M.",40
+,49,"de Grave-Verkerk, D.G.M.",51
+,50,"Poot, M.C.G.",283
+4 Partij van de Arbeid (P.v.d.A.),1,"Moorman, M.",42778
+,2,"Mbarki, S.",1526
+,3,"Abdi, F.",2741
+,4,"Heinhuis, L.E.",924
+,5,"Asruf, M.F.",557
+,6,"Namane, F.A.",988
+,7,"Minderhoud, B.M.H.",361
+,8,"Doevendans, S.S.",1112
+,9,"Belkasmi, M.",358
+,10,"Bouhassani, A.",994
+,11,"Noordzij, G.",256
+,12,"Runderkamp, I.P.",222
+,13,"Hirsch, K.",418
+,14,"Terwel, L.E.",500
+,15,"Kacha, H.",67
+,16,"Keesman, A.T.",285
+,17,"Snijders, E.D.",299
+,18,"Wind, B.J.",117
+,19,"Bazen, L.",321
+,20,"Maas, B.",124
+,21,"Karaman, H.H.",269
+,22,"Angerman, A.",70
+,23,"Meijer, E.S.",114
+,24,"Breemer, F.",145
+,25,"de Heer, A.C.",102
+,26,"Poorter, M.F.",87
+,27,"Ossel, F.",63
+,28,"Sweet, E.M.",362
+,29,"d' Ancona, H.",766
+,30,"de Vries-Sandoval Taco, E.J.",167
+5 SP (Socialistische Partij),1,"Alberts-Oosterbaan, R.",9465
+,2,"Bobeldijk, E.",548
+,3,"Haijen, J.A.",192
+,4,"Berends, E.",1319
+,5,"Wedemeijer, J.J.",275
+,6,"van Dongen, M.M.M.",152
+,7,"Kamstra, H.J.",84
+,8,"Schaeffer, C.",143
+,9,"van der Veen, G.",59
+,10,"Peters, D.W.S.",58
+,11,"Peters-van Gemert, N.G.",263
+,12,"Koster, V.",179
+,13,"Yntema, A.R.",29
+,14,"Chekhchar, C.",141
+,15,"Delsen, A.A.",30
+,16,"Thijs, H.K.A.P.",40
+,17,"Anamoah, R.",179
+,18,"van der Weide, K.E.",43
+,19,"Kuiper, A.C.E.",113
+,20,"Offenberg, C.I.",194
+,21,"Jurrema, F.R.",25
+,22,"Kwint, J.P.",106
+,23,"Alkaya, M.O.",180
+,24,"Flentge, E.A.",46
+,25,"van Raak, A.A.G.M.",173
+6 Partij voor de Dieren,1,"van Lammeren, J.F.W.",9351
+,2,"Bakker, A.L.",5589
+,3,"Bloemberg - Issa, J.F.",1721
+,4,"Krom, J.M.",1014
+,5,"Emmerik, M.J.",128
+,6,"Jonk, C.A.M.",581
+,7,"Schellingerhout, R.B.A.",131
+,8,"Didderen, T.",608
+,9,"de Vos, D.J.C.",259
+,10,"Shahbazi, N.",1082
+,11,"Meerburg, M.",69
+,12,"Polderman, L.M.L.",254
+,13,"van Schaijck, M.R.W.",93
+,14,"Janmaat, I.",64
+,15,"van der Meer, E.E.",259
+,16,"Peschier, E.S.",35
+,17,"van Dijk - Armor, M.M.",85
+,18,"Broersen, L.M.",66
+,19,"Dicke, I.M.",114
+,20,"van der Waaij, J.",13
+,21,"Mannoesingh, J.K.P.",153
+,22,"Boogaard, H.",110
+,23,"Prast, H.M.",90
+,24,"NicolaÃ¯, P",51
+,25,"van Raan, L.",111
+7 DENK,1,"Khan, S.Y.",2524
+,2,"Koyuncu, S.",3376
+,3,"El Johari, A.",1301
+,4,"Carrilho, I.L.E.",462
+,5,"Alkaduhimi, M.",387
+,6,"Mangal, E.S.J.",107
+,7,"Yacoubi, A.",470
+,8,"Ghazi, M.I.",439
+,9,"Aboelkasem, E.",422
+,10,"Ihammanen, A.",101
+,11,"Askkali, Y.",220
+,12,"Hakiki, F.",570
+,13,"GÃ¼n, E",175
+,14,"Amraoui, A.",512
+,15,"Kuzu, T.",1973
+8 Forum voor Democratie,1,"van Schijndel, A.H.J.W.",3057
+,2,"de Keijzer, R.A.",443
+,3,"Bilgin, T.",229
+,4,"van Haarlem, C.R.O.",100
+,5,"Voskamp, H.B.",41
+,6,"van der Heul, B.B.",23
+,7,"Splinter, B.",142
+,8,"Zentveld, E.",85
+,9,"Meijer, W.",215
+,10,"Noordman, J.J.",29
+,11,"Koopman, P.",16
+,12,"van Tilborg, B.A.",33
+,13,"Jacobs, H.",21
+,14,"Boskamp, H.",33
+,15,"Sieben, M.W.",17
+,16,"Scholte, E.",6
+,17,"Verschoor, B.B.",19
+,18,"Russcher, T.K.",24
+,19,"Dekker, R.J.",18
+,20,"Jansen, F.J.H.",73
+,21,"Baudet, T.H.P.",2064
+9 CDA,1,"Boomsma, D.T.",5620
+,2,"Havelaar, R.B.",264
+,3,"Wijmenga, R.P.",731
+,4,"Essakkati, H.",122
+,5,"Hilders-van de Wetering, K.F.",486
+,6,"van Drooge, A.H.",114
+,7,"Cicilson, E.J.",43
+,8,"Cherradi Benssebahe, I.",34
+,9,"Limburg, J.M.",41
+,10,"Engels, R.M.",57
+,11,"van Helden, T.J.A.G.",42
+,12,"Lochtenberg, L.J.J.",25
+,13,"van Braak, H.",11
+,14,"Koet, B.J.B.",31
+,15,"Badal, L.",31
+,16,"van Hellenberg Hubar, A.J.G.S.M.",14
+,17,"de Roy van Zuidewijn-Rive, S.C.T.",68
+,18,"Stevens, L.C.A.",18
+,19,"Runjevac, T.",28
+,20,"Michel, B.C.",10
+,21,"Cohen de Lara, E.",26
+,22,"Hoeve-Zwarthoed, A.A.C.M.",61
+,23,"Koppejan, H.S.C.",16
+,24,"van Geijn, F.H.M.A.",3
+,25,"Braber, A.E.",6
+,26,"Holland, G.F.J.",10
+,27,"de Groot-Wasser, J.J.M.",22
+,28,"Rossen, G.L.",10
+,29,"Janssen, M.J.F.M.",4
+,30,"Boukhoubza, L.",22
+,31,"Sluijk, C.",40
+,32,"van der Meulen, J.L.",15
+,33,"Burggraaff, H.B.",148
+,34,"SchrÃ¶der, A.E",12
+,35,"van Baars, J.",5
+,36,"Hilders, W.J.",9
+,37,"Wouda, P.H.T.",11
+,38,"de Jong, M.",12
+,39,"van Oosterhout, B.D.",16
+,40,"van der Hoeven, J.J.",13
+,41,"Ross-van Dorp, C.I.J.M.",19
+10 Partij van de Ouderen (P.v.d.O.),1,"van Soest, W.",4070
+,2,"van de Kamp, L.",364
+,3,"Overweg, D.W.",209
+,4,"Kerklingh, H.K.",29
+,5,"van Meetelen, F.",77
+,6,"Lof, S.M.",85
+,7,"Bong, H.M.",54
+,8,"Wouters, J.A.J.",90
+,9,"Aamarou, Y.",31
+,10,"Hamstra, J.",44
+,11,"Boerlijst-Bakker, J.",111
+,12,"den Dekker, G.",28
+,13,"Meijer, N.",41
+,14,"Grift, R.G.",10
+,15,"Aberkrom, P.",27
+,16,"van Oudenallen, H.F.M.",108
+11 ChristenUnie,1,"van den Heuvel, G.J.J.",1690
+,2,"Da Costa, G.J.",269
+,3,"de Bruine, H.M.",552
+,4,"Verwijs, M.W.",104
+,5,"La, C.D.",125
+,6,"van Rossum, L.Z.F.",35
+,7,"Agyeman, K.B.",667
+,8,"van Bokhorst, A.C.W.",34
+,9,"Buit, Y.B.",53
+,10,"Klein, A.C.",41
+,11,"Goodett, L.K.M.H.",58
+,12,"Groenendaal-Zwanenburg, A.M.",34
+,13,"Kuiper-de Haan, T",41
+,14,"Huisman, S.S.",20
+,15,"Meerwijk-Elsau, M.R.",19
+,16,"Bor, D.S.",19
+,17,"Hofsink, I.H.",14
+,18,"Janssen, G.O.",34
+,19,"Hoffman, C.E.A.J.",55
+,20,"de Snoo, T.",21
+,21,"Kamphuis-Vavier, M.W.D.",19
+,22,"Husain-Cornelissen, L.B.",7
+,23,"Frederiksen, A.",6
+,24,"Brinksma, P.J.",10
+,25,"den Uijl-Kolk, M.J.",5
+,26,"Van humbeeck, D.",6
+,27,"den Hertog, P.J.",11
+,28,"Koster-Poelman, A.M.B.",20
+,29,"Visser, C.J.",15
+,30,"Bezemer, J.",6
+,31,"Janssen, D.J.",15
+,32,"Hart, E.J.",55
+,33,"Putters-van der Heide, B.",9
+,34,"Schultz, E.E.",30
+,35,"Zeijl, J.E.",16
+,36,"Bosshardt, P.C.",11
+,37,"Westert, G.W.",9
+,38,"Acuner, S.B.",11
+,39,"van Essen, H.J.",7
+,40,"Klok-van Laar, H.",13
+,41,"de Ruiter, H.A.",25
+,42,"Voordewind, J.S.",60
+,43,"Ceder, D.G.M.",572
+12 Amsterdam BIJ1,1,"Veldhuyzen, J. A.",4992
+,2,"Kabamba, C.K.E.",5008
+,3,"Ahmadi, N.",5531
+,4,"Bons, A.D.J.",1608
+,5,"Landbrug, D.R.",628
+,6,"van Dormalen, C.E.M.L",533
+,7,"AsbaÃ¢, N",283
+,8,"Verkerke, J.E.",282
+,9,"Perdok, M.M.",363
+,10,"Helmijr, C.I.",87
+,11,"Braaksma, A.H.",61
+,12,"Bottenheft, E.C.",55
+,13,"Segaar, G.T.",107
+,14,"Vliet, C. A.",293
+,15,"Gambier, G.L.E",420
+,16,"Vijzelman, A.C.",254
+,17,"Olivieira, J.A.H.",225
+,18,"Nauth, N.",139
+,19,"Brecher, B.S.",108
+,20,"van der Pligt, M.M.",62
+,21,"Meulenbelt, A.H.",102
+,22,"Burke, U.P.",576
+,23,"Sax, M.",85
+,24,"Wekker, G.D",821
+13 JA21,1,"Nanninga, A.",11821
+,2,"Kreuger, K.M.",987
+,3,"van Berkel, C.C.J.",131
+,4,"de Jong, M.R.",112
+,5,"Lelkes, M.G.",32
+,6,"Peters, M.",76
+,7,"Molema, C.M.",296
+,8,"La Grouw, S.",32
+,9,"Zandbergen, J.R.",21
+,10,"Dekker, D.M.C.",26
+,11,"Ashrafie, M.T.",31
+,12,"Vencken, R.J.G.P.",15
+,13,"Brante, M.C.",36
+,14,"Allan, M.A.",75
+14 Hart voor Vrijheid Amsterdam,1,"Gietelink, A.C.",1095
+,2,"de Haan, S.",413
+,3,"Gietelink, H.K.",60
+,4,"Lutgens, S.I.",45
+,5,"van Koppenhagen, M.A.",178
+,6,"Beydals, R.V.",75
+,7,"Scheggetman, A.M.",31
+,8,"Janssen Steenberg, M.W.H.",46
+,9,"Bosch, D.M.I.T.M.G.",52
+,10,"Schramade, M.H.",7
+,11,"Ferdes, M.O.R.",85
+,12,"Vega Nebel, A.A.",24
+,13,"Bauer, A.C.",6
+,14,"Huijser van Reenen, A.A.C.",17
+,15,"Finch, J.M.",72
+,16,"Koperdraat, R.P.",28
+,17,"AvÅar, D",47
+,18,"Dekker, C.J.",31
+,19,"Adolfse, V.W.M.M.",7
+,20,"Visee, M.",46
+,21,"Ayari, J.E.",34
+15 De Groenen Basis Piraten,1,"Pontier, M.A.",1835
+,2,"van Zwoll, R.M.E.",1131
+,3,"Delsing, S.A.M.",399
+,4,"Smit, H.R.M.P.",58
+,5,"Berendsen, P.",45
+,6,"Abendroth, A.M.",126
+,7,"Werner, D.R.",30
+,8,"Doting, R.",13
+,9,"Sadloe, S.",274
+,10,"Winkler, D.",56
+,11,"SchÃ¶nberger, R.A",56
+,12,"Zikking, A.P.A.",101
+,13,"Zimmerman, H.K.",100
+,14,"Binsbergen, E.",27
+,15,"van Riel, E.B.H.",19
+,16,"Matenko, R.W.E.",24
+,17,"El Hajoui, N.",62
+,18,"Ebbink, H.F.",26
+,19,"Werner-Wafelman, L.S.",23
+,20,"Plesa, B.",21
+,21,"Linnenbank, A.C.",12
+,22,"Vita, S.",74
+,23,"Bakkers, T.F.M.",12
+,24,"Klaver, E.T.J.M.",8
+,25,"van Houts, G.",35
+,26,"Blaak, M.G.M.H.",96
+16 GO,1,"Otten, H.",179
+,2,"Baljeu, R.J.P.",24
+,3,"de Vries, J.W.E.",16
+17 De Republikeinse Politieke Partij,1,"Felter, D.A.",108
+18 St3m,1,"Swart, F.",1183
+,2,"van Vliet, B.B.",142
+,3,"van Emmerik, A.A.P.",22
+,4,"Romkema, F.L.",21
+,5,"Verberne, C.F.",24
+,6,"Kerkhoff, M.D.P.",3
+,7,"Nollen, R.M.",44
+,8,"Burger, J.E.J.M.",9
+,9,"Willemsen, S.A.",24
+,10,"Vlug, J.A.",5
+,11,"Kuiper, I.C.",11
+,12,"Bruining, I.",8
+,13,"Drager, T.J.D.",7
+,14,"Nessen, P.D.",11
+,15,"van Eunen, R.",16
+,16,"Stins, C.S.",50
+,17,"Veltman, M.J.",11
+,18,"Petri, M.",26
+19 50PLUS,1,"Beving, P.R.",1246
+,2,"Stulemeijer, H.J.F.X.P.",179
+,3,"Maarschalk Meijer, E.M.N.",322
+,4,"Dissels, J.",138
+,5,"de Wolff, F.A.H.",57
+,6,"Faassen, A.G.",55
+20 Staatkundig Gereformeerde Partij (SGP),1,"van Spronsen, M.D.J.",202
+,2,"Nas, J.N.",15
+,3,"Logtenberg, A.A.",11
+,4,"van der Wal, D.",9
+,5,"Westerman, M.",2
+,6,"Marck, A.J.T.",39
+,7,"Keijser, R.L.J.",6
+,8,"GrÃ¤tz, T",16
+"21 Blanco (Chan, K.K.)",1,"Chan, K.K.",297
+,2,"de Leen, C.",49
+22 DE FEESTPARTIJ (DFP),1,"ï¿½resin, D.M.",317
+,2,"Muntz, R.I.",104
+23 Belang van Nederland (BVNL),1,"Heilbron, R.E.H.",802
+,2,"Visser, M.",297
+,3,"Jansen, M.P.G.",24
+,4,"van Steen, R.",19
+,5,"van der Linden, C.J.",7
+,6,"Killian, Y.M.",42
+,7,"van Kassel, P.",50
+,8,"Wienholts, E.G.H.J.",4
+,9,"Weeseman, C.",36
+,10,"Bauduin, D.V.F.J.",2
+,11,"Ephraim, O.R.",10
+,12,"van Haga, W.R.",463
+24 Democratisch Socialisten Amsterdam,1,"Hartog, B.F.",531
+,2,"Langedijk-Lynch, F.",461
+,3,"Schreuders, D.",102
+,4,"Overdijk, D.J.",42
+,5,"Lovera Rivas, J.H.E.",39
+,6,"van Rijswijk, H.",90
+,7,"Proos, T.S.L.",16
+,8,"Rinkens, R.J.C.",45
+,9,"van Eck, C.M.H.",15
+,10,"Wiegers, L.H.T.",5
+,11,"Garzon Florez, D.A.",8
+,12,"Abdul, M.Y.",57
+,13,"Kracht, I.",10
+,14,"van Horn, T.N.",3
+,15,"Zonneveld, J.J.F.M.",17
+,16,"Kalma, P.D.B.",2
+,17,"Visser, G.P.",6
+,18,"van Schaik, G.J.",0
+,19,"Spier, J.",23
+25 Volt,1,"Broersen, J.",9018
+,2,"Garmy, I.",772
+,3,"Vesseur, E.",1118
+,4,"Gravelotte, M.C.F.",187
+,5,"Top, K.",833
+,6,"Minnes, I.A.",288
+,7,"Lemmen, L.",442
+,8,"Hendriks, I.N.",68
+,9,"Konings, F.E.",189
+,10,"van Amesfoort, A.L.",146
+,11,"van Laake, M.I.",180
+,12,"Mulder, M.E.",100
+,13,"Broerse, I.A.",156
+,14,"Bouma, W.M.E.",107
+,15,"Schreurs, S.",130
+,16,"van Lanschot, R.J.A.",309
+26 LEF - Voor de Nieuwe Generatie,1,"van Duijn, D.C.",375
+,2,"ten Napel, M.C.C.L.",69
+,3,"Wiersma, C.E.",68
+,4,"Wijnen, K.T.H.",12
+,5,"Berends, M.C.",45
+,6,"Bennis, N.M.",11
+,7,"Sjiem-Fat, S.D.",57
+,8,"Moes, L.E.",9
+,9,"de Vries, J.",6
+,10,"Thierry, E.M.",8
+,11,"Spaans, M.",11
+,12,"Neijndorff, V.M.",11
+,13,"Vanstone, B.J.",2
+,14,"Simal Busto, A.",27
+,15,"Verbunt, J.B.",1
+,16,"Evers, J.C.",15
+,17,"Hulst, P.W.",4
+,18,"Marres, M.E.M.",6
+,19,"Koch, M.C.",2
+,20,"Visch, C.J.",3
+,21,"de Campos, D.L.M.",18
+,22,"Pala, M.P.M.",6
+,23,"Scholte ter Horst, S.L.",2
+,24,"van der Hoek, W.",8
+,25,"van de Beek, T.",6
+,26,"Winchester, S.R.",4
+,27,"Gardner, E.J.",4
+,28,"Hermsen, J.",8
+,29,"Fruneaux, C.",11
+,30,"van Heemstra, M.",39
