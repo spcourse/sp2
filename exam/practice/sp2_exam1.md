@@ -85,7 +85,7 @@ The output of this part of your program should be:
 
 This data contains all the election results of the 2022 municipal elections of Amsterdam. It contains the name, position in the party and number of votes for each candidate. It contains also the party affiliation for each candidate, but that's encoded in an inconvenient way: The party is only mentioned for the first candidate of each party. The other ones contain a `NaN` value. You can assume that when the party is `NaN`, the party is the same as the one of the candidate above it. For example, the party _Nadif_ is _Groenlinks_ and so is the party of _van der Veen_. And, for example, the party of _Moeskops_ is _D66_.
 
-We know that the PvdA party won the most votes in the election, but now we're not interested in the total votes of the party but which top candidates of across all parties. Create a function `top_candidates(results)` that computes a DataFrame containing **all candidates that had more than 2%** of the total number of votes, including the party affiliation of each candidate.
+We know that the PvdA party won the most votes in the election, but now we're not interested in the total votes of the party. Instead we want to know the top candidates across all parties. Create a function `top_candidates(results)` that computes a DataFrame containing **all candidates that had more than 2%** of the total number of votes, including the party affiliation of each candidate.
 
 **Don't use a loop for this assignment.**
 
