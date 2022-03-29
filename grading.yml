@@ -44,7 +44,7 @@ grades:
         subgrades:
             passed: boolean
         calculation: passed
-        hide_subgrades: true
+        hide_subgrades: false
 
 calculation:
     finalgrade:
