@@ -1,4 +1,4 @@
-# Practice exam Scientific Programming 2
+# Exam Scientific Programming 2
 
 This is a digital exam. The exam consists of 3 assignment in which you have to write a short python program.
 

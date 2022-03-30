@@ -39,17 +39,17 @@ grades:
         calculation: correct
         hide_subgrades: true
 
-    exam:
+    exam1:
         type: pass
         subgrades:
             passed: boolean
         calculation: passed
-        hide_subgrades: false
+        hide_subgrades: true
 
 calculation:
     finalgrade:
       assignments: 0
-      exam: 1
+      exam1: 1
 
 assignments:
     show_progress: true
@@ -60,7 +60,7 @@ assignments:
         complexity: 1
         news: 1
         survival: 1
-exam:
+exam1:
     show_progress: true
     submits:
-      exam: 1
+      exam1: 1
