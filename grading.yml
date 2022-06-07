@@ -46,10 +46,20 @@ grades:
         calculation: passed
         hide_subgrades: true
 
+    exam2:
+        type: pass
+        subgrades:
+            passed: boolean
+        calculation: passed
+        hide_subgrades: true
+
 calculation:
     finalgrade:
       assignments: 0
       exam1: 1
+    finalgrade2:
+      assignments: 0
+      exam2: 1
 
 assignments:
     show_progress: true
@@ -64,3 +74,8 @@ exam1:
     show_progress: true
     submits:
       exam1: 1
+
+exam2:
+    show_progress: true
+    submits:
+      exam2: 1
