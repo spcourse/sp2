@@ -71,7 +71,7 @@ Tip: You can split a text into a list of words using the `text.split()` method.
 
 ### 3. Elections
 
-[Download the `election_results_amsterdam_2022.csv` for this exam here](data/election_results_amsterdam_2022.csv) and read it using Pandas. Store it as a DataFrame called `election_results`. Print the first 5 rows  and after that also row 39 to 44 of the DataFrame.
+[Download the `election_results_amsterdam_2022.csv` for this exam here](election_results_amsterdam_2022.csv) and read it using Pandas. Store it as a DataFrame called `election_results`. Print the first 5 rows  and after that also row 39 to 44 of the DataFrame.
 
 The output of this part of your program should be:
 
