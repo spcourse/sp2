@@ -1,18 +1,15 @@
-complexity:
-    remote: https://github.com/spcourse/complexity.git
-    branch: main
-news:
-    remote: https://github.com/spcourse/news.git
-    branch: main
-survival:
-    remote: https://github.com/spcourse/survival.git
-    branch: main
-populations-oo:
-    remote: https://github.com/spcourse/populations-oo.git
-    branch: main
 monopoly:
     remote: https://github.com/spcourse/monopoly.git
     branch: main
+    
+complexity:
+    remote: https://github.com/spcourse/complexity.git
+    branch: main
+
+populations-oo:
+    remote: https://github.com/spcourse/populations-oo.git
+    branch: main
+
 
 # movement:
 #     remote: https://github.com/spcourse/movement.git
