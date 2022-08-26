@@ -1,4 +1,31 @@
+templates:
+    1: &check
+        hide_calculated: true
+        type: integer
+        subgrades:
+            checkpy: integer
+            completely_correct: boolean
+            mostly_correct: boolean
+            insufficient: boolean
+        automatic:
+            checkpy: (mostly_correct && 2) || (completely_correct && 3)
+        calculation: correct
+    2: &testt
+        type: pass
+        subgrades:
+            checkpy: integer
+            passed: boolean
+        automatic:
+            checkpy: correctness_score
+        calculation: passed
+        hide_calculated: true
+
 grades:
+    movement:
+        <<: *check
+    monopoly-en:
+        <<: *check
+
     q1_complexity:
         type: pass
         subgrades:
@@ -19,46 +46,16 @@ grades:
         hide_subgrades: true
 
     complexity:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
+        <<: *check
 
-    news:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
-
-    survival:
-        type: pass
-        subgrades:
-            correct: boolean
-        calculation: correct
-        hide_subgrades: true
+    populations:
+        <<: *check
 
     exam1:
-        type: pass
-        subgrades:
-            passed: boolean
-        calculation: passed
-        hide_subgrades: true
+        <<: *testt
 
     exam2:
-        type: pass
-        subgrades:
-            passed: boolean
-        calculation: passed
-        hide_subgrades: true
-
-    exam3:
-        type: pass
-        subgrades:
-            passed: boolean
-        calculation: passed
-        hide_subgrades: true
+        <<: *testt
 
 calculation:
     finalgrade:
@@ -67,9 +64,6 @@ calculation:
     finalgrade2:
       assignments: 0
       exam2: 1
-    finalgrade3:
-      assignments: 0
-      exam3: 1
 
 assignments:
     show_progress: true
@@ -89,8 +83,3 @@ exam2:
     show_progress: true
     submits:
       exam2: 1
-
-exam3:
-    show_progress: true
-    submits:
-      exam3: 1
