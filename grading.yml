@@ -1,4 +1,15 @@
 templates:
+    1: &check-semi-auto
+        hide_calculated: true
+        type: integer
+        subgrades:
+            checkpy: integer
+            completely_correct: boolean
+            mostly_correct: boolean
+            insufficient: boolean
+        automatic:
+            checkpy: correctness_score
+        calculation: (mostly_correct && 2) || (completely_correct && 3)
     1: &check
         hide_calculated: true
         type: integer
@@ -8,8 +19,8 @@ templates:
             mostly_correct: boolean
             insufficient: boolean
         automatic:
-            checkpy: (mostly_correct && 2) || (completely_correct && 3)
-        calculation: correct
+            checkpy: correctness_score
+        calculation: (mostly_correct && 2) || (completely_correct && 3)
     2: &testt
         type: pass
         subgrades:
@@ -24,7 +35,7 @@ grades:
     # movement:
     #     <<: *check
     monopoly-en:
-        <<: *check
+        <<: *check-semi-auto
 
     q1_complexity:
         type: pass
