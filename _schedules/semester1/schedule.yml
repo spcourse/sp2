@@ -1,0 +1,65 @@
+Welcome:
+  Read the syllabus to get started: /syllabus
+
+Monopoly (level 4):
+    Animating in Python:
+        Learn how to create animated graphics [theory]: /animation/en/explanation
+        A spiraling dot [assignment]: /animation/en/dot
+        Explore the movements of a buzzed student [assignment]: /animation/en/student
+    Monopoly:
+        Introduction: /monopoly/en/
+        Learn about debugging simulations [theory]: /python/en/debugging
+        Moving around the board [assignment]: /monopoly/en/moving-around
+        Using starting funds and buying stuff [assignment]: /monopoly/en/money
+        Add a player and restore the balance [assignment]: /monopoly/en/two-player
+    Submit:
+        Submit your solutions: /submit/monopoly
+
+Complexity (level 5):
+    Introduction: /complexity
+    "Part 1: Computational complexity":
+        Complexity [theory]: /python/en/efficiency
+        Complexity questions 1 [assignment]: /complexity/questions1
+    "Part 2: Data structures":
+        Dictionaries [theory]: /python/en/dictionaries/use
+        Dictionaries [practice]: /python/en/dictionaries/use/practice
+        Efficiency of dictionaries [theory]: /python/en/dictionaries/complexity
+        Efficiency of dictionaries [practice]: /python/en/dictionaries/complexity/practice
+        Tuples [theory]: /python/en/tuples
+        Sets [theory]: /python/en/sets
+        Sets [practice]: /python/en/sets/practice
+        List slicing and indexing [theory]: /python/en/slicing
+    "Part 3: Optimizing code":
+        Applying big O in your code [theory]: /python/en/big-o
+        Improving count_occurrence [theory]: /python/en/big-o-example
+        Complexity questions 2 [assignment]: /complexity/questions2
+        Jaccard [assignment]: /complexity/jaccard
+    "Part 4: Indexing":
+        Indexing words [assignment]: /complexity/word-index
+    Submit your solutions: /submit/complexity
+
+Populations (level 6):
+    To appear: /
+    # Intoruction: /populations-oo
+    # Classes:
+    #     Learn about using classes in Python [theory]: /python/en/classes
+    #     Practice with classes [practice]: /python/en/classes/practice
+    # Populations:
+    #     Introduction: /populations-oo/introduction
+    #     Phase 1: /populations-oo/phase1
+    #     Phase 2: /populations-oo/phase2
+    #     Phase 3: /populations-oo/phase3
+    #     Phase 4: /populations-oo/phase4
+    #     Phase 5: /populations-oo/phase5
+    #     Phase 6: /populations-oo/phase6
+    #     Phase 7: /populations-oo/phase7
+    #     Phase 8: /populations-oo/phase8
+    #     Phase 9: /populations-oo/phase9
+
+
+#
+# Practice Exam:
+#     Practice exam: /exam/practice
+# 
+# Exam:
+#     Exam: /exam/exam

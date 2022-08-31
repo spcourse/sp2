@@ -39,26 +39,24 @@ Complexity (level 5):
     Submit your solutions: /submit/complexity
 
 Populations (level 6):
-    Intoruction: /populations-oo
-    Classes:
-        Learn about using classes in Python [theory]: /python/en/classes
-        Practice with classes [practice]: /python/en/classes/practice
-    Populations:
-        Introduction: /populations-oo/introduction
-        Phase 1: /populations-oo/phase1
-        Phase 2: /populations-oo/phase2
-        Phase 3: /populations-oo/phase3
-        Phase 4: /populations-oo/phase4
-        Phase 5: /populations-oo/phase5
-        Phase 6: /populations-oo/phase6
-        Phase 7: /populations-oo/phase7
-        Phase 8: /populations-oo/phase8
-        Phase 9: /populations-oo/phase9
+    To appear: /
+    # Intoruction: /populations-oo
+    # Classes:
+    #     Learn about using classes in Python [theory]: /python/en/classes
+    #     Practice with classes [practice]: /python/en/classes/practice
+    # Populations:
+    #     Introduction: /populations-oo/introduction
+    #     Phase 1: /populations-oo/phase1
+    #     Phase 2: /populations-oo/phase2
+    #     Phase 3: /populations-oo/phase3
+    #     Phase 4: /populations-oo/phase4
+    #     Phase 5: /populations-oo/phase5
+    #     Phase 6: /populations-oo/phase6
+    #     Phase 7: /populations-oo/phase7
+    #     Phase 8: /populations-oo/phase8
+    #     Phase 9: /populations-oo/phase9
 
 
-
-Practice Exam:
-    Practice exam: /exam/practice
-
-Exam:
-    Exam: /exam/exam
+# 
+# Practice Exam:
+#     Practice exam: /exam/practice
