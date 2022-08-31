@@ -21,8 +21,8 @@ templates:
         hide_calculated: true
 
 grades:
-    movement:
-        <<: *check
+    # movement:
+    #     <<: *check
     monopoly-en:
         <<: *check
 
@@ -68,12 +68,16 @@ calculation:
 assignments:
     show_progress: true
     submits:
+        monopoly-en: 1
+
         q1_complexity: 0
         q2_complexity: 0
         q3_complexity: 0
+
         complexity: 1
-        news: 1
         survival: 1
+        populations: 1
+
 exam1:
     show_progress: true
     submits:
