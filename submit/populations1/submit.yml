@@ -1,4 +1,4 @@
-name: populations-oo
+name: populations
 files:
     required:
         - phase1.py
