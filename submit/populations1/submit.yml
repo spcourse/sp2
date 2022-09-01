@@ -1,0 +1,14 @@
+name: populations-oo
+files:
+    required:
+        - phase1.py
+        - phase2.py
+        - phase3.py
+        - phase4.py
+        - phase5.py
+        - phase6.py
+        - phase7.py
+        - phase8.py
+        - experiment1.py
+    optional:
+        - bonus.zip
