@@ -1,7 +1,7 @@
 monopoly:
     remote: https://github.com/spcourse/monopoly.git
     branch: main
-    
+
 complexity:
     remote: https://github.com/spcourse/complexity.git
     branch: main
@@ -9,7 +9,10 @@ complexity:
 populations-oo:
     remote: https://github.com/spcourse/populations-oo.git
     branch: main
-
+    
+animation:
+    remote: https://github.com/spcourse/animation.git
+    branch: main
 
 # movement:
 #     remote: https://github.com/spcourse/movement.git
