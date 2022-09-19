@@ -10,4 +10,6 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - You may submit and re-submit without limit up until the deadline. However, each time you submit, you need to submit all problems at once.
 
+- please hand in all your uml files together in `uml.zip`. 
+
 - In case of problems submitting, ask your teacher or send an e-mail to <scientific@uva.nl>.

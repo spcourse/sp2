@@ -10,5 +10,6 @@ files:
         - phase7.py
         - phase8.py
         - experiment1.py
+        - umls.zip
     optional:
         - bonus.zip
