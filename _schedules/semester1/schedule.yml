@@ -58,10 +58,8 @@ Populations (level 6):
         Bonus assignments: /populations-oo/bonus-experiments
     Submit your solutions: /submit/populations
 
+Practice Exam:
+    Practice exam: /exam/practice
 
-#
-# Practice Exam:
-#     Practice exam: /exam/practice
-#
-# Exam:
-#     Exam: /exam/exam
+Exam:
+    Exam: /exam/exam
