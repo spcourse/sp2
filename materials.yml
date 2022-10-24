@@ -7,6 +7,9 @@ news:
 survival:
     remote: https://github.com/spcourse/survival.git
     branch: main
+populations-oo:
+    remote: https://github.com/spcourse/populations-oo.git
+    branch: main
 python:
     remote: https://github.com/spcourse/sp1-python.git
     branch: main
