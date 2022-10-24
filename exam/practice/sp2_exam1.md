@@ -64,52 +64,8 @@ You're allowed to use this `my_map` function below:
         return [fun(e) for e in my_list]
 
 
-### 3. Elections
+### 3
 
-[Download the `election_results_amsterdam_2022.csv` for this exam here](election_results_amsterdam_2022.csv) and read it using Pandas. Store it as a DataFrame called `election_results`. Print the first 5 rows  and after that also row 39 to 44 of the DataFrame.
+In the old practice exam there is a `pandas` question here. You should expect a question on Object Oriented Programming instead.
 
-The output of this part of your program should be:
-
-              party  candidate_number        candidate_name  votes
-    0  1 GROENLINKS                 1   Groot Wassink, B.R.  12162
-    1           NaN                 2             Nadif, I.  12435
-    2           NaN                 3        Ernsting, Z.D.    694
-    3           NaN                 4       Bentoumya, Y.E.   4313
-    4           NaN                 5  van der Veen, K.S.N.    560
-        party  candidate_number     candidate_name  votes
-    39    NaN                40         Corton, E.    288
-    40  2 D66                 1  van Dantzig, R.H.  15537
-    41    NaN                 2   de Jager, D.O.C.  12294
-    42    NaN                 3     Rooderkerk, I.   1857
-    43    NaN                 4   Moeskops, E.D.M.   1545
-
-This data contains all the election results of the 2022 municipal elections of Amsterdam. It contains the name, position in the party and number of votes for each candidate. It contains also the party affiliation for each candidate, but that's encoded in an inconvenient way: The party is only mentioned for the first candidate of each party. The other ones contain a `NaN` value. You can assume that when the party is `NaN`, the party is the same as the one of the candidate above it. For example, the party _Nadif_ is _Groenlinks_ and so is the party of _van der Veen_. And, for example, the party of _Moeskops_ is _D66_.
-
-We know that the PvdA party won the most votes in the election, but now we're not interested in the total votes of the party. Instead we want to know the top candidates across all parties. Create a function `top_candidates(results)` that computes a DataFrame containing **all candidates that had more than 2%** of the total number of votes, including the party affiliation of each candidate.
-
-**Don't use a loop for this assignment.**
-
-Test the function with:
-
-    top = top_candidates(election_results)
-    print(top)
-
-Which should print:
-
-                                     party  candidate_number          candidate_name  votes  percentage_votes
-    0                         1 GROENLINKS                 1     Groot Wassink, B.R.  12162          3.743663
-    1                         1 GROENLINKS                 2               Nadif, I.  12435          3.827697
-    40                               2 D66                 1       van Dantzig, R.H.  15537          4.782543
-    41                               2 D66                 2        de Jager, D.O.C.  12294          3.784295
-    90                               3 VVD                 1             Martens, C.  25012          7.699103
-    140  4 Partij van de Arbeid (P.v.d.A.)                 1             Moorman, M.  42778         13.167769
-    170       5 SP (Socialistische Partij)                 1  Alberts-Oosterbaan, R.   9465          2.913482
-    195            6 Partij voor de Dieren                 1    van Lammeren, J.F.W.   9351          2.878391
-    380                            13 JA21                 1            Nanninga, A.  11821          3.638697
-    512                            25 Volt                 1            Broersen, J.   9018          2.775888
-
-
-The problem involves a number of steps:
-1. First you will need to deal with the `NaN`. You can use the Pandas `fillna` method for this.
-2. Second, you need to compute the percentage of votes of each candidate and create a column `percentage_votes` which contains the number of votes as a percentage of the total votes cast.
-3. Finally you should select only the rows where this percentage is higher then 2%.
+For now you can ignore the `checkpy` tests that correspond to this question.
