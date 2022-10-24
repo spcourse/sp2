@@ -64,7 +64,7 @@ You're allowed to use this `my_map` function below:
         return [fun(e) for e in my_list]
 
 
-### 3. 
+### 3.
 
 In the old practice exam there is a `pandas` question here. You should expect a question on Object Oriented Programming instead.
 
