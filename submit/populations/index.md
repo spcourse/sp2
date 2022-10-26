@@ -14,4 +14,4 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - In case of problems submitting, ask your teacher or send an e-mail to <scientific@uva.nl>.
 
-**Note:** Your files can not exceed 1mb in total size. Make sure your uml.zip is not too large, and if necessary decrease the size of your UML images.
+**Note:** Your files can not exceed 1mb in total size. Make sure your `uml.zip` is not too large, and if necessary decrease the size of your UML images.
