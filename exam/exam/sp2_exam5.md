@@ -62,7 +62,7 @@ We've got friends that recommend us movies to watch, but too little time to watc
 
 The following UML describes the relation between the classes:
 
-![](C:\Users\simon\Documents\GitHub\Course Development\spcourse-exams\sp\umls\movies1.png)
+![](umls\movies1.png)
 
 `Watchlist` needs to implement the following methods:
     `__init__()`: set up the relevant instance variables.
@@ -110,7 +110,7 @@ We'd like to extend the code in two ways:
 
 You will get the following UML:
 
-![](C:\Users\simon\Documents\GitHub\Course Development\spcourse-exams\sp\umls\movies2.png)
+![](umls\movies2.png)
 
 With the following testing code, added to what you already had:
 
