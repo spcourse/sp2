@@ -59,11 +59,19 @@ grades:
     populations:
         <<: *check
 
+    exam5:
+        <<: *testt
+
     exam6:
         <<: *testt
 
 calculation:
-    finalgrade:
+    finalgrade1:
+        assignments: 0
+        exam5: 1
+
+calculation:
+    finalgrade2:
         assignments: 0
         exam6: 1
 
@@ -78,6 +86,11 @@ assignments:
 
         complexity: 1
         populations: 1
+
+exam5:
+    show_progress: true
+    submits:
+        exam5: 1
 
 exam6:
     show_progress: true
