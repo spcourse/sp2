@@ -59,7 +59,7 @@ grades:
     populations:
         <<: *check
 
-    exam5:
+    exam6:
         <<: *testt
 
 calculation:
