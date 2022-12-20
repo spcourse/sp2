@@ -69,8 +69,6 @@ calculation:
     finalgrade:
         assignments: 0
         exam5: 1
-
-calculation:
     finalgrade2:
         assignments: 0
         exam6: 1
