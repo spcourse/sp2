@@ -1,0 +1,8 @@
+name: exam6
+files:
+    required:
+        - sp2_exam6.py
+check:
+    tool: checkpy
+    repo: spcourse/exam-tests
+    args: sp2_exam6

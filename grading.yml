@@ -65,7 +65,7 @@ grades:
 calculation:
     finalgrade:
         assignments: 0
-        exam5: 1
+        exam6: 1
 
 assignments:
     show_progress: true
@@ -79,7 +79,7 @@ assignments:
         complexity: 1
         populations: 1
 
-exam5:
+exam6:
     show_progress: true
     submits:
-        exam5: 1
+        exam6: 1
