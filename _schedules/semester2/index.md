@@ -1,6 +1,6 @@
 # Scientific Programming 2
 
-## Syllabus<br><small>Srping 2022/2023</small>
+## Syllabus<br><small>Spring 2022/2023</small>
 
 Welcome to this programming course! In the weeks ahead, you'll use the programming language Python while learning to solve scientific problems from several fields of science. This second part is intended for students who already followed Scientific Programming 1.
 
@@ -96,11 +96,11 @@ The deadlines depend on the period in which you start the course (1, 2, 4, or 5)
 
 <details markdown="1"><summary  markdown="span">Start block 5 (Apr 03 2023)</summary>
 
-| Finish course in: | 4 weeks (May 3 - May 24) | 8 weeks (May 3 - May 26) |
+| Finish course in: | 4 weeks (Apr 24 - May 24) | 8 weeks (Apr 3 - May 26) |
 |-------------------|---------------------------|-----------------|
 | Level 4           | Mon 8 May                | Fri 14 May  |
 | Level 5           | Mon 15 May                | Fri 27 May  |
-| Level 6           | Mon 22 May                | Fri 19 May  |
+| Level 6           | Mon 22 May                | Fri 18 May  |
 
 </details>
 
