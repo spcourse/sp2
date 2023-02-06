@@ -88,7 +88,7 @@ The deadlines depend on the period in which you start the course (1, 2, 4, or 5)
 
 | Finish course in:      | 4 weeks (Feb 27 - Mar 31) | 8 weeks (Feb 06 - Mar 31)  | 16 weeks (Feb 06 - May 26)|
 |------------------------|-------------------------|------------------|-----------------|
-| Level 4                | Mon 06 Mar          | Fri 17 Feb  | Fri 03 Feb  |
+| Level 4                | Mon 06 Mar          | Fri 17 Feb  | Fri 03 Mar  |
 | Level 5                | Mon 13 Mar          | Fri 03 Mar  | Fri 07 Apr  |
 | Level 6                | Mon 20 Mar          | Fri 17 Mar  | Fri 12 May  |
 
