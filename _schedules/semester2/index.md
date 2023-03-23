@@ -108,8 +108,8 @@ The deadlines depend on the period in which you start the course (1, 2, 4, or 5)
 
 The dates for the exams:
 
-* Wed Mar 29, 13:00-16:00
-* Thi Jun 01, 13:00-16:00
+* Wed Mar 29, 13:00-16:00, L1.02
+* Thi Jun 01, 13:00-16:00, H0.08
 
 * If you want to participate in this exam, the *ultimate deadline for submitting level 4 and 5 is one week before the exam.*.
 * Both level 4 and 5 need to be graded and be at least "mostly correct" on the day of the exam.
