@@ -120,15 +120,23 @@ The following code should work correctly with your classes:
 
     azakhstan = asia.find_country("Kazakhstan")
     kazakhstan.print_info()
-    # Country: Kazakhstan; gdp: 197112.26; export: 66124.96; export as % of gdp: 33.54685294562601
+    print()
 
     print("European countries with export below $ 700.000M")
     countries = europe.get_countries_with_export_below(700000)
     for country in countries:
         country.print_info()
-    # European countries with export below $ 700.000M
-    # Country: Italy; gdp: 2107702.84; export: 688582.42; export as % of gdp: 32.66980557847519
-    # Country: Spain; gdp: 1427380.68; export: 498633.85; export as % of gdp: 34.933487400151726
+    print()
 
     print(f"Total export as % of gdp asia: {asia.total_export_as_percentage_of_gdp():.2f}")
-    # Total export as % of gdp asia: 20.46
+
+
+Expected output:
+
+    Country: Kazakhstan; gdp: 197112.26; export: 66124.96; export as % of gdp: 33.54685294562601
+
+    European countries with export below $ 700.000M
+    Country: Italy; gdp: 2107702.84; export: 688582.42; export as % of gdp: 32.66980557847519
+    Country: Spain; gdp: 1427380.68; export: 498633.85; export as % of gdp: 34.933487400151726
+    
+    Total export as % of gdp asia: 20.46
