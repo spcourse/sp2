@@ -118,7 +118,7 @@ The following code should work correctly with your classes:
     asia.add_country(Country("China",    17734062.65,  3553509.24))
     asia.add_country(Country("Indonesia", 1186092.99,   255731.27))
 
-    azakhstan = asia.find_country("Kazakhstan")
+    kazakhstan = asia.find_country("Kazakhstan")
     kazakhstan.print_info()
     print()
 
@@ -138,5 +138,5 @@ Expected output:
     European countries with export below $ 700.000M
     Country: Italy; gdp: 2107702.84; export: 688582.42; export as % of gdp: 32.66980557847519
     Country: Spain; gdp: 1427380.68; export: 498633.85; export as % of gdp: 34.933487400151726
-    
+
     Total export as % of gdp asia: 20.46
