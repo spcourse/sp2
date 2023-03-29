@@ -101,6 +101,23 @@ The following UML describes these classes and their relation:
 
 The following code should work correctly with your classes:
 
+    asia = Continent("Asia")
+    europe = Continent("Europe")
+
+    # Data 2021 worldbank.org (in millions of dollars)
+
+    europe.add_country(Country("Italy",   2107702.84,   688582.42))
+    europe.add_country(Country("France",  2957879.76,   871058.67))
+    europe.add_country(Country("U.K.",    3131377.76,   875196.92))
+    europe.add_country(Country("Germany", 4259934.91,  2003471.01))
+    europe.add_country(Country("Spain",   1427380.68,   498633.85))
+
+    asia.add_country(Country("Kazakhstan", 197112.26,    66124.96))
+    asia.add_country(Country("India",     3176295.07,   679680.59))
+    asia.add_country(Country("Mongolia",    15286.44,     8950.04))
+    asia.add_country(Country("China",    17734062.65,  3553509.24))
+    asia.add_country(Country("Indonesia", 1186092.99,   255731.27))
+
     azakhstan = asia.find_country("Kazakhstan")
     kazakhstan.print_info()
     # Country: Kazakhstan; gdp: 197112.26; export: 66124.96; export as % of gdp: 33.54685294562601
