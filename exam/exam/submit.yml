@@ -1,8 +1,8 @@
-name: exam7
+name: exam8
 files:
     required:
-        - sp2_exam7.py
+        - sp2_exam8.py
 check:
     tool: checkpy
     repo: spcourse/exam-tests
-    args: sp2_exam7
+    args: sp2_exam8
