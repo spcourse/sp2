@@ -132,5 +132,18 @@ The program should work with the following example code:
     for artwork in artworks_in_period:
         artwork.display_info()
 
+Expected output:
 
+    The total insurance cost for the exhibition is $7200000.00
 
+    Artworks within the period 1800-1920:
+    Title: Starry Night
+    Artist: Vincent van Gogh
+    Year: 1889
+    Value: $80000000
+    -----------------------
+    Title: Les Demoiselles d'Avignon
+    Artist: Pablo Picasso
+    Year: 1907
+    Value: $120000000
+    -----------------------
